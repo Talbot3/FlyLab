@@ -38,7 +38,6 @@ function AdvanceShipping() {
     }
 }
 
-
 // adapter interface
 
 function ShippingAdpter(createntials){
@@ -83,3 +82,4 @@ function run() {
     log.add("New cost: "+cost);
     log.show();
 }
+run();
