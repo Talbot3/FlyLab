@@ -5,19 +5,10 @@
   "scripts": {
     "start": "node ./bin/www"
   },
-  "dependencies": {
-    "bluebird": "^3.4.6",
-    "body-parser": "~1.15.1",
-    "compute-cluster": "0.0.9",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "mathjax": "^2.7.0",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0",
-    "tty.js": "^0.2.15",
-    "v8-profiler": "^5.6.5"
-  },
   "optionalDependencies": {
-    "co": "^4.6.0"
+    "v8-profiler": "^5.6.5",
+    "bluebird": "^3.4.6",
+    "co": "^4.6.0",
+    "compute-cluster": "0.0.9"
   }
 }

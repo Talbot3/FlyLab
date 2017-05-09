@@ -11,3 +11,19 @@ function sleep200ms(ms) {
 		setTimeout(cb,ms);
 	}
 }
+co(function* () {
+	var data = yield {
+		a: getA(),
+		b: getB()
+	};
+	console.log(data); // { a: 'aaa', b: 'bbb' }
+});
+
+function getA() {
+	return 'aaa';
+}
+
+
+function getB() {
+	return 'bbb';
+}
