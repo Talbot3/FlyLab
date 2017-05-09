@@ -1,11 +1,11 @@
 # To Do Experiment List
 
 ## 2017-5 Second Week
-[] Generator
+- [x] Generator
 
-[] express之connect 与插件机制分析
+- [ ] express之connect 与插件机制分析
 
-[] Promise
+- [ ] Promise
 
 ### NPM Install Experiment Package
 
