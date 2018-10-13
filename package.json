@@ -1,7 +1,7 @@
 {
   "name": "flylab",
   "author": "orangebook 1796560392@qq.com",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "koa": "^2.5.3"
+    "koa": "^2.5.3",
+    "neon-hello": "^0.1.1"
   }
 }
