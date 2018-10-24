@@ -19,9 +19,28 @@ impl Message {
      }
 }
 
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    if let Some(i) = x {
+        Some(i+1)
+    } else  {
+        None
+    }
+    // 两种写法等价的
+    // match x {
+    //     None => None,
+    //     Some(i) => Some(i+1)
+    // }
+}
+
 fn main() {
     let home = IpAddr::V4(127, 0, 0,1);
     let lookback = IpAddr::V6(String::from("::1"));
     let m = Message::Write(String::from("hello"));
     let msg = m.call();
+    print!("{:?}", msg);
+    let five = Some(5);
+    let six = plus_one(five);
+    let none = plus_one(None);
+    // Option https://doc.rust-lang.org/std/option/enum.Option.html
+    print!("{}", six.unwrap());
 }
