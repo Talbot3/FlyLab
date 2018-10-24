@@ -1,4 +1,4 @@
-# RUST 
+# RUST
 >  rust工具链接配置环境 rustup
 
 ## RUST通用编程摘要
