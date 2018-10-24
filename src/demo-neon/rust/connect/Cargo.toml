@@ -1,0 +1,7 @@
+[package]
+name = "connect"
+version = "0.1.0"
+authors = ["arthur <arthur.wangc@dadaabc.com>"]
+
+[dependencies]
+hello_mod = { path = "/Users/Arthur/Documents/FlyLab/src/demo-neon/rust/hello_mod" }

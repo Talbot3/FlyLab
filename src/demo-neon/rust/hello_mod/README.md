@@ -1,5 +1,5 @@
 # RUST Mod
-
+> 在这部分官方文档中，没有补充完整mod依赖相关信息，请查看文尾阅读指南
 ## 创建模块
 
 ```bash
@@ -25,3 +25,6 @@ cargo build mod_name --lib
   - 如果一个叫做 foo 的模块没有子模块，应该将 foo 的声明放入叫做 foo.rs 的文件中。
   - 如果一个叫做 foo 的模块有子模块，应该将 foo 的声明放入叫做 foo/mod.rs 的文件中。
 - Q: Rust 模块文件名与模块名必须相同么？ A: 是的
+
+## 阅读指南
+- https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html

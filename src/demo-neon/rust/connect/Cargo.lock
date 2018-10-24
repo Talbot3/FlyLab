@@ -1,0 +1,11 @@
+[[package]]
+name = "connect"
+version = "0.1.0"
+dependencies = [
+ "hello_mod 0.1.0",
+]
+
+[[package]]
+name = "hello_mod"
+version = "0.1.0"
+
