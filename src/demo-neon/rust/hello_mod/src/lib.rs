@@ -1,5 +1,5 @@
 // 将math 相关的代码，替换为math的模块声明
-mod math;
+pub mod math;
 mod filter;
 
 #[cfg(test)]
@@ -13,5 +13,27 @@ mod tests {
         fn it_works() {
             assert_eq!(2 + 3, 5);
         }
+    }
+}
+
+// 公有模块
+pub mod outermost {
+    pub fn middle_function() {}
+
+    // 无法访问，私有
+    fn middle_secret_function() {
+        inside::inner_function();
+    }
+
+    // 私有模块-仅父、子模块可访问
+    mod inside {
+        pub fn inner_function() {
+            secret_function();
+            // 请查阅super文档
+            // middle_function()
+        }
+
+        // 仅模块内部可访问
+        fn secret_function() {}
     }
 }

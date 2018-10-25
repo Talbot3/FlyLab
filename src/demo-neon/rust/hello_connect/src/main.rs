@@ -1,6 +1,13 @@
 extern crate hello_mod;
-use hello_mod::math;
 fn main() {
     println!("Hello, world!");
-    let data = math::exec(String::from("11+22*3+4"));
+    let data = hello_mod::math::exec(String::from("11+22*3+4"));
+    println!("{}", data)
+}
+
+fn try_me() {
+    hello_mod::outermost::middle_function();
+    // outermost::middle_secret_function();
+    // outermost::inside::inner_function();
+    // outermost::inside::secret_function();
 }

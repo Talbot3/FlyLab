@@ -19,6 +19,9 @@ cargo build mod_name --lib
   - 将 src/network.rs 移动到新建的 network 目录中并重命名为 src/network/mod.rs
   - 将子模块文件 src/server.rs 移动到 network 目录中
 
+## 阅读指南
+- https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
+
 ## Rust Question
 - Q: Rust 模块的默认入口文件名?  A: src/lib.rs, 这也是其他子模块需要在lib.rs中声明的原因
 - Q: Rust 模块系统的规则描术一下？ A
@@ -26,6 +29,6 @@ cargo build mod_name --lib
   - 如果一个叫做 foo 的模块有子模块，应该将 foo 的声明放入叫做 foo/mod.rs 的文件中。
 - Q: Rust 模块文件名与模块名必须相同么？ A: 是的
 - Q: Cargo 依赖引入有哪几种方式？A: git\crates\path 三种方式
-
-## 阅读指南
-- https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
+- Q: rust 模块可见性字段是? A: pub
+- Q: 如果创建了一个名为math.rs的模块文件，那么math.rs文件中还需要声明math模块么？ A: 不需要。
+- Q: 根据Rust私有性规则， 公有模块能被子模块访问么？A
