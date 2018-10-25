@@ -25,6 +25,7 @@ cargo build mod_name --lib
   - 如果一个叫做 foo 的模块没有子模块，应该将 foo 的声明放入叫做 foo.rs 的文件中。
   - 如果一个叫做 foo 的模块有子模块，应该将 foo 的声明放入叫做 foo/mod.rs 的文件中。
 - Q: Rust 模块文件名与模块名必须相同么？ A: 是的
+- Q: Cargo 依赖引入有哪几种方式？A: git\crates\path 三种方式
 
 ## 阅读指南
 - https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
