@@ -21,12 +21,12 @@ pub mod outermost {
     pub fn middle_function() {}
 
     // 无法访问，私有
-    fn middle_secret_function() {
+    pub fn middle_secret_function() {
         inside::inner_function();
     }
 
     // 私有模块-仅父、子模块可访问
-    mod inside {
+    pub mod inside {
         // 声明父模块方法
         use super::middle_function;
         pub fn inner_function() {
@@ -35,6 +35,6 @@ pub mod outermost {
         }
 
         // 仅模块内部可访问
-        fn secret_function() {}
+        pub fn secret_function() {}
     }
 }
