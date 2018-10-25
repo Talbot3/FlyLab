@@ -31,4 +31,4 @@ cargo build mod_name --lib
 - Q: Cargo 依赖引入有哪几种方式？A: git\crates\path 三种方式
 - Q: rust 模块可见性字段是? A: pub
 - Q: 如果创建了一个名为math.rs的模块文件，那么math.rs文件中还需要声明math模块么？ A: 不需要。
-- Q: 根据Rust私有性规则， 公有模块能被子模块访问么？A
+- Q: 根据Rust私有性规则， 公有模块能被子模块访问么? A：可以

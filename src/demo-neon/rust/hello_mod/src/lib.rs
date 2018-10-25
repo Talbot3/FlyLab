@@ -27,10 +27,11 @@ pub mod outermost {
 
     // 私有模块-仅父、子模块可访问
     mod inside {
+        // 声明父模块方法
+        use super::middle_function;
         pub fn inner_function() {
             secret_function();
-            // 请查阅super文档
-            // middle_function()
+            middle_function()
         }
 
         // 仅模块内部可访问
