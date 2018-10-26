@@ -58,13 +58,16 @@ fn main() {
     let vec = vec![String::from("Blue"), String::from("Yello")];
     let value = vec![3, 9];
     let team_green = String::from("Green");
+    let tream_blue = "Blue".to_string();
     let mut teamBoard : HashMap<_, _> = vec.iter().zip(value.iter()).collect();
-    // 简单直接的显示内部值
     for (key, value) in &teamBoard {
         println!("{}, {}", key, value);
     }
     // tream_green's live_cycle > teamBoard's live_cycle
     teamBoard.entry(&team_green).or_insert(&33);
+    teamBoard.entry(&tream_blue).or_insert(&50);
+
+    // 简单直接的显示内部值
     println!("{:?}", teamBoard);
 }
 enum SpreadSheetCell {
