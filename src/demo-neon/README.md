@@ -1,5 +1,5 @@
 # RUST
-
+> 学习Rust最重要的一点是需要熟悉所有权的写法。
 - cargo new project_name
 - cargo build
 - cargo run
@@ -14,3 +14,4 @@ Neon 让我们可以在 Rust 代码中使用 JavaScript 类型。要创建一个
 
 参考
 - [rust-lang](https://blog.rust-lang.org/2015/05/11/traits.html)
+- [rust-ppt](http://miami-acm.github.io/rust-tutorial/#/the-rust-programming-language)
