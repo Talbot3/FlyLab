@@ -69,6 +69,10 @@ fn main() {
 
     // 简单直接的显示内部值
     println!("{:?}", teamBoard);
+
+    // 返回Option
+    let score = teamBoard.get(&team_green);
+    println!("{:?}", score.unwrap());
 }
 enum SpreadSheetCell {
     Int(i32),
