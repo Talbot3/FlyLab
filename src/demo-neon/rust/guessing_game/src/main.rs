@@ -1,8 +1,10 @@
 extern crate rand;
-
+extern crate failure;
+use failure::{Error, err_msg};
 use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
+
 fn main() {
     println!("Guess the number!");
 
@@ -19,6 +21,16 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
+
+        let guess =  Guess::new(guess);
+        let guess = match guess {
+            Ok(value) => value.value,
+            Err(_) => {
+                print!("Guess value must be between 1 and 100");
+                continue
+            },
+        };
+
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {
@@ -29,5 +41,24 @@ fn main() {
                 break;
             }
         }
+    }
+}
+pub struct Guess{
+    value: u32
+}
+
+impl Guess {
+    pub fn new(value: u32) -> Result<Guess, Error> {
+        if value > 100 || value < 1 {
+            // 由作者抛出的应用异常
+            return Err(err_msg("Guess value must be between 1 and 100"));
+        };
+        let guess = Guess {
+            value
+        };
+        Ok(guess)
+    }
+    pub fn value(&self) -> u32 {
+        self.value
     }
 }
