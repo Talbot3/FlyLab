@@ -5,8 +5,6 @@
 - 配置代码注释
 - 以QA的方式总结在README.md
 
-## Nodejs 与 Rust 扩展
-- 绑定Rust 计算相关的库（url解析、数值计算、数据分析、数据过滤、音视频通信等）
-
 ## 文档资料收集
 > 总结戓收集 某特定场景的最佳实践文章相关的链接和摘要
+- [计算机书籍](http://bestcbooks.com/categories/c/)
