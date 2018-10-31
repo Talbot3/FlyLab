@@ -20,7 +20,7 @@ Neon 让我们可以在 Rust 代码中使用 JavaScript 类型。要创建一个
 - [Rust lint](https://github.com/rust-lang-nursery/rust-clippy)
 - [Rust Error Chain](https://github.com/rust-lang-nursery/error-chain)
 
-参考
+## 参考
 - [rust-lang](https://blog.rust-lang.org/2015/05/11/traits.html)
 - [rust-ppt](http://miami-acm.github.io/rust-tutorial/#/the-rust-programming-language)
 
