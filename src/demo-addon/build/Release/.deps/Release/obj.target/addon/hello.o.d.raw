@@ -1,0 +1,5 @@
+Release/obj.target/addon/hello.o: ../hello.c \
+  /Users/Arthur/.node-gyp/11.8.0/include/node/node_api.h \
+  /Users/Arthur/.node-gyp/11.8.0/include/node/js_native_api.h \
+  /Users/Arthur/.node-gyp/11.8.0/include/node/js_native_api_types.h \
+  /Users/Arthur/.node-gyp/11.8.0/include/node/node_api_types.h
