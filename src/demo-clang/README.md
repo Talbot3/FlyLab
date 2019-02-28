@@ -24,3 +24,9 @@ clang -std=c17 -o targetName sourceFile.c
 - 网络
 - 异步IO
 - 协程
+
+## C语言相关资料
+
+- [tboox](https://tboox.org/cn/)
+- glib
+- xmake
