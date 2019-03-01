@@ -40,3 +40,5 @@ jspm_packages
 target
 acm-icpc
 acm
+.xmake
+build

@@ -25,6 +25,8 @@ clang -std=c17 -o targetName sourceFile.c
 - 异步IO
 - 协程
 - ffmpeg
+- 单元测试
+- 模糊测试
 
 ## C语言相关资料
 
