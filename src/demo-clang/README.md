@@ -24,9 +24,11 @@ clang -std=c17 -o targetName sourceFile.c
 - 网络
 - 异步IO
 - 协程
+- ffmpeg
 
 ## C语言相关资料
 
 - [tboox](https://tboox.org/cn/)
 - glib
 - xmake
+- [libav](https://github.com/leandromoreira/ffmpeg-libav-tutorial)
