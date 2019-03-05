@@ -34,3 +34,11 @@ clang -std=c17 -o targetName sourceFile.c
 - glib
 - xmake
 - [libav](https://github.com/leandromoreira/ffmpeg-libav-tutorial)
+
+## C知识点
+
+- 标记过期函数 `__attribute__((deprecated)) void attribute();`
+
+# 参考
+
+- 《C语言接口与实现——创建可重用软件的技术》
