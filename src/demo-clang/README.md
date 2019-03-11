@@ -27,6 +27,7 @@ clang -std=c17 -o targetName sourceFile.c
 - ffmpeg
 - 单元测试
 - 模糊测试
+- [C语言的异常处理\堆栈捕获](http://www.cnblogs.com/hazir/p/c_setjmp_longjmp.html)
 
 ## C语言相关资料
 

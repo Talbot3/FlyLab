@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "average.h"
 struct Test1 {
   int i_number;
   double f_number;

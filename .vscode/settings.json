@@ -11,6 +11,9 @@
     "swscale.h": "c",
     "stdlib.h": "c",
     "mem.h": "c",
-    "assert.h": "c"
+    "assert.h": "c",
+    "setjmp.h": "c",
+    "except.h": "c",
+    "errno.h": "c"
   }
 }
