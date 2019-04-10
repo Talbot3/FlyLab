@@ -17,6 +17,8 @@
     "errno.h": "c",
     "signal.h": "c",
     "tbox.h": "c",
-    "helper.h": "c"
+    "helper.h": "c",
+    "msg.h": "c",
+    "ipc.h": "c"
   }
 }

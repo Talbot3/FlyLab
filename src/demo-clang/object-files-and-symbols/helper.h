@@ -1,2 +1,0 @@
-// helper.h
-void helper();
