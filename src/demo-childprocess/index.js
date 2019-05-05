@@ -1,6 +1,9 @@
 const { spawn } = require('child_process');
 const ps = spawn('ps', ['ax']);
-const grep = spawn('grep', ['ssh']);
+const grep = spawn('grep', ['ssh'], {
+  detached : false,
+  stdio : [ 'pipe', 'pipe', 'pipe', 'pipe' ] 
+});
 
 ps.stdout.on('data', (data) => {
   grep.stdin.write(data);

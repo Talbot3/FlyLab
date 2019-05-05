@@ -19,6 +19,8 @@
     "tbox.h": "c",
     "helper.h": "c",
     "msg.h": "c",
-    "ipc.h": "c"
+    "ipc.h": "c",
+    "malloc.h": "c",
+    "inttypes.h": "c"
   }
 }
