@@ -23,3 +23,9 @@ inherit ： 继承于父进程的相关stdio、即等同于[process.stdin, proce
 Stream对象：额外的通讯通道 通过nodejs中Stream 对象通讯，对象底层的文件描述符代表一个文件例如socket，tty、本地文件等。
 正整数：和Stream相似。
 null和undefined：对于前3个元素，它们会被设为pipe，对于剩下的元素会被设置ignore
+
+## 异常处理
+
+- 主进程退出，相关子进程亦退出
+
+## stream pipe
