@@ -21,4 +21,15 @@ pipeline(
   tranform1, 
   tranform2
 )
+
+setTimeout(()=> {
+  process.stdin.write('fdasfdsafdasEOFef\n')
+  process.stdin.write(null);
+}, 1000);
+
+setTimeout(()=> {
+  process.stdin.write('fdasfdsafdasEOFef\n')
+  // process.stdin.write(null);
+}, 2000);
+
 // process.stdin.pipe(tranform1).pipe(tranform2);
