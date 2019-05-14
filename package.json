@@ -15,6 +15,7 @@
   "dependencies": {
     "crypto-js": "^3.1.9-1",
     "express": "^4.16.3",
+    "javascript-state-machine": "^3.1.0",
     "koa": "^2.5.3",
     "neon-hello": "^0.1.1"
   }
