@@ -12,10 +12,13 @@ const server = stun.createServer();
 const request = stun.createMessage(STUN_BINDING_REQUEST);
 
 server.once(STUN_EVENT_BINDING_RESPONSE, stunMsg => {
+  let ip = stunMsg.getAttribute(STUN_ATTR_XOR_MAPPED_ADDRESS).value.address;
   console.log(
     'your ip:',
-    stunMsg.getAttribute(STUN_ATTR_XOR_MAPPED_ADDRESS).value.address
+    ip
   );
+
+  
   server.close();
 });
 
