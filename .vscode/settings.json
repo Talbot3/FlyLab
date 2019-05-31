@@ -21,6 +21,7 @@
     "msg.h": "c",
     "ipc.h": "c",
     "malloc.h": "c",
-    "inttypes.h": "c"
+    "inttypes.h": "c",
+    "node_api.h": "c"
   }
 }

@@ -1,0 +1,64 @@
+{
+  "_from": "smart-stream-timeout",
+  "_id": "smart-stream-timeout@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-V2xYslJ/qdrhDDQ7lRWK4modOQ0=",
+  "_location": "/smart-stream-timeout",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "smart-stream-timeout",
+    "name": "smart-stream-timeout",
+    "escapedName": "smart-stream-timeout",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/smart-stream-timeout/download/smart-stream-timeout-0.2.1.tgz",
+  "_shasum": "576c58b2527fa9dae10c343b95158ae26a1d390d",
+  "_spec": "smart-stream-timeout",
+  "_where": "/Users/Arthur/FlyLab",
+  "author": {
+    "name": "John Smart",
+    "email": "smart@telly.com",
+    "url": "https://github.com/thesmart"
+  },
+  "bugs": {
+    "url": "https://github.com/redsand/node-SmartStream/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "mocha": "1.8.1",
+    "underscore": "1.4.2"
+  },
+  "deprecated": false,
+  "description": "A library and middleware for Node.js Streams. Implementing your own Stream is easy! - With Timeout Feature",
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "underscore": "~1.4.2"
+  },
+  "homepage": "https://github.com/redsand/node-SmartStream#readme",
+  "keywords": [
+    "Stream",
+    "smart-stream",
+    "smart-stream-timeout",
+    "smart stream",
+    "smart stream timeout",
+    "middleware",
+    "ReadStream",
+    "WriteStream"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "name": "smart-stream-timeout",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/redsand/node-SmartStream.git"
+  },
+  "version": "0.2.1"
+}

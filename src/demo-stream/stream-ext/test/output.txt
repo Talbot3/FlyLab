@@ -1,0 +1,19 @@
+var fs = require('fs');
+var ss = require('smart-stream-timeout');
+
+// open some file streams
+var readstream = fs.createreadstream('./index.js', { encoding: 'utf8' });
+var writestream = fs.createwritestream('./output.txt');
+
+// create your own stream middleware
+var lowercasestream = new ss.smartstream('lowercasestream'); // bi-directional stream
+lowercasestream.setmiddleware(function(data, cb) {
+	var result = data.tolowercase();
+	cb(null, result);
+	// note: set result to undefined to prevent it from moving downstream
+});
+
+// lay some pipe, tex!
+readstream
+	.pipe(lowercasestream)
+	.pipe(writestream);
