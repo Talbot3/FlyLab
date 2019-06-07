@@ -1,0 +1,680 @@
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1526588442
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=231632760
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 2107091374@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>16705</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1928791970
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1340860279
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1959234521@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>18004</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1292847386
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=26020908
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1589424686@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>10809</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK939406147
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1118794212
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1835054942@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>14617</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK173842956
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=333991118
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 277586082@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>19633</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1891712788
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1198919505
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 846429407@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>10463</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK539375940
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=47596391
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 2048422551@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>16615</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1369643989
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=159034437
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 190777442@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>17305</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK539369830
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=878032521
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 828635102@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>15654</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK442627848
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=80618136
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 635560815@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>16349</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1605381535
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1550589768
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 654468769@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>16039</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1149033035
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1467905186
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1289623411@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>11289</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1746207879
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=2013342118
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 274563595@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>18461</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK723538568
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1053906027
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1844128192@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>11192</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK2076160691
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=471639035
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1440834487@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>11449</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1847331605
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1525731492
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 1818578127@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>12246</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1678842407
+From: <sip:34020000001320000001@192.168.28.110:5060>;tag=321328150
+To: <sip:0000042001000001@0.0.0.0:5080>
+Call-ID: 112584869@192.168.28.110
+CSeq: 20 MESSAGE
+Max-Forwards: 70
+User-Agent: SIP UAS V2.1.4.500306
+Content-Type: Application/MANSCDP+xml
+Content-Length:   901
+
+<?xml version="1.0" encoding="GB2312" ?>
+<Response>
+    <CmdType>Catalog</CmdType>
+    <SN>13617</SN>
+    <DeviceID>34020000001320000001</DeviceID>
+    <SumNum>1</SumNum>
+    <DeviceList Num="1">
+        <Item>
+            <DeviceID>34020000001310000001</DeviceID>
+            <Name>IPC</Name>
+            <Manufacturer>Dahua</Manufacturer>
+            <Model>IPC-HDW2230C-A-V2</Model>
+            <Owner>0</Owner>
+            <CivilCode>340200</CivilCode>
+            <Address>axy</Address>
+            <Parental>0</Parental>
+            <ParentID>34020000001320000001</ParentID>
+            <RegisterWay>1</RegisterWay>
+            <Secrecy>0</Secrecy>
+            <StreamNum>2</StreamNum>
+            <Status>ON</Status>
+            <Info>
+                <PTZType>3</PTZType>
+                <DownloadSpeed>1/2/4/8</DownloadSpeed>
+            </Info>
+        </Item>
+    </DeviceList>
+</Response>
+

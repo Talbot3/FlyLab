@@ -1,0 +1,289 @@
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124957127
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420265212
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500483193
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>10809</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124959248
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420265930
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484674
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>14617</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124957121
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420269961
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500486581
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>19633</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124952332
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420260991
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484419
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>10463</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124950371
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420267713
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484499
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>16615</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124952285
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420266109
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484795
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>17305</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124953194
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420269456
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484096
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>15654</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124952391
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420260508
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484882
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>16349</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124955919
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420264417
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484096
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>16039</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124950302
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420264191
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500483326
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>11289</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124958701
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420264637
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500489018
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>18461</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124954898
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420263480
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500484876
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>11192</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124953803
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420269902
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500485998
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>11449</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124952471
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420269424
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500480202
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>12246</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+To: <sip:34020000001320000001@192.168.28.110:5060>
+Content-Length: 123
+CSeq: 2 MESSAGE
+Call-ID: 124957328
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420260691
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500481761
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>13617</SN>
+<DeviceID>34020000001320000001</DeviceID>
+</Query>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+To: <sip:0000042001000001@0.0.0.0:5080>
+Content-Length: 119
+CSeq: 2 MESSAGE
+Call-ID: 124954396
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420269146
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500486556
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>19951</SN>
+<DeviceID>0000042001000001</DeviceID>
+</Query>
+
+MESSAGE sip:0000042001000001@0.0.0.0:5080 SIP/2.0
+To: <sip:0000042001000001@0.0.0.0:5080>
+Content-Length: 119
+CSeq: 2 MESSAGE
+Call-ID: 124955836
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420268865
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=500485668
+Content-Type: Application/MANSCDP+xml
+Max-Forwards: 70
+
+<?xml version="1.0"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>17852</SN>
+<DeviceID>0000042001000001</DeviceID>
+</Query>
+

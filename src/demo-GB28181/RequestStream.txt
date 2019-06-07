@@ -1,0 +1,5265 @@
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024387
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32500,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32500 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028508
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32500,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32500 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028610
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32500,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32500 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026543
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32502,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32502 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024414
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32504,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32504 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023694
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32506,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32506 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024163
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32508,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32508 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025186
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32510,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32510 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028505
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32512,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32512 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027628
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32514,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32514 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027788
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32516,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32516 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025751
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32518,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32518 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022369
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32520,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32520 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021774
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32522,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32522 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027180
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32524,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32524 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027243
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32526,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32526 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028658
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32528,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32528 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029513
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32530,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32530 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021962
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32532,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32532 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022139
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32534,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32534 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022119
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32536,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32536 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028991
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32538,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32538 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028852
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32540,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32540 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026802
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32542,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32542 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028999
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32544,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32544 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021000
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32546,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32546 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022472
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32548,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32548 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026247
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32550,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32550 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022557
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32552,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32552 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022343
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32554,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32554 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027349
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32556,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32556 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021464
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32558,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32558 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022039
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32560,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32560 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027606
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32562,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32562 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025431
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32564,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32564 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026161
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32566,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32566 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024015
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32568,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32568 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023837
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32570,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32570 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028842
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32572,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32572 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021625
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32574,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32574 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025710
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32576,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32576 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@192.168.28.110:5060 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021823
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@192.168.28.110:5060>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32578,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32578 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027906
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32500,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32500 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028052
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32502,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32502 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029256
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32504,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32504 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026839
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32506,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32506 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029190
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32508,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32508 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024472
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32510,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32510 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029953
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32512,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32512 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026417
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32514,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32514 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023134
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32516,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32516 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021491
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32518,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32518 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021311
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32520,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32520 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022315
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32522,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32522 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029996
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32524,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32524 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022147
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32526,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32526 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022228
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32528,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32528 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023594
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32530,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32530 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022856
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32532,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32532 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027915
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32534,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32534 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025166
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32536,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32536 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025912
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32538,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32538 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024421
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32540,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32540 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028228
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32542,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32542 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028234
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32544,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32544 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022967
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32546,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32546 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029330
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32548,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32548 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021020
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32550,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32550 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021689
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32552,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32552 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021889
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32554,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32554 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027739
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32556,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32556 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022596
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32558,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32558 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026483
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32560,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32560 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029101
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32562,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32562 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023914
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32564,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32564 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022070
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32566,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32566 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024752
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32568,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32568 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027833
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32570,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32570 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026215
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32572,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32572 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024273
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32574,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32574 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021182
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32576,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32576 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021553
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32578,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32578 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021318
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32580,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32580 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028378
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32582,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32582 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023817
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32584,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32584 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029861
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32586,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32586 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025231
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32588,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32588 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025081
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32590,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32590 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024657
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32592,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32592 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029097
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32594,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32594 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022120
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32596,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32596 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021032
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32598,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32598 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027342
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32600,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32600 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021145
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32602,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32602 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024436
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32604,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32604 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029640
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32606,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32606 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027716
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32608,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32608 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021381
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32610,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32610 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024622
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32612,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32612 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024223
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32614,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32614 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029313
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32616,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32616 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027658
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32618,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32618 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024325
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32620,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32620 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023669
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32622,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32622 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027629
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32624,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32624 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025763
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32626,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32626 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028184
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32628,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32628 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028655
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32630,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32630 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026413
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32632,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32632 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023239
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32634,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32634 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029998
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32636,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32636 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025750
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32638,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32638 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022319
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32640,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32640 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022202
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32642,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32642 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025390
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32644,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32644 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023161
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32646,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32646 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028682
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32648,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32648 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024254
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32650,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32650 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023413
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32652,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32652 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026787
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32654,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32654 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026026
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32500,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32500 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029547
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32502,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32502 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023235
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32504,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32504 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024470
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32506,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32506 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029790
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32508,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32508 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023030
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32510,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32510 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025158
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32512,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32512 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025607
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32514,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32514 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027073
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32516,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32516 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028449
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32518,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32518 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026474
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32520,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32520 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023557
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32522,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32522 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026613
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32524,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32524 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021539
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32526,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32526 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029657
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32528,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32528 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026059
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32530,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32530 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025704
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32532,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32532 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021984
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32534,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32534 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026487
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32536,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32536 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029381
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32538,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32538 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028027
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32540,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32540 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024179
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32542,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32542 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028784
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32544,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32544 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029255
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32546,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32546 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029953
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32548,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32548 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021149
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32550,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32550 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021353
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32552,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32552 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027523
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32554,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32554 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022601
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32556,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32556 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023988
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32558,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32558 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026985
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32560,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32560 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022195
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32562,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32562 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023696
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32564,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32564 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025955
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32566,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32566 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024553
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32568,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32568 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024877
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32570,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32570 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024508
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32572,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32572 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027762
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32574,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32574 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026024
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32576,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32576 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028346
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32578,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32578 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021761
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32580,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32580 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027215
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32582,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32582 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025319
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32584,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32584 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025379
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32586,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32586 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024656
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32588,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32588 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024431
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32590,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32590 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342026216
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32592,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32592 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022820
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32594,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32594 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029532
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32596,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32596 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025664
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32598,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32598 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027482
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32600,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32600 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029464
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32602,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32602 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023774
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32604,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32604 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022497
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32606,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32606 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029690
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32608,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32608 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029020
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32610,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32610 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024941
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32612,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32612 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022959
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32614,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32614 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027133
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32616,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32616 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023467
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32618,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32618 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022812
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32620,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32620 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342022313
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32622,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32622 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029503
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32624,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32624 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342028228
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32626,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32626 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342021307
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32628,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32628 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029972
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32630,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32630 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025378
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32632,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32632 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027707
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32634,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32634 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024154
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32636,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32636 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342023588
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32638,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32638 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342025592
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32640,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32640 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024947
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32642,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32642 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342024680
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32644,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32644 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342029109
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32646,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32646 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
+INVITE sip:32140@0.0.0.0:5080 SIP/2.0
+Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK342027498
+From: <sip:0000042001000001@0.0.0.0:5080>;tag=231423
+To: <sip:32140@0.0.0.0:5080>
+Call-ID: 30013
+CSeq: 20 INVITE
+Contact: <sip:0000042001000001@0.0.0.0:5080>
+Content-Type: Application/SDP
+Max-Forwards: 70
+User-Agent: NCG V2.6.3.477777
+Subject: 32140:32648,0000042001000001:0
+Content-Length: 229
+
+v=0
+o=43241 0 0 IN IP4 0.0.0.0
+s=Play
+c=IN IP4 0.0.0.0
+t=0 0
+m=video 32648 RTP/AVP 96 97 98
+a=rtpmap:96 PS/90000
+a=rtpmap:97 H264/90000
+a=rtpmap:98 MPEG4/90000
+a=recvonly
+a=streamMode:MAIN
+a=filesize:-1
+y=0999999999
+
