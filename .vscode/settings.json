@@ -22,6 +22,7 @@
     "ipc.h": "c",
     "malloc.h": "c",
     "inttypes.h": "c",
-    "node_api.h": "c"
+    "node_api.h": "c",
+    "pthread.h": "c"
   }
 }

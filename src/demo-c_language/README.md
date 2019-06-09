@@ -6,6 +6,10 @@
 clang -std=c17 -o targetName sourceFile.c
 ```
 
+- `stdio.h not found`
+clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配置好了的。例如本机地址为：
+`/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include`
+
 ## Style ADT
 
 ## 结构体
@@ -27,6 +31,7 @@ clang -std=c17 -o targetName sourceFile.c
 - ffmpeg
 - 单元测试
 - 模糊测试
+- [Pthread多线程编程](https://imzlp.me/posts/58408/)
 - [C语言的异常处理\堆栈捕获](http://www.cnblogs.com/hazir/p/c_setjmp_longjmp.html)
 - [异常日志格式](http://dwarfstd.org/)
 
@@ -57,6 +62,7 @@ clang -std=c17 -o targetName sourceFile.c
 - 《C语言接口与实现——创建可重用软件的技术》
 - [man page](https://www.unix.com/man-page-repository.php)
 - [cmake totorial](https://github.com/Campanula/CMake-tutorial)
+- [Pthread多线程编程](https://randu.org/tutorials/threads/#resources)
 
 ## QA
 
