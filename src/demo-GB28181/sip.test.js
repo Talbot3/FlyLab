@@ -2,11 +2,11 @@ const EventEmitter = require('events');
 const event = new EventEmitter();
 var context, dialogs, digest, makeDialogId, randomBytes, rbytes, regcontext, sip, util;
 
-sip = require('./node_modules/sip');
+sip = require('sip');
 
-digest = require('./node_modules/sip/digest');
+digest = require('sip/digest');
 
-const randomBytest = require('./node_modules/randombytes');
+const randomBytest = require('randombytes');
 rbytes  = (n) => randomBytest(n).toString('hex');
 
 
@@ -35,7 +35,7 @@ const makeRegister = ()=> {
   if (isRegisterd) {
     return makeCall();
   }
-  const uri = "sip:34020000002000000001@192.168.22.202:5080";
+  const uri = "sip:34020000002000000001@192.168.20.217:5080";
   const uri2 = "sip:34020000001320000001@192.168.28.110:5060";
   let registerObj = {
     method: 'REGISTER',
@@ -59,25 +59,26 @@ const makeRegister = ()=> {
 
 
 const makeCall = ()=> {
-  const uri = "sip:34020000002000000001@192.168.22.202:5080";
+  const uri = "sip:34020000001320000001@192.168.28.110:5060";
   sip.send({
     method: 'INVITE',
     uri,
     headers: {
-      to: {uri},
-      from: {uri, params: {tag: rstring()}},
+      to: uri,
+      from: {uri: 'sip:34020000002000000001@3402000000', params: {tag: rstring()}},
       'call-id': rstring(),
-      cseq: {method: 'INVITE', seq: Math.floor(Math.random() * 1e5)},
-      'content-type': 'application/sdp',
-      contact: [{uri: 'sip:34020000001320000001@192.168.28.110:5060'}],
-      Subject: `34020000001320000001:48921,0000042001000001:0`
+      cseq: {method: 'INVITE', seq: 20 },
+      'content-type': 'Application/SDP',
+      'User-Agent': 'NCG V2.6.3.477777',
+      contact: [{uri: 'sip:0000042001000001@192.168.20.217:5080'}],
+      Subject: "34020000001320000001:1,34020000002000000001:1"
       // if your call doesnt get in-dialog request, maybe os.hostname() isn't resolving in your ip address
     },
     content:
       'v=0\r\n'+
-      'o=- 13374 IN IP4 192.168.22.202\r\n'+
+      'o=- 13374 IN IP4 192.168.20.217\r\n'+
       's=Play\r\n'+
-      'c=IN IP4 192.168.22.202\r\n'+
+      'c=IN IP4 192.168.20.217\r\n'+
       't=0 0\r\n'+
       'm=video 16424 RTP/AVP 96 97 98\r\n\r\n'+
       'a=rtpmap:96 PS/90000\r\n'+
@@ -85,7 +86,8 @@ const makeCall = ()=> {
       'a=rtpmap:98 MPEG4/90000\r\n'+
       'a=streamMode:MAIN\r\n'+
       'a=filesize:-1\r\n'+
-      'a=recvonly\r\n'
+      'a=recvonly\r\n'+
+      'y=1100000000\r\n'
   },
   function(rs) {
     if(rs.status >= 300) {
@@ -132,33 +134,53 @@ const makeCall = ()=> {
   });
 }
 
+/**
+ * MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+ * To: <sip:34020000001320000001@192.168.28.110:5060>
+ * Content-Length: 123
+ * CSeq: 2 MESSAGE
+ * Call-ID: 124952471
+ * Via: SIP/2.0/UDP 0.0.0.0:5080;rport;branch=z9hG4bK3420269424
+ * From: <sip:0000042001000001@0.0.0.0:5080>;tag=500480202
+ * Content-Type: Application/MANSCDP+xml
+ * Max-Forwards: 70
+
+ * <?xml version="1.0"?>
+ * <Query>
+ * <CmdType>Catalog</CmdType>
+ * <SN>12246</SN>
+ * <DeviceID>34020000001320000001</DeviceID>
+ * </Query>
+ */
 const makeDevice = () => {
-  const uri = "sip:34020000002000000001@192.168.22.202:5080";
+  console.log("================================================================");
+  const uri = "sip:0000042001000001@192.168.20.217:5080";
+  const uri2 = "sip:34020000001320000001@192.168.28.110:5060"
   sip.send({
     method: 'MESSAGE',
     uri,
     headers: {
-      to: {uri},
+      to: {uri: uri2},
       from: {uri, params: {tag: rstring()}},
       'call-id': rstring(),
-      cseq: {method: 'MESSAGE', seq: Math.floor(Math.random() * 1e5)},
+      cseq: {method: 'MESSAGE', seq: 2},
       'content-type': 'Application/MANSCDP+xml',
-      contact: [{uri: 'sip:34020000001320000001@192.168.28.110:5060'}]  
     },
     content: 
     '<?xml version="1.0"?>' +
     '<Query>' +
     '<CmdType>Catalog</CmdType>' +
-    '<SN>8903</SN>' +
+    '<SN>0</SN>' +
     '<DeviceId>34020000001320000001</DeviceId>' +
     '</Query>'
   }, (res)=> {
-    console.log(`request device list `,res.status);
+    console.log(`request device list `,JSON.stringify(res));
   });
 }
 
 event.on('clientRegister', ()=>{
-  return makeCall();
+  makeCall();
+  // return makeCall();
 });
 
 sip.start({

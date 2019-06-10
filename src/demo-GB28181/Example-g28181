@@ -1,0 +1,2597 @@
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.549755974    192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 8: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1564079957
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1876074656
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1876074656
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1515693092@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>877</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.549778974    192.168.28.10         192.168.28.110        ICMP     590    Destination unreachable (Port unreachable)
+
+Frame 9: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.600526180    192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 10: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK889386388
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1990945372
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1990945372
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1590826687@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>875</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 1.600550422    192.168.28.10         192.168.28.110        ICMP     590    Destination unreachable (Port unreachable)
+
+Frame 11: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 3.579444619    192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 50: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1975364598
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1414544203
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1414544203
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1327120043@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>876</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 3.579497278    192.168.28.10         192.168.28.110        ICMP     590    Destination unreachable (Port unreachable)
+
+Frame 51: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 5.559343929    192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 67: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1564079957
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1876074656
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1876074656
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1515693092@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>877</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 5.559393136    192.168.28.10         192.168.28.110        ICMP     590    Destination unreachable (Port unreachable)
+
+Frame 68: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 5.601569461    192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 69: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK889386388
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1990945372
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1990945372
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1590826687@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>875</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 5.601624949    192.168.28.10         192.168.28.110        ICMP     590    Destination unreachable (Port unreachable)
+
+Frame 70: 590 bytes on wire (4720 bits), 590 bytes captured (4720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 7.589849438    192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 103: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1975364598
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1414544203
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1414544203
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1327120043@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>876</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 7.660873335    192.168.28.10         192.168.28.110        SIP      375    Status: 400 Bad Request | 
+
+Frame 106: 375 bytes on wire (3000 bits), 375 bytes captured (3000 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (400)
+    Status-Line: SIP/2.0 400 Bad Request
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1975364598
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1414544203
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1414544203
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=96697104
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 96697104
+        Call-ID: 1327120043@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 8.039439540    192.168.28.110        192.168.28.10         SIP      549    Request: REGISTER sip:34020000002000000001@192.168.28.10:5080  (1 binding) | 
+
+Frame 111: 549 bytes on wire (4392 bits), 549 bytes captured (4392 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (REGISTER)
+    Request-Line: REGISTER sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK304023727
+        Route: <sip:34020000001320000001@192.168.28.10:5080;lr>
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=513480624
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 513480624
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 1186832061@192.168.28.110
+        CSeq: 1 REGISTER
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Expires: 3600
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 8.112683975    192.168.28.10         192.168.28.110        SIP      514    Status: 401 Unauthorized | 
+
+Frame 112: 514 bytes on wire (4112 bits), 514 bytes captured (4112 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (401)
+    Status-Line: SIP/2.0 401 Unauthorized
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK304023727
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=513480624
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 513480624
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1491216681
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1491216681
+        Call-ID: 1186832061@192.168.28.110
+        CSeq: 1 REGISTER
+        WWW-Authenticate: Digest realm="3402000000", nonce="1560147531-29bec85c6ab25d6f81ee6533582797ec"
+            Authentication Scheme: Digest
+            Realm: "3402000000"
+            Nonce Value: "1560147531-29bec85c6ab25d6f81ee6533582797ec"
+        Content-Type: Application/MANSCDP+xml
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 8.119421221    192.168.28.110        192.168.28.10         SIP      788    Request: REGISTER sip:34020000002000000001@192.168.28.10:5080  (1 binding) | 
+
+Frame 113: 788 bytes on wire (6304 bits), 788 bytes captured (6304 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (REGISTER)
+    Request-Line: REGISTER sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK274916397
+        Route: <sip:34020000001320000001@192.168.28.10:5080;lr>
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=513480624
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 513480624
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 1186832061@192.168.28.110
+        CSeq: 2 REGISTER
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        Authorization: Digest username="34020000001320000001", realm="3402000000", nonce="1560147531-29bec85c6ab25d6f81ee6533582797ec", uri="sip:34020000002000000001@192.168.28.10:5080", response="b2adfbe6d392085b930ad26105668f27", algorithm=MD5
+            Authentication Scheme: Digest
+            Username: "34020000001320000001"
+            Realm: "3402000000"
+            Nonce Value: "1560147531-29bec85c6ab25d6f81ee6533582797ec"
+            Authentication URI: "sip:34020000002000000001@192.168.28.10:5080"
+            Digest Authentication Response: "b2adfbe6d392085b930ad26105668f27"
+            Algorithm: MD5
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Expires: 3600
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 8.213722186    192.168.28.10         192.168.28.110        SIP      398    Status: 200 OK  (0 bindings) | 
+
+Frame 114: 398 bytes on wire (3184 bits), 398 bytes captured (3184 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK274916397
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=513480624
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 513480624
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1228105145
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1228105145
+        Call-ID: 1186832061@192.168.28.110
+        CSeq: 2 REGISTER
+        User-Agent: 28181sdk 1.0
+        Date: 2019-06-10T14:18:51.819
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 8.221324517    192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 115: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1710841801
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=672756975
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 672756975
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 715169999@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>878</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 8.314424563    192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 124: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1710841801
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=672756975
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 672756975
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=2135337138
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 2135337138
+        Call-ID: 715169999@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 9.569821948    192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 138: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1564079957
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1876074656
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1876074656
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1515693092@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>877</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 9.610447797    192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 144: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK889386388
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1990945372
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1990945372
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1590826687@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>875</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 9.669444734    192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 145: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1564079957
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1876074656
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1876074656
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=260054573
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 260054573
+        Call-ID: 1515693092@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 9.669478287    192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 146: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK889386388
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1990945372
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1990945372
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=237869752
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 237869752
+        Call-ID: 1590826687@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 17.746911979   192.168.28.10         192.168.28.110        SIP      571    Request: MESSAGE sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 204: 571 bytes on wire (4568 bits), 571 bytes captured (4568 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-743156C5-FEFBA0A-UnYa1fO2
+        From: <sip:34020000002000000001@3402000000>;tag=1298186424
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 1298186424
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 979212237
+        CSeq: 20 MESSAGE
+        Content-Type: Application/MANSCDP+xml
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Content-Length:   125
+    Message Body
+        <?xml version="1.0"?>\r\n
+        <Query>\r\n
+        <CmdType>Catalog</CmdType>\r\n
+        <SN>1</SN>\r\n
+        <DeviceID>34020000001320000001</DeviceID>\r\n
+        </Query>\r\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    205 17.746936685   192.168.28.10         192.168.28.110        SIP      663    Request: SUBSCRIBE sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 205: 663 bytes on wire (5304 bits), 663 bytes captured (5304 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (SUBSCRIBE)
+    Request-Line: SUBSCRIBE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-30843279-FF20876-1ne2abdV
+        From: <sip:34020000002000000001@3402000000>;tag=1601879615
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 1601879615
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 369697548
+        CSeq: 20 SUBSCRIBE
+        Contact: <sip:34020000002000000001@192.168.28.10:5080>
+            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI User Part: 34020000002000000001
+                Contact URI Host Part: 192.168.28.10
+                Contact URI Host Port: 5080
+        Content-Type: Application/MANSCDP+xml
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Expires: 3600
+        Event: presence
+        Content-Length:   125
+    Message Body
+        <?xml version="1.0"?>\r\n
+        <Query>\r\n
+        <CmdType>Catalog</CmdType>\r\n
+        <SN>2</SN>\r\n
+        <DeviceID>34020000001320000001</DeviceID>\r\n
+        </Query>\r\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 17.759292930   192.168.28.110        192.168.28.10         SIP      463    Status: 101 Dialog Establishement | 
+
+Frame 206: 463 bytes on wire (3704 bits), 463 bytes captured (3704 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (101)
+    Status-Line: SIP/2.0 101 Dialog Establishement
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-30843279-FF20876-1ne2abdV
+        From: <sip:34020000002000000001@3402000000>;tag=1601879615
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 1601879615
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1683895784
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1683895784
+        Call-ID: 369697548
+        CSeq: 20 SUBSCRIBE
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        Event: presence
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 17.769447498   192.168.28.110        192.168.28.10         SIP      367    Status: 200 OK | 
+
+Frame 207: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-743156C5-FEFBA0A-UnYa1fO2
+        From: <sip:34020000002000000001@3402000000>;tag=1298186424
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 1298186424
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=729116220
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 729116220
+        Call-ID: 979212237
+        CSeq: 20 MESSAGE
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    208 17.769901158   192.168.28.110        192.168.28.10         SIP      1344   Request: MESSAGE sip:34020000002000000001@3402000000 | 
+
+Frame 208: 1344 bytes on wire (10752 bits), 1344 bytes captured (10752 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@3402000000 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1354810080
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1510575654
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1510575654
+        To: <sip:34020000002000000001@3402000000>
+            SIP to address: sip:34020000002000000001@3402000000
+        Call-ID: 1213247785@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   897
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Response>\n
+            <CmdType>Catalog</CmdType>\n
+            <SN>1</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <SumNum>1</SumNum>\n
+            <DeviceList Num="1">\n
+                <Item>\n
+                    <DeviceID>34020000001320000001</DeviceID>\n
+                    <Name>IPC</Name>\n
+                    <Manufacturer>Dahua</Manufacturer>\n
+                    <Model>IPC-HDW2230C-A-V2</Model>\n
+                    <Owner>0</Owner>\n
+                    <CivilCode>340200</CivilCode>\n
+                    <Address>axy</Address>\n
+                    <Parental>0</Parental>\n
+                    <ParentID>34020000001320000001</ParentID>\n
+                    <RegisterWay>1</RegisterWay>\n
+                    <Secrecy>0</Secrecy>\n
+                    <StreamNum>2</StreamNum>\n
+                    <Status>ON</Status>\n
+                    <Info>\n
+                        <PTZType>3</PTZType>\n
+                        <DownloadSpeed>1/2/4/8</DownloadSpeed>\n
+                    </Info>\n
+                </Item>\n
+            </DeviceList>\n
+        </Response>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    209 17.789796175   192.168.28.110        192.168.28.10         SIP      673    Status: 200 OK | 
+
+Frame 209: 673 bytes on wire (5384 bits), 673 bytes captured (5384 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-30843279-FF20876-1ne2abdV
+        From: <sip:34020000002000000001@3402000000>;tag=1601879615
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 1601879615
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1683895784
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1683895784
+        Call-ID: 369697548
+        CSeq: 20 SUBSCRIBE
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        Event: presence
+        User-Agent: SIP UAS V2.1.4.500306
+        Expires: 3600
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   171
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\r\n
+        <Response>\r\n
+        <CmdType>Catalog</CmdType>\r\n
+        <SN>2</SN>\r\n
+        <DeviceID>34020000001320000001</DeviceID>\r\n
+        <Result>OK</Result>\r\n
+        </Response>\r\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    210 17.848107306   192.168.28.10         192.168.28.110        SIP      360    Status: 200 OK | 
+
+Frame 210: 360 bytes on wire (2880 bits), 360 bytes captured (2880 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1354810080
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1510575654
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1510575654
+        To: <sip:34020000002000000001@3402000000>;tag=1419208791
+            SIP to address: sip:34020000002000000001@3402000000
+            SIP to tag: 1419208791
+        Call-ID: 1213247785@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    212 18.256718686   192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 212: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1857393892
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=710286550
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 710286550
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 652310735@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>879</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    215 18.350022802   192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 215: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1857393892
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=710286550
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 710286550
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1253680150
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1253680150
+        Call-ID: 652310735@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    313 28.221381274   192.168.28.110        192.168.28.10         SIP      640    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 313: 640 bytes on wire (5120 bits), 640 bytes captured (5120 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK185945206
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=585833828
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 585833828
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 467888392@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>880</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    319 28.279187577   192.168.28.10         192.168.28.110        SIP      365    Status: 200 OK | 
+
+Frame 319: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK185945206
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=585833828
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 585833828
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1927042711
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1927042711
+        Call-ID: 467888392@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    450 38.239024540   192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 450: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1159257491
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1452271883
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1452271883
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 768505273@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>881</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    451 38.312713174   192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 451: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1159257491
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1452271883
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1452271883
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=189597632
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 189597632
+        Call-ID: 768505273@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    543 48.232165400   192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 543: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK315842994
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1995063798
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1995063798
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 773455730@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>882</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    544 48.296878208   192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 544: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK315842994
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1995063798
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1995063798
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1139312370
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1139312370
+        Call-ID: 773455730@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    753 58.238942216   192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 753: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK241280396
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=676659275
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 676659275
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1563541887@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>883</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    754 58.328839691   192.168.28.10         192.168.28.110        SIP      365    Status: 200 OK | 
+
+Frame 754: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK241280396
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=676659275
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 676659275
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=449784961
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 449784961
+        Call-ID: 1563541887@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    849 68.221201668   192.168.28.110        192.168.28.10         SIP      640    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 849: 640 bytes on wire (5120 bits), 640 bytes captured (5120 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK685833571
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=565658599
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 565658599
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 919888318@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>884</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    851 68.310579593   192.168.28.10         192.168.28.110        SIP      365    Status: 200 OK | 
+
+Frame 851: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK685833571
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=565658599
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 565658599
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1825757657
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1825757657
+        Call-ID: 919888318@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    974 78.221996615   192.168.28.110        192.168.28.10         SIP      640    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 974: 640 bytes on wire (5120 bits), 640 bytes captured (5120 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK893957646
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=538871922
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 538871922
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 327593109@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>885</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+    976 78.294161772   192.168.28.10         192.168.28.110        SIP      364    Status: 200 OK | 
+
+Frame 976: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK893957646
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=538871922
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 538871922
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=955175251
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 955175251
+        Call-ID: 327593109@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1075 88.220944547   192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 1075: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1520872978
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1330327421
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1330327421
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 996382466@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>886</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1077 88.279517833   192.168.28.10         192.168.28.110        SIP      365    Status: 200 OK | 
+
+Frame 1077: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1520872978
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1330327421
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1330327421
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=17948222
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 17948222
+        Call-ID: 996382466@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1226 98.228773168   192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 1226: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK27862052
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1580165344
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1580165344
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1996620606@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>887</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1227 98.314321153   192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 1227: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK27862052
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1580165344
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1580165344
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1834480791
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1834480791
+        Call-ID: 1996620606@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1296 108.233019960  192.168.28.110        192.168.28.10         SIP      640    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 1296: 640 bytes on wire (5120 bits), 640 bytes captured (5120 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK869160534
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=616873707
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 616873707
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 907034221@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>888</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1297 108.298619811  192.168.28.10         192.168.28.110        SIP      364    Status: 200 OK | 
+
+Frame 1297: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK869160534
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=616873707
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 616873707
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=837863069
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 837863069
+        Call-ID: 907034221@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1426 118.231418324  192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 1426: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1854124982
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1820830504
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1820830504
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1931764636@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>889</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1430 118.332103761  192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 1430: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1854124982
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1820830504
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1820830504
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=881002724
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 881002724
+        Call-ID: 1931764636@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1522 128.231744910  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 1522: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK733706731
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1961630203
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1961630203
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1708603467@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>890</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1524 128.312604995  192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 1524: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK733706731
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1961630203
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1961630203
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1572567310
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1572567310
+        Call-ID: 1708603467@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1620 138.228330762  192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 1620: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1843763033
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=501870548
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 501870548
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 777436888@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>891</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1625 138.292490508  192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 1625: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1843763033
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=501870548
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 501870548
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1773299634
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1773299634
+        Call-ID: 777436888@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1712 146.366993684  192.168.28.10         192.168.28.110        SIP/SDP  757    Request: INVITE sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 1712: 757 bytes on wire (6056 bits), 757 bytes captured (6056 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-65C167A4-34E5CE48-ojYom5WH
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 1465719582
+        CSeq: 20 INVITE
+        Contact: <sip:34020000002000000001@192.168.28.10:5080>
+            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI User Part: 34020000002000000001
+                Contact URI Host Part: 192.168.28.10
+                Contact URI Host Port: 5080
+        Content-Type: application/sdp
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Subject: 34020000001320000001:1,34020000002000000001:1
+        Content-Length:   208
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 34020000001320000001 0 0 IN IP4 192.168.28.10
+                Owner Username: 34020000001320000001
+                Session ID: 0
+                Session Version: 0
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.28.10
+            Session Name (s): Play
+            Connection Information (c): IN IP4 192.168.28.10
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.28.10
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): video 33736 RTP/AVP 96 98 97
+                Media Type: video
+                Media Port: 33736
+                Media Protocol: RTP/AVP
+                Media Format: DynamicRTP-Type-96
+                Media Format: DynamicRTP-Type-98
+                Media Format: DynamicRTP-Type-97
+            Media Attribute (a): recvonly
+            Media Attribute (a): rtpmap:96 PS/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 96
+                MIME Type: PS
+                Sample Rate: 90000
+            Media Attribute (a): rtpmap:98 H264/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 98
+                MIME Type: H264
+                Sample Rate: 90000
+            Media Attribute (a): rtpmap:97 MPEG4/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 97
+                MIME Type: MPEG4
+                Sample Rate: 90000
+
+No.     Time           Source                Destination           Protocol Length Info
+   1713 146.371365594  192.168.28.110        192.168.28.10         SIP      357    Status: 100 Trying | 
+
+Frame 1713: 357 bytes on wire (2856 bits), 357 bytes captured (2856 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-65C167A4-34E5CE48-ojYom5WH
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 1465719582
+        CSeq: 20 INVITE
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1714 146.371715883  192.168.28.110        192.168.28.10         SIP      442    Status: 101 Dialog Establishement | 
+
+Frame 1714: 442 bytes on wire (3536 bits), 442 bytes captured (3536 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (101)
+    Status-Line: SIP/2.0 101 Dialog Establishement
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-65C167A4-34E5CE48-ojYom5WH
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=92381153
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 92381153
+        Call-ID: 1465719582
+        CSeq: 20 INVITE
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1715 146.401209703  192.168.28.110        192.168.28.10         SIP/SDP  686    Status: 200 OK | 
+
+Frame 1715: 686 bytes on wire (5488 bits), 686 bytes captured (5488 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-65C167A4-34E5CE48-ojYom5WH
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=92381153
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 92381153
+        Call-ID: 1465719582
+        CSeq: 20 INVITE
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: application/sdp
+        Content-Length:   228
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 34020000001320000001 0 0 IN IP4 192.168.28.110
+                Owner Username: 34020000001320000001
+                Session ID: 0
+                Session Version: 0
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.28.110
+            Session Name (s): Play
+            Session Information (i): VCam Live Video
+            Connection Information (c): IN IP4 192.168.28.110
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.28.110
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): video 9708 RTP/AVP 96
+                Media Type: video
+                Media Port: 9708
+                Media Protocol: RTP/AVP
+                Media Format: DynamicRTP-Type-96
+            Media Attribute (a): sendonly
+            Media Attribute (a): rtpmap:96 PS/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 96
+                MIME Type: PS
+                Sample Rate: 90000
+            Media Attribute (a): streamprofile:0
+                Media Attribute Fieldname: streamprofile
+                Media Attribute Value: 0
+            Unknown: y=0000000000
+            Unknown: f=v/0/0/0/0/0a/0/0/0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1716 146.420222689  192.168.28.10         192.168.28.110        SIP      465    Request: ACK sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 1716: 465 bytes on wire (3720 bits), 465 bytes captured (3720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-5D353EDD-3813B59A-XNUQHv5P
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=92381153
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 92381153
+        Call-ID: 1465719582
+        CSeq: 20 ACK
+        Contact: <sip:34020000002000000001@192.168.28.10:5080>
+            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI User Part: 34020000002000000001
+                Contact URI Host Part: 192.168.28.10
+                Contact URI Host Port: 5080
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   2554 148.231839040  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 2554: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK305498732
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1849047149
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1849047149
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1159738773@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>892</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   2610 148.327279205  192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 2610: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK305498732
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1849047149
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1849047149
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1838935351
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1838935351
+        Call-ID: 1159738773@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7313 158.220098932  192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 7313: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1210265087
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=434425958
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 434425958
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 977271619@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>893</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   7362 158.304218838  192.168.28.10         192.168.28.110        SIP      365    Status: 200 OK | 
+
+Frame 7362: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1210265087
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=434425958
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 434425958
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=592780395
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 592780395
+        Call-ID: 977271619@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  12148 168.229427572  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 12148: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK365534950
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1557883602
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1557883602
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1411182456@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>894</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  12168 168.281755706  192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 12168: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK365534950
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1557883602
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1557883602
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=683481136
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 683481136
+        Call-ID: 1411182456@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  16949 178.219731814  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 16949: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1723441159
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=981589717
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 981589717
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1311749644@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>895</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  16984 178.308252374  192.168.28.10         192.168.28.110        SIP      364    Status: 200 OK | 
+
+Frame 16984: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1723441159
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=981589717
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 981589717
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=5166223
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 5166223
+        Call-ID: 1311749644@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21805 188.230367906  192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 21805: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1582704883
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=2046717066
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 2046717066
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1324171310@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>896</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  21825 188.284745628  192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 21825: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1582704883
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=2046717066
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 2046717066
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=79255947
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 79255947
+        Call-ID: 1324171310@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21894 188.435789712  192.168.28.10         192.168.28.110        SIP      465    Request: BYE sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 21894: 465 bytes on wire (3720 bits), 465 bytes captured (3720 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (BYE)
+    Request-Line: BYE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-3D16E3DB-38FF681C-Ha8sg5mM
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=92381153
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 92381153
+        Call-ID: 1465719582
+        CSeq: 21 BYE
+        Contact: <sip:34020000002000000001@192.168.28.10:5080>
+            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI User Part: 34020000002000000001
+                Contact URI Host Part: 192.168.28.10
+                Contact URI Host Port: 5080
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21895 188.438491941  192.168.28.110        192.168.28.10         SIP      363    Status: 200 OK | 
+
+Frame 21895: 363 bytes on wire (2904 bits), 363 bytes captured (2904 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-3D16E3DB-38FF681C-Ha8sg5mM
+        From: <sip:34020000002000000001@3402000000>;tag=163568934
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 163568934
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=92381153
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 92381153
+        Call-ID: 1465719582
+        CSeq: 21 BYE
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21936 196.168862491  192.168.28.10         192.168.28.110        SIP/SDP  756    Request: INVITE sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 21936: 756 bytes on wire (6048 bits), 756 bytes captured (6048 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+    Request-Line: INVITE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-5BD604AD-2917A708-Rzlo8CEN
+        From: <sip:34020000002000000001@3402000000>;tag=822921146
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 822921146
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 884537771
+        CSeq: 20 INVITE
+        Contact: <sip:34020000002000000001@192.168.28.10:5080>
+            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI User Part: 34020000002000000001
+                Contact URI Host Part: 192.168.28.10
+                Contact URI Host Port: 5080
+        Content-Type: application/sdp
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Subject: 34020000001320000001:1,34020000002000000001:1
+        Content-Length:   208
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 34020000001320000001 0 0 IN IP4 192.168.28.10
+                Owner Username: 34020000001320000001
+                Session ID: 0
+                Session Version: 0
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.28.10
+            Session Name (s): Play
+            Connection Information (c): IN IP4 192.168.28.10
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.28.10
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): video 33740 RTP/AVP 96 98 97
+                Media Type: video
+                Media Port: 33740
+                Media Protocol: RTP/AVP
+                Media Format: DynamicRTP-Type-96
+                Media Format: DynamicRTP-Type-98
+                Media Format: DynamicRTP-Type-97
+            Media Attribute (a): recvonly
+            Media Attribute (a): rtpmap:96 PS/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 96
+                MIME Type: PS
+                Sample Rate: 90000
+            Media Attribute (a): rtpmap:98 H264/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 98
+                MIME Type: H264
+                Sample Rate: 90000
+            Media Attribute (a): rtpmap:97 MPEG4/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 97
+                MIME Type: MPEG4
+                Sample Rate: 90000
+
+No.     Time           Source                Destination           Protocol Length Info
+  21937 196.170702307  192.168.28.110        192.168.28.10         SIP      356    Status: 100 Trying | 
+
+Frame 21937: 356 bytes on wire (2848 bits), 356 bytes captured (2848 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (100)
+    Status-Line: SIP/2.0 100 Trying
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-5BD604AD-2917A708-Rzlo8CEN
+        From: <sip:34020000002000000001@3402000000>;tag=822921146
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 822921146
+        To: <sip:34020000001320000001@192.168.28.110:5060>
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+        Call-ID: 884537771
+        CSeq: 20 INVITE
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21938 196.171030091  192.168.28.110        192.168.28.10         SIP      443    Status: 101 Dialog Establishement | 
+
+Frame 21938: 443 bytes on wire (3544 bits), 443 bytes captured (3544 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (101)
+    Status-Line: SIP/2.0 101 Dialog Establishement
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-5BD604AD-2917A708-Rzlo8CEN
+        From: <sip:34020000002000000001@3402000000>;tag=822921146
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 822921146
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1407278449
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1407278449
+        Call-ID: 884537771
+        CSeq: 20 INVITE
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21939 196.178277179  192.168.28.110        192.168.28.10         SIP/SDP  687    Status: 200 OK | 
+
+Frame 21939: 687 bytes on wire (5496 bits), 687 bytes captured (5496 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport=5080;branch=z9hG4bK-5BD604AD-2917A708-Rzlo8CEN
+        From: <sip:34020000002000000001@3402000000>;tag=822921146
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 822921146
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1407278449
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1407278449
+        Call-ID: 884537771
+        CSeq: 20 INVITE
+        Contact: <sip:34020000001320000001@192.168.28.110:5060>
+            Contact URI: sip:34020000001320000001@192.168.28.110:5060
+                Contact URI User Part: 34020000001320000001
+                Contact URI Host Part: 192.168.28.110
+                Contact URI Host Port: 5060
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: application/sdp
+        Content-Length:   228
+    Message Body
+        Session Description Protocol
+            Session Description Protocol Version (v): 0
+            Owner/Creator, Session Id (o): 34020000001320000001 0 0 IN IP4 192.168.28.110
+                Owner Username: 34020000001320000001
+                Session ID: 0
+                Session Version: 0
+                Owner Network Type: IN
+                Owner Address Type: IP4
+                Owner Address: 192.168.28.110
+            Session Name (s): Play
+            Session Information (i): VCam Live Video
+            Connection Information (c): IN IP4 192.168.28.110
+                Connection Network Type: IN
+                Connection Address Type: IP4
+                Connection Address: 192.168.28.110
+            Time Description, active time (t): 0 0
+                Session Start Time: 0
+                Session Stop Time: 0
+            Media Description, name and address (m): video 9712 RTP/AVP 96
+                Media Type: video
+                Media Port: 9712
+                Media Protocol: RTP/AVP
+                Media Format: DynamicRTP-Type-96
+            Media Attribute (a): sendonly
+            Media Attribute (a): rtpmap:96 PS/90000
+                Media Attribute Fieldname: rtpmap
+                Media Format: 96
+                MIME Type: PS
+                Sample Rate: 90000
+            Media Attribute (a): streamprofile:0
+                Media Attribute Fieldname: streamprofile
+                Media Attribute Value: 0
+            Unknown: y=0000000000
+            Unknown: f=v/0/0/0/0/0a/0/0/0
+
+No.     Time           Source                Destination           Protocol Length Info
+  21941 196.221108527  192.168.28.10         192.168.28.110        SIP      466    Request: ACK sip:34020000001320000001@192.168.28.110:5060 | 
+
+Frame 21941: 466 bytes on wire (3728 bits), 466 bytes captured (3728 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (ACK)
+    Request-Line: ACK sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.10:5080;rport;branch=z9hG4bK-71D3D552-2C35C099-VUMTlYsZ
+        From: <sip:34020000002000000001@3402000000>;tag=822921146
+            SIP from address: sip:34020000002000000001@3402000000
+            SIP from tag: 822921146
+        To: <sip:34020000001320000001@192.168.28.110:5060>;tag=1407278449
+            SIP to address: sip:34020000001320000001@192.168.28.110:5060
+            SIP to tag: 1407278449
+        Call-ID: 884537771
+        CSeq: 20 ACK
+        Contact: <sip:34020000002000000001@192.168.28.10:5080>
+            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI User Part: 34020000002000000001
+                Contact URI Host Part: 192.168.28.10
+                Contact URI Host Port: 5080
+        Max-Forwards: 70
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  22896 198.231168893  192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 22896: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK840968950
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1101792499
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1101792499
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 373637769@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>897</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  22932 198.326615216  192.168.28.10         192.168.28.110        SIP      365    Status: 200 OK | 
+
+Frame 22932: 365 bytes on wire (2920 bits), 365 bytes captured (2920 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK840968950
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1101792499
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1101792499
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=941114258
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 941114258
+        Call-ID: 373637769@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  27728 208.230695284  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 27728: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK677457011
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=2062447253
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 2062447253
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1393619596@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>898</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  27749 208.304183765  192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 27749: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK677457011
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=2062447253
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 2062447253
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1132045963
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1132045963
+        Call-ID: 1393619596@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  32416 218.228223467  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 32416: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK132188824
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1094413182
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1094413182
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1309018262@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>899</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  32438 218.282000363  192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 32438: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK132188824
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1094413182
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1094413182
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=638482524
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 638482524
+        Call-ID: 1309018262@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  37271 228.230422400  192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 37271: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1838098222
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1398270159
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1398270159
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1183429490@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>900</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  37297 228.308881662  192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 37297: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1838098222
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1398270159
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1398270159
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=298979467
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 298979467
+        Call-ID: 1183429490@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  42049 238.227805286  192.168.28.110        192.168.28.10         SIP      642    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 42049: 642 bytes on wire (5136 bits), 642 bytes captured (5136 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1024265430
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=674852736
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 674852736
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1863495621@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>901</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  42074 238.285935178  192.168.28.10         192.168.28.110        SIP      367    Status: 200 OK | 
+
+Frame 42074: 367 bytes on wire (2936 bits), 367 bytes captured (2936 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1024265430
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=674852736
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 674852736
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1308544487
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1308544487
+        Call-ID: 1863495621@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  46816 248.239599676  192.168.28.110        192.168.28.10         SIP      640    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 46816: 640 bytes on wire (5120 bits), 640 bytes captured (5120 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK619779146
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=162734252
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 162734252
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 633939530@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>902</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  46844 248.314007703  192.168.28.10         192.168.28.110        SIP      364    Status: 200 OK | 
+
+Frame 46844: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK619779146
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=162734252
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 162734252
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=922589230
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 922589230
+        Call-ID: 633939530@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  51618 258.227662223  192.168.28.110        192.168.28.10         SIP      643    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 51618: 643 bytes on wire (5144 bits), 643 bytes captured (5144 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK1183863083
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1814266510
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1814266510
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 1223590796@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>903</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  51642 258.291036210  192.168.28.10         192.168.28.110        SIP      368    Status: 200 OK | 
+
+Frame 51642: 368 bytes on wire (2944 bits), 368 bytes captured (2944 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK1183863083
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=1814266510
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 1814266510
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1750493726
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1750493726
+        Call-ID: 1223590796@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+  56449 268.227629246  192.168.28.110        192.168.28.10         SIP      641    Request: MESSAGE sip:34020000002000000001@192.168.28.10:5080 | 
+
+Frame 56449: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface 0
+Ethernet II, Src: Zhejiang_3f:20:57 (38:af:29:3f:20:57), Dst: Liteon_13:9d:fa (6c:4b:90:13:9d:fa)
+Internet Protocol Version 4, Src: 192.168.28.110, Dst: 192.168.28.10
+User Datagram Protocol, Src Port: 5060, Dst Port: 5080
+Session Initiation Protocol (MESSAGE)
+    Request-Line: MESSAGE sip:34020000002000000001@192.168.28.10:5080 SIP/2.0
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport;branch=z9hG4bK2110868401
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=208412743
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 208412743
+        To: <sip:34020000002000000001@192.168.28.10:5080>
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+        Call-ID: 117430849@192.168.28.110
+        CSeq: 20 MESSAGE
+        Max-Forwards: 70
+        User-Agent: SIP UAS V2.1.4.500306
+        Content-Type: Application/MANSCDP+xml
+        Content-Length:   180
+    Message Body
+        <?xml version="1.0" encoding="GB2312" ?>\n
+        <Notify>\n
+            <CmdType>Keepalive</CmdType>\n
+            <SN>904</SN>\n
+            <DeviceID>34020000001320000001</DeviceID>\n
+            <Status>OK</Status>\n
+        </Notify>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+  56481 268.322351171  192.168.28.10         192.168.28.110        SIP      366    Status: 200 OK | 
+
+Frame 56481: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+Ethernet II, Src: Liteon_13:9d:fa (6c:4b:90:13:9d:fa), Dst: Zhejiang_3f:20:57 (38:af:29:3f:20:57)
+Internet Protocol Version 4, Src: 192.168.28.10, Dst: 192.168.28.110
+User Datagram Protocol, Src Port: 5080, Dst Port: 5060
+Session Initiation Protocol (200)
+    Status-Line: SIP/2.0 200 OK
+    Message Header
+        Via: SIP/2.0/UDP 192.168.28.110:5060;rport=5060;branch=z9hG4bK2110868401
+        From: <sip:34020000001320000001@192.168.28.110:5060>;tag=208412743
+            SIP from address: sip:34020000001320000001@192.168.28.110:5060
+            SIP from tag: 208412743
+        To: <sip:34020000002000000001@192.168.28.10:5080>;tag=1375958609
+            SIP to address: sip:34020000002000000001@192.168.28.10:5080
+            SIP to tag: 1375958609
+        Call-ID: 117430849@192.168.28.110
+        CSeq: 20 MESSAGE
+        User-Agent: 28181sdk 1.0
+        Content-Length: 0

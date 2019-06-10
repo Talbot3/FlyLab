@@ -10,16 +10,6 @@ clang -std=c17 -o targetName sourceFile.c
 clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配置好了的。例如本机地址为：
 `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include`
 
-## Style ADT
-
-## 结构体
-
-## 模块化
-
-## 依赖管理
-
-## 常用预处理手法
-
 ## 其他话题
 
 - IOCP
@@ -53,11 +43,11 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [常用日志库推荐] zlog
 - [构建工具 cmake、gn/ninja]
 
-## 了无痕否？关于底层的思考
+## 关于底层的思考
 
 - [虎书推荐的 `GNU Bison`]()
 
-# 参考
+## 参考
 
 - 《C语言接口与实现——创建可重用软件的技术》
 - [man page](https://www.unix.com/man-page-repository.php)
