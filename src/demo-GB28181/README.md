@@ -1,4 +1,10 @@
-# GB28181
+# GB28181信令网关
+
+## [架构参考](https://blog.csdn.net/aflyeaglenku/article/details/78594118)
+
+![GB28181信令网关](./20171121163658302.jpeg)
+
+## [GB28181基础](https://blog.csdn.net/aflyeaglenku/article/details/78595070)
 
 ## 关于SIP协议的交互过程
 
@@ -22,7 +28,15 @@ INVITE 方法中Subject、sdp中y=1100000000这两个字段的结构需要详细
 - [routr](https://github.com/fonoster/routr)
 - [kamailio](https://www.kamailio.org/w/features/)
 
+___
+
+- [pjlib](https://yq.aliyun.com/articles/243145)
+- [exosip2 stack](http://www.antisip.com/download/exosip2/)
+- [exosip2 开发手册](https://wenku.baidu.com/view/a94146a20029bd64783e2c96.html)
+
 ## 参考资料
+
+- [基于GBT28181：SIP协议组件开发](https://my.oschina.net/qq1269122125)
 
 - [nodejs sip server](https://github.com/fonoster/routr)
 

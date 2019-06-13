@@ -1,7 +1,9 @@
+
+const MSS = require('./ms');
 const EventEmitter = require('events');
 const event = new EventEmitter();
 var context, dialogs, digest, makeDialogId, randomBytes, rbytes, regcontext, sip, util;
-
+let mss;
 sip = require('sip');
 
 digest = require('sip/digest');
@@ -11,9 +13,11 @@ rbytes  = (n) => randomBytest(n).toString('hex');
 
 
 util = require('util');
+const Session = require('krtp').Session
 
 dialogs = {};
 
+let isInit = false;
 makeDialogId = function(rq, tag) {
   return [rq.headers['call-id'], rq.headers.from.params.tag, rq.headers.to.params.tag || tag].join();
 };
@@ -76,11 +80,11 @@ const makeCall = ()=> {
     },
     content:
       'v=0\r\n'+
-      'o=- 13374 IN IP4 192.168.20.217\r\n'+
+      'o=- 34020000001320000001 IN IP4 192.168.20.217\r\n'+
       's=Play\r\n'+
       'c=IN IP4 192.168.20.217\r\n'+
       't=0 0\r\n'+
-      'm=video 16424 RTP/AVP 96 97 98\r\n\r\n'+
+      'm=video 9724 RTP/AVP 96 97 98\r\n'+
       'a=rtpmap:96 PS/90000\r\n'+
       'a=rtpmap:97 H264/90000\r\n'+
       'a=rtpmap:98 MPEG4/90000\r\n'+
@@ -99,22 +103,24 @@ const makeCall = ()=> {
     else {
       // yes we can get multiple 2xx response with different tags
       console.log('call answered with tag ' + rs.headers.to.params.tag);
-
-      let ackObj = {
-        method: 'ACK',
-        uri: rs.headers.contact[0].uri,
-        headers: {
-          to: rs.headers.to,
-          from: rs.headers.from,
-          'call-id': rs.headers['call-id'],
-          cseq: {method: 'ACK', seq: rs.headers.cseq.seq},
-          via: []
-        }
-      };
-      // sending ACK
-      // sip.send(ackObj);      
-
-  
+      console.log('=========================call answered with sdp=========================' + rs.content);
+      let portExp = /video ([0-9]+)/;
+      let [,port,]= portExp.exec(rs.content);
+      if (port && !isInit) {
+        isInit = true;
+        const s = new Session(Number(port));
+        s.ssrc = '0000000000';
+        console.log('ssrc=========================', s.ssrc);
+        console.log('========================================port: ', port);
+        s.on('message', (msg) => {
+          console.log(`=========================================================where are you`, msg)
+          s.close()
+        });
+        s.sendSR('192.168.28.110').catch(err => {
+          console.log('=========================================================',err);
+        });
+        // s.send(Buffer.from('Hello world'))
+      }
       var id = [rs.headers['call-id'], rs.headers.from.params.tag, rs.headers.to.params.tag].join(':');
   
       // registring our 'dialog' which is just function to process in-dialog requests
@@ -258,6 +264,10 @@ sip.start({
         case 'ACK': 
 
           break;
+        case 'Status':
+          console.log('=====================Status2======================');
+          console.dir(rq);
+          console.log('=====================Status======================');
         default:
           // return sip.send(sip.makeResponse(rq, 400));
       }

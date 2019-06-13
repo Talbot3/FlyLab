@@ -12,7 +12,7 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "compilerPath": "/usr/local/Cellar/llvm/8.0.0/bin/clang",
+            "compilerPath": "/usr/local/Cellar/llvm/8.0.0_1/bin/clang",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"
