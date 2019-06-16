@@ -1458,7 +1458,7 @@ Session Initiation Protocol (INVITE)
         Call-ID: 1465719582
         CSeq: 20 INVITE
         Contact: <sip:34020000002000000001@192.168.28.10:5080>
-            Contact URI: sip:34020000002000000001@192.168.28.10:5080
+                Contact URI: sip:34020000002000000001@192.168.28.10:5080
                 Contact URI User Part: 34020000002000000001
                 Contact URI Host Part: 192.168.28.10
                 Contact URI Host Port: 5080

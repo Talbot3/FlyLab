@@ -23,6 +23,7 @@
     "malloc.h": "c",
     "inttypes.h": "c",
     "node_api.h": "c",
-    "pthread.h": "c"
+    "pthread.h": "c",
+    "vector": "cpp"
   }
 }
