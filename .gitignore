@@ -42,3 +42,5 @@ acm-icpc
 acm
 .xmake
 build
+
+.vscode
