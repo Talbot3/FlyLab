@@ -7,12 +7,11 @@ class MsStore extends EventEmitter {
   static instance(port) {
     if (!MsStore.Instance) {
       MsStore.Instance = new MsStore(port);
-    } else if(port == MsStore.Instance.port) {
-      return MsStore.Instance;
-    } else {
+    } else if(port != MsStore.Instance.port) {
       console.error('error, unexcept port');
       return null;
     }
+    return MsStore.Instance;
   }
 
   constructor(port) {
@@ -23,13 +22,13 @@ class MsStore extends EventEmitter {
   init() {
     console.log('=======================Connect Now 192.168.28.110 Init=============================');
     this.server = dgram.createSocket('udp4');
-    // this.server.bind(this.port);
-    this.server.connect(this.port, '192.168.28.110', (err) => {
-      console.log('=======================Connect Now 192.168.28.110 Connect=============================');
-      if(err) {
-        console.log(err);
-      }
-    });
+    this.server.bind(9724);
+    // this.server.connect(this.port, '192.168.28.110', (err) => {
+    //   console.log('=======================Connect Now 192.168.28.110 ',this.port,'Connect=============================');
+    //   if(err) {
+    //     console.log(err);
+    //   }
+    // });
     MsStore.bindHandler(this.server);
   }
   static bindHandler(server) {

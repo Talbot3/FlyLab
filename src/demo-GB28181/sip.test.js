@@ -39,7 +39,7 @@ const makeRegister = ()=> {
   if (isRegisterd) {
     return makeCall();
   }
-  const uri = "sip:34020000002000000001@192.168.20.217:5080";
+  const uri = "sip:34020000002000000001@192.168.20.217:5060";
   const uri2 = "sip:34020000001320000001@192.168.28.110:5060";
   let registerObj = {
     method: 'REGISTER',
@@ -64,6 +64,18 @@ const makeRegister = ()=> {
 
 const makeCall = ()=> {
   const uri = "sip:34020000001320000001@192.168.28.110:5060";
+  const sdp =  'v=0\r\n'+
+  'o=34020000001320000001 0 0 IN IP4 192.168.20.157\r\n'+
+  's=Play\r\n'+
+  'c=IN IP4 192.168.20.157\r\n'+
+  't=0 0\r\n'+
+  'm=video 9724 RTP/AVP 96 97 98\r\n'+
+  'a=rtpmap:96 PS/90000\r\n'+
+  'a=rtpmap:97 H264/90000\r\n'+
+  'a=rtpmap:98 MPEG4/90000\r\n'+
+  'a=recvonly\r\n'+
+  'y=0100000000\r\n'+
+  'f=v/1/5/30/2/512 a/0/0/0';
   sip.send({
     method: 'INVITE',
     uri,
@@ -74,24 +86,12 @@ const makeCall = ()=> {
       cseq: {method: 'INVITE', seq: 20 },
       'content-type': 'Application/SDP',
       'User-Agent': 'NCG V2.6.3.477777',
-      contact: [{uri: 'sip:0000042001000001@192.168.20.217:5080'}],
+      contact: [{uri: 'sip:0000042001000001@192.168.20.217:5060'}],
       Subject: "34020000001320000001:1,34020000002000000001:1"
       // if your call doesnt get in-dialog request, maybe os.hostname() isn't resolving in your ip address
     },
-    content:
-      'v=0\r\n'+
-      'o=- 34020000001320000001 IN IP4 192.168.20.217\r\n'+
-      's=Play\r\n'+
-      'c=IN IP4 192.168.20.217\r\n'+
-      't=0 0\r\n'+
-      'm=video 9724 RTP/AVP 96 97 98\r\n'+
-      'a=rtpmap:96 PS/90000\r\n'+
-      'a=rtpmap:97 H264/90000\r\n'+
-      'a=rtpmap:98 MPEG4/90000\r\n'+
-      'a=streamMode:MAIN\r\n'+
-      'a=filesize:-1\r\n'+
-      'a=recvonly\r\n'+
-      'y=1100000000\r\n'
+    content:sdp
+     
   },
   function(rs) {
     if(rs.status >= 300) {
@@ -108,19 +108,37 @@ const makeCall = ()=> {
       let [,port,]= portExp.exec(rs.content);
       if (port && !isInit) {
         isInit = true;
-        const s = new Session(Number(port));
-        s.ssrc = '0000000000';
+        const s = new Session(9724);
+        s.ssrc = '100000000';
         console.log('ssrc=========================', s.ssrc);
         console.log('========================================port: ', port);
         s.on('message', (msg) => {
           console.log(`=========================================================where are you`, msg)
-          s.close()
+          // s.close()
+          s.sendSR('192.168.28.110').catch(err => {
+            console.log('====================ERROR WITH RTP=====================================',err);
+          });
         });
+        s.port = Number(port);
         s.sendSR('192.168.28.110').catch(err => {
-          console.log('=========================================================',err);
+          console.log('====================ERROR WITH RTP=====================================',err);
         });
         // s.send(Buffer.from('Hello world'))
       }
+
+      // sending ACK
+      console.log('============================ Send ACK =============================');
+      sip.send({
+        method: 'ACK',
+        uri: rs.headers.contact[0].uri,
+        headers: {
+          to: rs.headers.to,
+          from: rs.headers.from,
+          'call-id': rs.headers['call-id'],
+          cseq: {method: 'ACK', seq: rs.headers.cseq.seq},
+          via: []
+        }
+      });
       var id = [rs.headers['call-id'], rs.headers.from.params.tag, rs.headers.to.params.tag].join(':');
   
       // registring our 'dialog' which is just function to process in-dialog requests
@@ -160,7 +178,7 @@ const makeCall = ()=> {
  */
 const makeDevice = () => {
   console.log("================================================================");
-  const uri = "sip:0000042001000001@192.168.20.217:5080";
+  const uri = "sip:0000042001000001@192.168.20.217:5060";
   const uri2 = "sip:34020000001320000001@192.168.28.110:5060"
   sip.send({
     method: 'MESSAGE',
@@ -199,7 +217,7 @@ sip.start({
     }
   },
   udp: true,
-  port: 5080
+  port: 5060
 }, function(rq) {
   var e, rs, tag;
   try {
