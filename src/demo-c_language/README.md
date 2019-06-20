@@ -12,7 +12,6 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 
 ## 其他话题
 
-- IOCP
 - 内存池
 - 线程池
 - 网络
@@ -46,6 +45,8 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 ## 关于底层的思考
 
 - [虎书推荐的 `GNU Bison`]()
+- [IP组播](http://www.tldp.org/HOWTO/Multicast-HOWTO-2.html)
+- [c pthread](http://www.csc.villanova.edu/~mdamian/threads/posixthreads.html)
 
 ## 参考
 
@@ -53,6 +54,7 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [man page](https://www.unix.com/man-page-repository.php)
 - [cmake totorial](https://github.com/Campanula/CMake-tutorial)
 - [Pthread多线程编程](https://randu.org/tutorials/threads/#resources)
+- [libuv基础教程](https://luohaha.github.io/Chinese-uvbook/source/introduction.html)
 
 ## QA
 

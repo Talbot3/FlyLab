@@ -50,3 +50,5 @@ ___
 - [GB28181 example](https://github.com/10961020/GB28181/blob/master/UDP_sip_copy.py)
 
 - [ip (gb28181)信令交互-视频点播与回播](https://www.cnblogs.com/dpf-10/p/8915723.html)
+
+- [智能安防 gat1400 协议](https://wenku.baidu.com/view/f29620b24bfe04a1b0717fd5360cba1aa9118c68.html?from=search)
