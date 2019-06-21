@@ -14,6 +14,8 @@ INVITE 方法中Subject、sdp中y=1100000000这两个字段的结构需要详细
 
 ## SIP
 
+> 协议的解析，已经超出了使用正则的范围，需要更宽泛的解析器实现，因此需要了解bison/pegjs相关的模块，从零开始实现一个协议栈
+
 ### SIP基础概念入门
 
 - UserAgent: SIP `UAS/UAC`
@@ -52,3 +54,5 @@ ___
 - [ip (gb28181)信令交互-视频点播与回播](https://www.cnblogs.com/dpf-10/p/8915723.html)
 
 - [智能安防 gat1400 协议](https://wenku.baidu.com/view/f29620b24bfe04a1b0717fd5360cba1aa9118c68.html?from=search)
+
+- [grammar入门](https://zhuanlan.zhihu.com/p/20178871)
