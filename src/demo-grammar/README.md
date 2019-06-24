@@ -4,9 +4,9 @@
 
 ## 参考
 
-- [斯坦福-编译课程](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/)
-
 - [自己动手写编译器](https://pandolia.net/tinyc/index.html)
+
+- [斯坦福-编译课程](http://web.stanford.edu/class/archive/cs/cs143/cs143.1128/)
 
 - [Rustc Development指南](https://rust-lang.github.io/rustc-guide/compiler-team.html)
 
@@ -16,3 +16,7 @@
 
 - [利用有限自动机分析正则表达式
 ](https://cn.charlee.li/parse-regex-with-dfa.html)
+
+- [编译原理算法实现](https://www.kancloud.cn/digest/compile-principle/143011)
+
+- [tcc doc](https://bellard.org/tcc/tcc-doc.html)
