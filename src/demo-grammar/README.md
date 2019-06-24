@@ -1,6 +1,17 @@
-# Grammar
+# Generator Grammar
 
-> 文本分析
+> 文本分析 😀 Pegjs v0.10.0
+
+## Pegjs  vs Jison 性能对比
+
+> Nodejs Generator Grammar 
+
+### 运行平台
+
+- Node Version: 12.4.0
+- MacBook Pro 13寸 双核 i5
+
+![Nodejs Generator Grammar perf](./perf.png)
 
 ## 参考
 
