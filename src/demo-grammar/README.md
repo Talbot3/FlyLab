@@ -1,17 +1,22 @@
-# Generator Grammar
+# Generator Parser/Grammar
 
-> 文本分析 😀 Pegjs v0.10.0
+> 解析表达式文法 😀 Pegjs v0.10.0
 
 ## Pegjs  vs Jison 性能对比
 
-> Nodejs Generator Grammar 
+> Nodejs Generator Parser
 
 ### 运行平台
 
 - Node Version: 12.4.0
 - MacBook Pro 13寸 双核 i5
 
-![Nodejs Generator Grammar perf](./perf.png)
+![Nodejs 解析表达式文法](./perf.png)
+
+## 文法
+
+- 上下文无关文法
+- 解析表达文法
 
 ## 参考
 
@@ -31,3 +36,11 @@
 - [编译原理算法实现](https://www.kancloud.cn/digest/compile-principle/143011)
 
 - [tcc doc](https://bellard.org/tcc/tcc-doc.html)
+
+- [Wiki 上下文无关文法](https://en.wikipedia.org/wiki/Parsing_expression_grammar)
+
+- [解析器与舞台剧](https://www.kancloud.cn/wizardforcel/go-blog-in-action/146840)
+
+- https://www.codercto.com/a/38880.html
+
+- https://www.codercto.com/a/45502.html
