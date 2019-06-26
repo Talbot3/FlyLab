@@ -1,10 +1,21 @@
-// 加载核心加密库
-var CryptoJS = require("crypto-js");
-// 加载des算法
-var tripledes = require("crypto-js/tripledes");
-// 开始加密，并且返回密文
-var ciphertext  = tripledes.encrypt("wellcom to nodejs", 'dadamediasdk-2018').toString();
-// 解密
-var plaintext  = tripledes.decrypt(ciphertext, 'dadamediasdk-2018').toString(CryptoJS.enc.Utf8)
-// 输出密文和解密后的内容
-console.log(ciphertext, plaintext)
+const crypto = require('crypto');
+const algorithm = 'aes-192-cbc';
+const password = 'Password used to generate key';
+const key = crypto.scryptSync(password, 'salt', 24);
+
+const iv = Buffer.alloc(16, 0);
+
+const cipher = crypto.createCipheriv(algorithm, key, iv);
+
+let encrypted =cipher.update('some clear text data', 'utf8', 'hex');
+
+encrypted += cipher.final('hex');
+console.log(encrypted);
+
+const md5hash = crypto.createHash('md5');
+md5hash.update('some data to hash');
+console.log('md5 has is', md5hash.digest('hex'));
+const md5hash1 = crypto.createHash('md5');
+
+md5hash1.update('22');
+console.log('md5 22', md5hash1.digest('hex'));

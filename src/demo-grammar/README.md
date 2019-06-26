@@ -18,6 +18,8 @@
 - 上下文无关文法
 - 解析表达文法
 
+## 
+
 ## 参考
 
 - [自己动手写编译器](https://pandolia.net/tinyc/index.html)
@@ -39,7 +41,17 @@
 
 - [Wiki 上下文无关文法](https://en.wikipedia.org/wiki/Parsing_expression_grammar)
 
+- [CYK算法](https://zh.wikipedia.org/wiki/CYK%E7%AE%97%E6%B3%95)
+
 - [解析器与舞台剧](https://www.kancloud.cn/wizardforcel/go-blog-in-action/146840)
+
+- [一种可扩展的表达式解析及计算方法](https://www.ibm.com/developerworks/cn/java/j-lo-expressparse/index.html)
+
+- [AST抽象语法树](https://segmentfault.com/a/1190000016231512)
+
+- [王垠对Parser认识](https://www.yinwang.org/blog-cn/2015/09/19/parser)
+
+- [pegjs](https://www.wangming.co/2018/12/15/pegjs-document/#%E8%A7%A3%E6%9E%90%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%B1%BB%E5%9E%8B)
 
 - https://www.codercto.com/a/38880.html
 
