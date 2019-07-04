@@ -1,0 +1,3 @@
+/Users/Arthur/FlyLab/src/demo-c_language/uv/CMakeFiles/rebuild_cache.dir
+/Users/Arthur/FlyLab/src/demo-c_language/uv/CMakeFiles/edit_cache.dir
+/Users/Arthur/FlyLab/src/demo-c_language/uv/CMakeFiles/LibUvTutorial.dir

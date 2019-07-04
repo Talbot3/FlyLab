@@ -7,7 +7,7 @@ set (Tutorial_VERSION_MINOR 0)
 include(CheckCCompilerFlag)
 
 
-add_executable(LibUvTutorial src/exp.c)
+add_executable(LibUvTutorial src/uvthread.c)
 
 # include_directories(/usr/local/include/)
 # link_directories(/usr/local/lib)

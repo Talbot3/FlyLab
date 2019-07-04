@@ -1,5 +1,7 @@
 # C17 知识点摘要
 
+## 编译、链接、装载
+
 >C语言要点摘要，编译标准为c17
 
 ```bash
@@ -9,6 +11,15 @@ clang -std=c17 -o targetName sourceFile.c
 - `stdio.h not found`
 clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配置好了的。例如本机地址为：
 `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include`
+
+- https://tech.meituan.com/2015/01/22/linker.html
+
+## 工具
+
+- [ldd/otool](https://blog.csdn.net/delphiwcdj/article/details/25541397) 用来分析程序运行时需要依赖的动态库的工具
+- ar 打包为`.a`的静态库工具
+- nm是用来查看指定程序中的`符号表相关内容的工具`
+
 
 ## 其他话题
 
@@ -55,9 +66,17 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [cmake totorial](https://github.com/Campanula/CMake-tutorial)
 - [Pthread多线程编程](https://randu.org/tutorials/threads/#resources)
 - [libuv基础教程](https://luohaha.github.io/Chinese-uvbook/source/introduction.html)
+- [程序员的自我修养](https://book.douban.com/subject/3652388/)
+- [Linux RCU](http://chengqian90.com/Linux%E5%86%85%E6%A0%B8/Linux-RCU%E9%94%81%E6%9C%BA%E5%88%B6.html)
+- [RCU 演变](https://blog.csdn.net/dog250/article/details/5303424)
+- [Linux BPF](https://zh.wikipedia.org/wiki/BPF)
+- [Linux EBPF](https://blog.csdn.net/ljy1988123/article/details/50444693)
+- [深入理解并行编程](https://book.douban.com/subject/27078711/)
+- [Awesome-C](https://notabug.org/koz.ross/awesome-c#frameworks)
 
 ## QA
 
 - `__VA_ARGS__` 作用是什么?
 - 获取环境变量的函数名称及返回值类型是什么?
 - libuv fd=3是什么意思,常用的场景有哪些？
+- zero copy ?

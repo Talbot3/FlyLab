@@ -24,6 +24,7 @@
     "private-ip": "^1.0.5",
     "public-ip": "^3.1.0",
     "randombytes": "^2.1.0",
+    "raw-socket": "^1.7.0",
     "rfdc": "^1.1.4",
     "sip": "0.0.5",
     "smart-stream-timeout": "^0.2.1",

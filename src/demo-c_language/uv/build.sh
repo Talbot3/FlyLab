@@ -8,6 +8,5 @@ else
   echo "libuv installed ."
   echo ${libuv_flags}
 fi
-
-clang -o uvtest exp1.c ${libuv_flags}
-./uvtest && rm -rf uvtest
+clang -o uv src/quere-work.c ${libuv_flags}
+# ./uvtest && rm -rf uvtest
