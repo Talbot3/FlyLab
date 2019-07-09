@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <uv.h>
-#define FIB_UNTIL 1024
+#define FIB_UNTIL 20
 uv_loop_t *loop;
 uv_work_t reqs[FIB_UNTIL];
 
@@ -9,6 +9,7 @@ void after_fib(uv_work_t * req, int status) {
   if (status == UV_ECANCELED) printf("Calculation of %d cancelled.\n", *(int *) req->data);
   printf("Done calculating %dth fibonacci\n", *(int *) req->data);
 }
+
 long fib_(long n) {
   long f, f1 = 1, f2 = 1, x, i;
   for (i = 1; i <= n; i++) {
