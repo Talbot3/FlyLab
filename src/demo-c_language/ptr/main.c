@@ -30,5 +30,7 @@ int main(int argc, char **argv) {
   printf("str2 is %s\n", str2);
   printf("str3 is %s \n", str3);
 
+  printf("\a\a\a\a\a");
+  printf("done");
   return 0;
 }

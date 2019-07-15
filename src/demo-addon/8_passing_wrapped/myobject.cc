@@ -3,16 +3,19 @@
 
 MyObject::MyObject() : env_(nullptr), wrapper_(nullptr) {}
 
-MyObject::~MyObject() { napi_delete_reference(env_, wrapper_); }
+MyObject::~MyObject() {
+  printf("=====================Here is : ~MyObject \n");
+  napi_delete_reference(env_, wrapper_);
+}
 
 void MyObject::Destructor(napi_env env, void *nativeOjbect, void *) {
   reinterpret_cast<MyObject *>(nativeOjbect)->~MyObject();
 }
 
-
 napi_ref MyObject::constructor;
 
 napi_status MyObject::Init(napi_env env) {
+  printf("=====================Here is : MyObject::Init \n");
   napi_status status;
 
   napi_value cons;
@@ -27,6 +30,7 @@ napi_status MyObject::Init(napi_env env) {
 }
 
 napi_value MyObject::New(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : MyObject::New \n");
   napi_status status;
   size_t argc = 1;
   napi_value args[1];
@@ -55,6 +59,7 @@ napi_value MyObject::New(napi_env env, napi_callback_info info) {
 };
 napi_status MyObject::NewInstance(napi_env env, napi_value arg,
                                   napi_value *instance) {
+  printf("=====================Here is : MyObject::NewInstance \n");
   napi_status status;
   const int argc = 1;
   napi_value argv[argc] = {arg};

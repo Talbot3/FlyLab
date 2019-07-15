@@ -1,4 +1,11 @@
-const bindings = require('./build/Release/round_trip.node');
+let bindings = require('./build/Release/round_trip.node');
+
+function wait() {
+  setTimeout(() => {
+    console.log('free?');
+    wait();
+  }, 3999);
+}
 
 bindings.startThread(item => {
   const thePrime = item.prime;
@@ -10,5 +17,9 @@ bindings.startThread(item => {
     const theAnswer = (Math.random() > 0.1);
     console.log(thePrime + ': answering with ' + theAnswer);
     bindings.registerReturnValue(item, theAnswer);
+    if (!theAnswer) {
+      bindings = null;
+    }
   }, Math.random() * 200 + 200);
 });
+wait();

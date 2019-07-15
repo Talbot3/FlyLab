@@ -1,6 +1,6 @@
 #ifndef TEST
 #define TEST 
-
+#include <stdio.h>
 #include <node_api.h>
 
 class MyObject {

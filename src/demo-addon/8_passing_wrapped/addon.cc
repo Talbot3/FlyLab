@@ -2,6 +2,7 @@
 #include <assert.h>
 
 napi_value CreateObject(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : CreateObject  \n");
   napi_status status;
 
   size_t argc = 1;
@@ -16,6 +17,7 @@ napi_value CreateObject(napi_env env, napi_callback_info info) {
 
 
 napi_value Add(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : Add \n");
   napi_status status;
 
   size_t argc = 2;
@@ -43,6 +45,7 @@ napi_value Add(napi_env env, napi_callback_info info) {
   { name, 0, func, 0, 0, 0, napi_default, 0 }
 
 napi_value Init(napi_env env, napi_value exports) {
+ printf("=====================Here is : Init \n");
   napi_status status;
   MyObject::Init(env);
 

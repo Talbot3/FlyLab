@@ -24,6 +24,7 @@ typedef struct {
 } AddonData;
 
 static void CallJs(napi_env env, napi_value js_cb, void* context, void* data) {
+  printf("=====================Here is : CallJs\n");
   AddonData* addon_data = (AddonData*)context;
 
   napi_value constructor;
@@ -40,6 +41,7 @@ static void CallJs(napi_env env, napi_value js_cb, void* context, void* data) {
 }
 
 static void ThreadFinished(napi_env env, void* data, void* context) {
+  printf("=====================Here is : ThreadFinished\n");
   (void) context;
   AddonData* addon_data = (AddonData*) data;
   assert(uv_thread_join(&(addon_data->the_thread)) == 0);
@@ -47,6 +49,7 @@ static void ThreadFinished(napi_env env, void* data, void* context) {
 }
 
 static void PrimeThread(void* data) {
+  printf("=====================Here is : PrimeThread\n");
   AddonData* addon_data = (AddonData*) data;
   int idx_outer, idx_inner;
   int prime_count = 0;
@@ -93,6 +96,7 @@ static void PrimeThread(void* data) {
 }
 
 static napi_value StartThread(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : StartThread\n");
   size_t argc = 1;
   napi_value js_cb, work_name;
   AddonData* addon_data;
@@ -112,6 +116,7 @@ static napi_value StartThread(napi_env env, napi_callback_info info) {
 }
 
 static bool is_thread_item(napi_env env, napi_ref constructor_ref, napi_value value) {
+  printf("=====================Here is : is_thread_item\n");
   bool validate;
   napi_value constructor;
   assert(napi_get_reference_value(env, constructor_ref, &constructor) == napi_ok);
@@ -120,6 +125,7 @@ static bool is_thread_item(napi_env env, napi_ref constructor_ref, napi_value va
 }
 
 static napi_value RegisterReturnValue(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : RegisterReturnValue\n");
   size_t argc = 2;
   napi_value argv[2];
   AddonData* addon_data;
@@ -151,10 +157,12 @@ static napi_value RegisterReturnValue(napi_env env, napi_callback_info info) {
 
 
 static napi_value ThreadItemConstructor(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : ThreadItemConstructor Function\n");
   return NULL;
 }
 
 static napi_value GetPrime(napi_env env, napi_callback_info info) {
+  printf("=====================Here is : GetPrime\n");
   napi_value jsthis, prime_property;
   AddonData* ad;
   assert(napi_ok == napi_get_cb_info(env, info, 0, 0, &jsthis, (void*)&ad));
@@ -166,6 +174,7 @@ static napi_value GetPrime(napi_env env, napi_callback_info info) {
 }
 
 static void addon_is_unloading(napi_env env, void* data, void* hint) {
+  printf("=====================Here is : addon_is_unloading ==============================================\n");
   AddonData* addon_data = (AddonData*)data;
   uv_mutex_destroy(&(addon_data->check_status_mutex));
   assert(napi_delete_reference(env, addon_data->thread_item_constructor) == napi_ok);
@@ -173,6 +182,8 @@ static void addon_is_unloading(napi_env env, void* data, void* hint) {
 }
 
 NAPI_MODULE_INIT() {
+  printf("=====================Here is : NAPI_MODULE_INIT\n");
+
   AddonData* addon_data = memset(malloc(sizeof(*addon_data)), 0, sizeof(*addon_data));
 
   assert(napi_wrap(env,exports, addon_data, addon_is_unloading, NULL, NULL) == napi_ok);
