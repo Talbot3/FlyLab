@@ -87,7 +87,7 @@ static void ExecuteWork(napi_env env, void* data) {
       // have happened when this function returns, but it will be queued.
       assert(napi_call_threadsafe_function(addon_data->tsfn,
                                            the_prime,
-                                           napi_tsfn_blocking) == napi_ok);
+                                           napi_tsfn_nonblocking) == napi_ok);
     }
   }
 

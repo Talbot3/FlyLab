@@ -6,6 +6,11 @@ otool -hv binding.node
 
 ![](./ntool-exp.png)
 
+## [Nodejs N-Api](https://nodejs.org/dist/latest-v12.x/docs/api/n-api.html)
+
+Nodejs Napi 是原始的C接口，使用比较方便，支持异步，内存管理等等。
+[官方维护的Demo `node-addon-examples`](https://github.com/nodejs/node-addon-examples.git)
+
 ## FAQ
 
 ### `Nodejs`的插件是什么？
