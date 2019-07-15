@@ -19,7 +19,7 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [ldd/otool](https://blog.csdn.net/delphiwcdj/article/details/25541397) 用来分析程序运行时需要依赖的动态库的工具
 - ar 打包为`.a`的静态库工具
 - nm是用来查看指定程序中的`符号表相关内容的工具`
-
+- [lldb](https://southpeak.github.io/2015/01/25/tool-lldb/)/gdb 调试工具
 
 ## 其他话题
 
