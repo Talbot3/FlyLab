@@ -11,7 +11,7 @@ main() {
     scanf("%d", &c);
     printf("%d ", i);
   }
-
+  printf("%c %d", c, i);
   printf("\n");
 
 }
