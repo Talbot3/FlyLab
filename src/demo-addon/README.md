@@ -72,6 +72,13 @@ Nodejs Napi 是原始的C接口，使用比较方便，支持异步，内存管�
 }
 ```
 
+
+### 简述一下n-api异常调用流程 ?
+
+### NAPI_MODULE_INIT 与 NAPI_MODULE 的区别是什么 ？
+
+### n-api 异步接口上下文的分配如何设计 ？
+
 ## 参考
 
 - https://github.com/nodejs/node-gyp

@@ -41,11 +41,16 @@ static void CallJs(napi_env env, napi_value js_cb, void* context, void* data) {
 }
 
 static void ThreadFinished(napi_env env, void* data, void* context) {
-  printf("=====================Here is : ThreadFinished\n");
+  printf("=====================Here is : ThreadFinished=======================\n");
   (void) context;
   AddonData* addon_data = (AddonData*) data;
   assert(uv_thread_join(&(addon_data->the_thread)) == 0);
   addon_data->tsfn = NULL;
+
+  uv_mutex_destroy(&(addon_data->check_status_mutex));
+  assert(napi_delete_reference(env, addon_data->thread_item_constructor) == napi_ok);
+  free(data);
+  printf("=====================Here is : ThreadFinished=====================\n");
 }
 
 static void PrimeThread(void* data) {
@@ -181,8 +186,11 @@ static void addon_is_unloading(napi_env env, void* data, void* hint) {
   free(data);
 }
 
-NAPI_MODULE_INIT() {
-  printf("=====================Here is : NAPI_MODULE_INIT\n");
+#define DECLARE_NAPI_METHOD(name, func) \
+  {name, 0, func, 0, 0, 0, napi_default, 0}
+
+napi_value Init(napi_env env, napi_value exports) {
+   printf("=====================Here is : Init\n");
 
   AddonData* addon_data = memset(malloc(sizeof(*addon_data)), 0, sizeof(*addon_data));
 
@@ -205,3 +213,30 @@ NAPI_MODULE_INIT() {
   assert(napi_define_properties(env, exports, sizeof(export_properties) / sizeof(export_properties[0]), export_properties) == napi_ok);
   return exports;
 }
+
+NAPI_MODULE(NODE_GYP_MODULE_NAME, Init)
+
+// NAPI_MODULE_INIT() {
+//   printf("=====================Here is : NAPI_MODULE_INIT\n");
+
+//   AddonData* addon_data = memset(malloc(sizeof(*addon_data)), 0, sizeof(*addon_data));
+
+//   assert(napi_wrap(env,exports, addon_data, addon_is_unloading, NULL, NULL) == napi_ok);
+
+//   assert(uv_mutex_init(&(addon_data->check_status_mutex)) == 0);
+
+//   napi_value thread_item_class;
+//   napi_property_descriptor thread_item_properties[] = {
+//     {"prime", 0, 0, GetPrime, 0, 0, napi_enumerable, addon_data}
+//   };
+
+//   assert(napi_define_class(env, "ThreadItem", NAPI_AUTO_LENGTH, ThreadItemConstructor, addon_data, 1, thread_item_properties, &thread_item_class) == napi_ok);
+//   assert(napi_create_reference(env, thread_item_class,1, &(addon_data->thread_item_constructor))== napi_ok);
+
+//   napi_property_descriptor export_properties[] = {
+//     {"startThread", NULL, StartThread, NULL, NULL, NULL, napi_default, addon_data},
+//     {"registerReturnValue", NULL, RegisterReturnValue,NULL, NULL, NULL, napi_default, addon_data}
+//   };
+//   assert(napi_define_properties(env, exports, sizeof(export_properties) / sizeof(export_properties[0]), export_properties) == napi_ok);
+//   return exports;
+// }
