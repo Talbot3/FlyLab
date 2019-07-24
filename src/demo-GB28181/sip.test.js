@@ -11,6 +11,9 @@ digest = require('sip/digest');
 const randomBytest = require('randombytes');
 rbytes  = (n) => randomBytest(n).toString('hex');
 
+let localIp='192.168.38.175';
+let clientIp='192.168.41.110'
+let password = '9090';
 
 util = require('util');
 const Session = require('krtp').Session
@@ -39,8 +42,8 @@ const makeRegister = ()=> {
   if (isRegisterd) {
     return makeCall();
   }
-  const uri = "sip:34020000002000000001@192.168.20.217:5060";
-  const uri2 = "sip:34020000001320000001@192.168.28.110:5060";
+  const uri = "sip:34020000002000000001@192.168.38.175:5060";
+  const uri2 = "sip:34020000001320000001@192.168.41.110:5060";
   let registerObj = {
     method: 'REGISTER',
     uri: uri2,
@@ -63,11 +66,11 @@ const makeRegister = ()=> {
 
 
 const makeCall = ()=> {
-  const uri = "sip:34020000001320000001@192.168.28.110:5060";
+  const uri = `sip:34020000001320000001@${clientIp}:5060`;
   const sdp =  'v=0\r\n'+
-  'o=34020000001320000001 0 0 IN IP4 192.168.20.157\r\n'+
+  `o=34020000001320000001 0 0 IN IP4 ${localIp}\r\n`+
   's=Play\r\n'+
-  'c=IN IP4 192.168.20.157\r\n'+
+  `c=IN IP4 ${localIp}\r\n`+
   't=0 0\r\n'+
   'm=video 9724 RTP/AVP 96 97 98\r\n'+
   'a=rtpmap:96 PS/90000\r\n'+
@@ -86,7 +89,7 @@ const makeCall = ()=> {
       cseq: {method: 'INVITE', seq: 20 },
       'content-type': 'Application/SDP',
       'User-Agent': 'NCG V2.6.3.477777',
-      contact: [{uri: 'sip:0000042001000001@192.168.20.217:5060'}],
+      contact: [{uri: `sip:0000042001000001@${localIp}:5060`}],
       Subject: "34020000001320000001:1,34020000002000000001:1"
       // if your call doesnt get in-dialog request, maybe os.hostname() isn't resolving in your ip address
     },
@@ -115,12 +118,12 @@ const makeCall = ()=> {
         s.on('message', (msg) => {
           console.log(`=========================================================where are you`, msg)
           // s.close()
-          s.sendSR('192.168.28.110').catch(err => {
+          s.sendSR(clientIp).catch(err => {
             console.log('====================ERROR WITH RTP=====================================',err);
           });
         });
         s.port = Number(port);
-        s.sendSR('192.168.28.110').catch(err => {
+        s.sendSR(clientIp).catch(err => {
           console.log('====================ERROR WITH RTP=====================================',err);
         });
         // s.send(Buffer.from('Hello world'))
@@ -159,8 +162,8 @@ const makeCall = ()=> {
 }
 
 /**
- * MESSAGE sip:34020000001320000001@192.168.28.110:5060 SIP/2.0
- * To: <sip:34020000001320000001@192.168.28.110:5060>
+ * MESSAGE sip:34020000001320000001@192.168.41.110:5060 SIP/2.0
+ * To: <sip:34020000001320000001@192.168.41.110:5060>
  * Content-Length: 123
  * CSeq: 2 MESSAGE
  * Call-ID: 124952471
@@ -179,7 +182,7 @@ const makeCall = ()=> {
 const makeDevice = () => {
   console.log("================================================================");
   const uri = "sip:0000042001000001@192.168.20.217:5060";
-  const uri2 = "sip:34020000001320000001@192.168.28.110:5060"
+  const uri2 = `sip:34020000001320000001@${clientIp}:5060`
   sip.send({
     method: 'MESSAGE',
     uri,
@@ -230,7 +233,7 @@ sip.start({
         case 'REGISTER':
           if (!digest.authenticateRequest(regcontext, rq, {
             user: '34020000001320000001',
-            password: '987987'
+            password
           })) {
             return sip.send(digest.challenge(regcontext, sip.makeResponse(rq, 401, 'Authorization Required')));
           } else {
@@ -248,7 +251,7 @@ sip.start({
         case 'INVITE':
           if (!digest.authenticateRequest(context, rq, {
             user: '34020000001320000001',
-            password: '987987'
+            password
           })) {
             return sip.send(digest.challenge(context, sip.makeResponse(rq, 401, 'Authorization Required')));
           } else {
