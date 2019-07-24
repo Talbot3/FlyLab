@@ -1,4 +1,8 @@
 
+/**
+ * Subject 中的参数，需要先查询设备，获取设备ID(line 97)
+ */
+
 const MSS = require('./ms');
 const EventEmitter = require('events');
 const event = new EventEmitter();
