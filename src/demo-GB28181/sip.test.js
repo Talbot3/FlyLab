@@ -98,7 +98,6 @@ const makeCall = ()=> {
       // if your call doesnt get in-dialog request, maybe os.hostname() isn't resolving in your ip address
     },
     content:sdp
-     
   },
   function(rs) {
     if(rs.status >= 300) {
@@ -185,33 +184,35 @@ const makeCall = ()=> {
  */
 const makeDevice = () => {
   console.log("================================================================");
-  const uri = "sip:0000042001000001@192.168.20.217:5060";
-  const uri2 = `sip:34020000001320000001@${clientIp}:5060`
+  const uri = `sip:34020000001320000001@${clientIp}:5060`;
   sip.send({
     method: 'MESSAGE',
     uri,
     headers: {
-      to: {uri: uri2},
-      from: {uri, params: {tag: rstring()}},
+      to: uri,
+      from: {uri: 'sip:34020000002000000001@$3402000000:5060', params: {tag: rstring()}},
       'call-id': rstring(),
-      cseq: {method: 'MESSAGE', seq: 2},
+      cseq: {method: 'MESSAGE', seq: 2020},
+      contact: [{uri: `sip:0000042001000001@${localIp}:5060`}],
       'content-type': 'Application/MANSCDP+xml',
+      'User-Agent': 'NCG V2.6.3.477777'
     },
     content: 
-    '<?xml version="1.0"?>' +
-    '<Query>' +
-    '<CmdType>Catalog</CmdType>' +
-    '<SN>0</SN>' +
-    '<DeviceId>34020000001320000001</DeviceId>' +
-    '</Query>'
+    '<?xml version="1.0"?>\n<Query>\n<CmdType>Catalog</CmdType>\n<SN>10809</SN>\n<DeviceID>34020000001320000001</DeviceID>\n</Query>\n'
   }, (res)=> {
-    console.log(`request device list `,JSON.stringify(res));
+    // console.log(`request device list `,JSON.stringify(res));
   });
 }
 
 event.on('clientRegister', ()=>{
-  makeCall();
+  // makeCall();
   // return makeCall();
+});
+
+event.on('fine', ()=> {
+  setInterval(() => {
+    makeDevice();
+  }, 6000);
 });
 
 sip.start({
@@ -245,6 +246,7 @@ sip.start({
             rs.headers.to.tag = rbytes(16);
             sip.send(digest.signResponse(regcontext, rs));
             event.emit('clientRegister');
+            event.emit('fine');
           }
           break;
         case 'MESSAGE':
