@@ -24,6 +24,23 @@ INVITE 方法中Subject、sdp中y=1100000000这两个字段的结构需要详细
 - Register Server
 - Redirect Server
 
+## FAQ
+
+- SIP是什么？
+- SIP Header包括哪些字段？每个字段的涵意是什么、是如何构建的，从什么方法构建的？
+- SIP UAS\UAC？
+- SIP B2BUA的定义是什么？
+- SIP 的方法的分类有几种？
+- SIP 有几层模弄，最底层是什么？
+- SIP 修改会话使用哪个方法？
+- SIP传输层中，如何确定别一端的地址与端口？
+- GB28181 RTP包结构是如何划分的？
+- GB28181与SIP中的SDP有何区别，有哪些注意点？
+- GB28181指定了SIP哪种逻辑体来作为中心式控制,比如UAS/UA Proxy/Register Server/Redirect Server/Redirect Server/B2BUA？
+- GB28181查询设备xml结构？
+- 如何设计SIP架构了，该如何划分，如何组织，如何调用为一边链？
+
+
 ## `SIP Server`开源实现
 
 - [opensips](https://opensips.org/)
