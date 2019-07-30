@@ -15,7 +15,7 @@ digest = require('sip/digest');
 const randomBytest = require('randombytes');
 rbytes  = (n) => randomBytest(n).toString('hex');
 
-let localIp='192.168.38.175';
+let localIp='192.168.17.197';
 let clientIp='192.168.41.110'
 let password = '9090';
 
@@ -205,7 +205,7 @@ const makeDevice = () => {
 }
 
 event.on('clientRegister', ()=>{
-  // makeCall();
+  makeCall();
   // return makeCall();
 });
 
