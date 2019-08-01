@@ -58,11 +58,16 @@ https://doc.rust-lang.org/book/2018-edition/ch03-05-control-flow.html#control-fl
 
 ## [阅读指南](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html)
 
-## Q: 使用cargo的常用的有哪三条基本命令？
-A:
+## Q: 使用cargo的常用的有哪些基本命令？
+
+A: cargo --help; cargo build; cargo run;
+
 ## Q: Cargo.lock的作用是什么？
+
 A:
 ## Q: Cargo.toml 使用的版本管理协议是什么？
+
 A:
 ## Q: 一旦发布到crate.io，还能删除么？
+
 A:

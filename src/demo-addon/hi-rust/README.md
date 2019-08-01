@@ -15,6 +15,16 @@
 
 Neon 让我们可以在 Rust 代码中使用 JavaScript 类型。要创建一个新的 Neon 工程，我们可以使用它自带的命令行工具。执行 npm install neon-cli --global 来安装它。
 
+## FAQ
+
+- what is heap/stack?
+
+> from  https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/
+
+Stack Allocation : The allocation happens on contiguous blocks of memory. We call it stack memory allocation because the allocation happens in function call stack. The size of memory to be allocated is known to compiler and whenever a function is called, its variables get memory allocated on the stack. And whenever the function call is over, the memory for the variables is deallocated. This all happens using some predefined routines in compiler. Programmer does not have to worry about memory allocation and deallocation of stack variables.
+
+Heap Allocation : The memory is allocated during execution of instructions written by programmers. Note that the name heap has nothing to do with heap data structure. It is called heap because it is a pile of memory space available to programmers to allocated and de-allocate. If a programmer does not handle this memory well, memory leak can happen in the program.
+
 ## 阅读指南
 
 - [Rust自定义错误](https://boats.gitlab.io/blog/post/2017-11-16-announcing-failure/)
