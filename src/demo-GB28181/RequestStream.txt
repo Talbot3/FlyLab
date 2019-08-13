@@ -5,10 +5,10 @@ To: <sip:32140@192.168.28.110:5060>
 Call-ID: 30013
 CSeq: 20 INVITE
 Contact: <sip:0000042001000001@0.0.0.0:5080>
-Content-Type: Application/SDP
 Max-Forwards: 70
 User-Agent: NCG V2.6.3.477777
 Subject: 32140:32500,0000042001000001:0
+Content-Type: Application/SDP
 Content-Length: 229
 
 v=0
