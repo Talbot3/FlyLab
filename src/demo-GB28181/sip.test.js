@@ -92,7 +92,7 @@ const makeCall = ()=> {
       'call-id': rstring(),
       cseq: {method: 'INVITE', seq: 20 },
       'content-type': 'Application/SDP',
-      'User-Agent': 'NCG V2.6.3.477777',
+      'Server': 'NCG V2.6.3.477777',
       contact: [{uri: `sip:0000042001000001@${localIp}:5060`}],
       Subject: "34020000001320000001:1,34020000002000000001:1"
       // if your call doesnt get in-dialog request, maybe os.hostname() isn't resolving in your ip address
@@ -195,7 +195,7 @@ const makeDevice = () => {
       cseq: {method: 'MESSAGE', seq: 2020},
       contact: [{uri: `sip:0000042001000001@${localIp}:5060`}],
       'content-type': 'Application/MANSCDP+xml',
-      'User-Agent': 'NCG V2.6.3.477777'
+      'Server': 'NCG V2.6.3.477777'
     },
     content: 
     '<?xml version="1.0"?>\n<Query>\n<CmdType>Catalog</CmdType>\n<SN>10809</SN>\n<DeviceID>34020000001320000001</DeviceID>\n</Query>\n'
