@@ -9,7 +9,7 @@
 ```bash
 brew install gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-libav;
 # [ISSUE `Package 'libffi', required by 'gobject-2.0', not found`](https://github.com/otrv4/pidgin-otrng/issues/104)
-export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig;
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig";
 ```
 
 ## Gstream 概念
