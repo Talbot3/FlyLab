@@ -1,4 +1,4 @@
-# GStream
+# GStreamer
 
 > want you play funny
 
@@ -12,7 +12,7 @@ brew install gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-lib
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig";
 ```
 
-## Gstream 概念
+## Gstreamer 概念
 
 ```bash
 引入了许多概念，相关文档可以参考 `docs/pdfs/Gstreamermanual.157392612.pdf`
