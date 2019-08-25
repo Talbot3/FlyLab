@@ -47,6 +47,8 @@ INVITE 方法中Subject、sdp中y=1100000000这两个字段的结构需要详细
 > 1. GB28181 附录F 规范性附录
 > 2. 基于RTP的视音频数据PS封装
 
+- [RTSP Server 设计要点](https://www.cnblogs.com/haibindev/p/7918733.html)
+
 ## `SIP Server`开源实现
 
 - [opensips](https://opensips.org/)
