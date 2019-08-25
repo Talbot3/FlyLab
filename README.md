@@ -1,5 +1,7 @@
 # 禅与进
 
+> just someone's notes collection for a better learning experience
+
 ## 目前范围
 
 - 编程模型(Nodejs\C/C++\Rust)
