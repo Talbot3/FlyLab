@@ -21,3 +21,5 @@ export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig";
 ## 参考
 
 - [gstream tutorial](https://gstreamer.freedesktop.org/documentation/tutorials/basic/dynamic-pipelines.html?gi-language=c)
+
+- [Gstreamer 中文版](https://wenku.baidu.com/view/95f916c708a1284ac850432a.html)
