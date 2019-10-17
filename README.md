@@ -1,6 +1,6 @@
 # 禅与进
 
-> just someone's notes collection for a better learning experience
+> just someone's notes collection for a better learning experience（玩的开心）
 
 ## 目前范围
 
