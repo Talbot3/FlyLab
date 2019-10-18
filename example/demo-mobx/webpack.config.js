@@ -9,16 +9,20 @@ const config = {
   module: {
     rules:[
       {
-        test: /\.js$/,
+        test: /\.js|jsx$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
             presets: [
               "@babel/preset-env",
+              "@babel/preset-react",
+              "mobx"
             ],
             plugins: [
-              "@babel/plugin-proposal-class-properties",
+              ["@babel/plugin-proposal-decorators", { "legacy": true }],
+              ["@babel/plugin-proposal-class-properties", { "loose": true }],
+              "@babel/plugin-proposal-object-rest-spread"
             ]
           }
         }
