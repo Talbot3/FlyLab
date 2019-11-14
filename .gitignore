@@ -47,3 +47,6 @@ build
 
 package-lock.json
 .saluted
+
+.mp4
+.flv
