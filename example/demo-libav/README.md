@@ -15,7 +15,7 @@
 - [ffmpeg 解码API](https://www.cnblogs.com/TaigaCon/p/10041926.html)
 - [《FFMpeg开发者手册》](../../doc/pdfs/FFMpeg开发者手册.pdf)
 - [FFmpeg源代码简单分析：avio_open2()](https://blog.csdn.net/leixiaohua1020/article/details/41199947)
-
+- [CentOS 7 ffmpeg 支持 nVidia](https://blog.csdn.net/xundh/article/details/100760114)
 
 ## 官方解码示例
 
