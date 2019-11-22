@@ -22,7 +22,7 @@ ENV PKG_CONFIG_PATH /usr/local/lib/pkgconfig
 RUN curl -fsSLO https://ffmpeg.org/releases/ffmpeg-$FFMPEG_VERSION.tar.bz2 \
   && tar -xjf ffmpeg-$FFMPEG_VERSION.tar.bz2 \
   && cd ffmpeg-$FFMPEG_VERSION \
-  && ./configure --enable-nvenc \
+  && ./configure --enable-nvenc --enable-static \
   && make -j$(nproc) \
   && make install
 
@@ -34,3 +34,5 @@ ENV NVIDIA_DRIVER_CAPABILITIES compute,video,utility
 
 COPY --from=builder /usr/local/bin/ffmpeg /usr/local/bin/ffmpeg
 COPY --from=builder /usr/local/bin/ffprobe /usr/local/bin/ffprobe
+COPY --from=builder /usr/local/lib/ /usr/local/lib/
+COPY --from=builder /usr/local/include /usr/local/include
