@@ -21,6 +21,10 @@
 
 ### docker build 有哪些参数
 
+## nvidia
+
+- nvidia nvenc
+
 ## 参考
 
 - https://blog.csdn.net/wait_for_eva/article/details/82730914
