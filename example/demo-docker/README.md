@@ -25,6 +25,8 @@
 
 - nvidia nvenc
 
+## [多段构建(multistage build)](https://docs.docker.com/develop/develop-images/multistage-build/)
+
 ## 参考
 
 - https://docs.docker.com/develop/
