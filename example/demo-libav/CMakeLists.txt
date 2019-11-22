@@ -11,8 +11,8 @@ add_definitions(-DRTP2MEDIA_VERSION="1.0.1")
 string(TIMESTAMP BUILDTIME "%Y%m%d-%H:%M")
 add_definitions(-DRTP2MEDIA_BUILDTIME="${BUILDTIME}")
 
-include_directories(include/)
-link_directories(lib/)
+include_directories(/usr/local/ffmpeg/include)
+link_directories(/usr/local/ffmpeg/lib)
 
 if (APPLE)
   include_directories(/usr/local/include/)
