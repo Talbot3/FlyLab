@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-set -e
+# set -e
 
 SCRIPT=`pwd`/$0
 FILENAME=`basename $SCRIPT`
 PATHNAME=`dirname $SCRIPT`
-ROOT=$PATHNAME/..
-BUILD_DIR=$ROOT/build
+ROOT=$PATHNAME
+BUILD_DIR=$ROOT
 CURRENT_DIR=`pwd`
 
-LIB_DIR=$BUILD_DIR/libdeps
-PREFIX_DIR=$LIB_DIR/build/
-FAST_MAKE='-j4'
+LIB_DIR=$BUILD_DIR/deps
+PREFIX_DIR=/usr/local
+FAST_MAKE='-j8'
 
 install_vpx(){
   [ -d $LIB_DIR ] || mkdir -p $LIB_DIR
@@ -96,20 +96,22 @@ build_ffmpeg(){
   install_fdk_aac
   if [ -d $LIB_DIR ]; then
     cd $LIB_DIR
-    if [ ! -f ./ffmpeg-4.2.0.tar.bz2 ]; then
-      curl -O -L http://ffmpeg.org/releases/ffmpeg-4.2.0.tar.bz2
+    if [ ! -f ./ffmpeg-4.2.1.tar.bz2 ]; then
+      curl -O -L http://ffmpeg.org/releases/ffmpeg-4.2.1.tar.bz2
     else
        echo "already download"
     fi
 
-    tar -xjvf ffmpeg-4.2.0.tar.bz2
-    cd ffmpeg-4.2.0
-    PKG_CONFIG_PATH=${PREFIX_DIR}/lib/pkgconfig ./configure --prefix=$PREFIX_DIR --disable-nvenc  --disable-avdevice --disable-armv5te --disable-armv6 --disable-armv6t2  --disable-devices --disable-hwaccels --disable-shared --enable-gpl --enable-avresample --enable-libvpx --enable-libx264 --enable-libopus --enable-libfdk_aac --enable-nonfree --extra-cflags="-fPIC" --enable-static --disable-ffplay --disable-ffserver --disable-ffprobe --enable-pic --disable-symver --disable-lzma --disable-vdpau --disable-vaapi --disable-bzlib --extra-cflags='-I'${PREFIX_DIR}'/include/'  --extra-ldflags='-L'${PREFIX_DIR}'/lib'    make $FAST_MAKE -s V=0
+    tar -xjvf ffmpeg-4.2.1.tar.bz2
+    cd ffmpeg-4.2.1
+    ./configure --prefix=$PREFIX_DIR --enable-nvenc  --disable-avdevice --disable-armv5te --disable-armv6 --disable-armv6t2  --disable-devices --disable-hwaccels --disable-shared --enable-gpl --enable-avresample --enable-libvpx --enable-libx264 --enable-libopus --enable-libfdk_aac --enable-nonfree --extra-cflags="-fPIC" --enable-static --disable-ffplay --disable-ffprobe --enable-pic --disable-symver --disable-lzma --disable-vdpau --disable-vaapi --disable-bzlib --extra-cflags='-I'${PREFIX_DIR}'/include/'  --extra-ldflags='-L'${PREFIX_DIR}'/lib' && make $FAST_MAKE -s V=0
     make install
     cd $CURRENT_DIR
   fi
 }
-
-mkdir -p $PREFIX_DIR
+# echo $PREFIX_DIR;
+mkdir -p $LIB_DIR
+echo $LIB_DIR;
 
 build_ffmpeg
+# install_fdk_aac

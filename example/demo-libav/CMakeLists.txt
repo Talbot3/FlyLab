@@ -11,13 +11,8 @@ add_definitions(-DRTP2MEDIA_VERSION="1.0.1")
 string(TIMESTAMP BUILDTIME "%Y%m%d-%H:%M")
 add_definitions(-DRTP2MEDIA_BUILDTIME="${BUILDTIME}")
 
-include_directories(/usr/local/ffmpeg/include)
-link_directories(/usr/local/ffmpeg/lib)
-
-if (APPLE)
-  include_directories(/usr/local/include/)
-  link_directories(/usr/local/lib)
-endif (APPLE)
+include_directories(/home/wangc/FlyLab/example/demo-libav/build/libdeps/build/include)
+link_directories(/home/wangc/FlyLab/example/demo-libav/build/libdeps/build/lib)
 
 set(SOURCE_FILES
         src/encode_video_mult_rtmp.c
@@ -34,10 +29,9 @@ target_link_libraries(demo-libav libswscale.a)
 target_link_libraries(demo-libav libavutil.a)
 target_link_libraries(demo-libav libopus.a)
 target_link_libraries(demo-libav libvpx.a)
-target_link_libraries(demo-libav libx264.a)
 target_link_libraries(demo-libav libfdk-aac.a)
 
 if (UNIX AND NOT APPLE)
-  target_link_libraries(demo-libav m z pthread dl)
+  target_link_libraries(demo-libav m z pthread dl X11 vdpau va va-drm va-x11 )
 endif (UNIX)
 install(PROGRAMS build/demo-libav DESTINATION /usr/local/bin/)

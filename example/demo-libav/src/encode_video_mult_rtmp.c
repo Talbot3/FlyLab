@@ -1,3 +1,6 @@
+#ifdef __cplusplus
+extern "C"{
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,9 +14,13 @@
 #include "libavutil/mathematics.h"
 #include "libavutil/time.h"
 
+#ifdef __cplusplus
+}
+#endif
+
+
 #define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)
 #define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
-#define __STDC_CONSTANT_MACROS
 
 uint8_t endcode[] = { 0, 0, 1, 0xb7 };
 
@@ -102,7 +109,9 @@ void biu_rtsp_init(BiuRTSP *biu_rtsp,int width, int height ,const char channel[]
   biu_rtsp->pkt = av_packet_alloc();
   strcpy(biu_rtsp->channel_name, channel);
   sprintf(biu_rtsp->url, "rtmp://localhost:1935/live/%s", biu_rtsp->channel_name);
-  biu_rtsp->codec = avcodec_find_encoder(AV_CODEC_ID_H264);
+
+  biu_rtsp->codec = avcodec_find_encoder_by_name("h264_nvenc");
+  // avcodec_find_encoder(AV_CODEC_ID_H264);
   if (!biu_rtsp->codec) {
     fprintf(stderr, "codec not found\n");
     exit(1);
