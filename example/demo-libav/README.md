@@ -55,3 +55,12 @@ demo-liav random.mp4
 ## RTSP Tutorial
 
 - https://www.cnblogs.com/ansersion/p/6959690.html
+
+## ubuntu vaapi
+
+- https://blog.csdn.net/qiuchangyong/article/details/79494766
+
+## ffmpeg install 
+```
+ffmpeg.install.sh
+```
