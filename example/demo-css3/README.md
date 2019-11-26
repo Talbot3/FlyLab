@@ -28,7 +28,23 @@ gulp.task('styles', function () {
 ## CSS3 
 
 
+## [Emmet](https://docs.emmet.io/)
+
+> Emmet是网络开发人员的工具包，可以极大地改善您的HTML和CSS工作流程：
+
+```bash
+# macos: command + p
+# window: ctrl + p
+ext install TWIG pack
+```
+
+## 雪碧图
+
+- [css sprite雪碧图制作，使用以及相关，图文gif](https://juejin.im/post/58eb062861ff4b006b576d9c)
+
+
 ## 参考
 
 - [Gulp Sass tutorial](http://zetcode.com/gulp/sass/)
 - [gulp-guide](https://www.kancloud.cn/thinkphp/gulp-guide)
+- [css3 tutorial](https://wiki.imooc.com/css3/css3introduce.html)

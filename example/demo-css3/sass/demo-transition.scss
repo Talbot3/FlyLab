@@ -12,3 +12,77 @@
   // linear ease easeout 
   transition: transform 1s ease-out;
 }
+
+.demo-2 {
+  margin-top: 10px;
+  &:hover {
+    .cell {
+      animation: move 2s linear 2 alternate running;
+    }
+  }
+  .cell {
+   width: 200px;
+   height: 200px;
+   background: red
+  }
+ // linear ease easeout 
+ transition: transform 1s ease-out;
+}
+
+@keyframes  move {
+  100% {
+    transform: translateX(200px)
+  } 
+}
+
+.demo-3:hover {
+  margin: 40px auto;
+  border-radius: 50%;
+  animation: jump 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+
+@keyframes  jump {
+  0% {
+    transform: translateY(0px)
+  } 
+
+  90% {
+    transform: translateY(200px);
+    clip-path: ellipse(50% 50% at 50% 50%);
+  } 
+
+  100% {
+    transform: translateY(0px);
+    clip-path: ellipse(50% 45% at 50% 48%);
+  } 
+}
+
+.loading {
+  width: 108px;
+  height: 108px;
+  background: url('../assert/loading.webp') no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  animation: round 1s steps(12) 2;
+}
+
+@keyframes round {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.person {
+  width: 200px;
+  height: 200px;
+  background: url('../assert/person.webp') no-repeat;
+  background-size: 1000%;  
+  // 动画名称 持续时间 运动曲线（steps()分为几步）循环次数
+  animation: personBlast 2s steps(8) infinite;
+}
+
+@keyframes personBlast {
+  100% {
+    background-position-x: -2400px;
+  }
+}
