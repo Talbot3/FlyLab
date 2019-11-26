@@ -1,0 +1,14 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+
+.demo-1 {
+   &:hover {
+    // width: 500px;
+    transform: rotate(43deg)
+   }
+  // linear ease easeout 
+  transition: transform 1s ease-out;
+}
