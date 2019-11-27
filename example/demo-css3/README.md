@@ -29,7 +29,6 @@ gulp.task('styles', function () {
 
 - [Sass入门篇](https://www.imooc.com/code/5993)
 - [Sass进阶篇](https://www.imooc.com/learn/436)
-- [Compass](https://www.imooc.com/learn/364)
 
 ## [Emmet](https://docs.emmet.io/)
 
@@ -51,3 +50,5 @@ ext install TWIG pack
 - [Gulp Sass tutorial](http://zetcode.com/gulp/sass/)
 - [gulp-guide](https://www.kancloud.cn/thinkphp/gulp-guide)
 - [css3 tutorial](https://wiki.imooc.com/css3/css3introduce.html)
+- [我为什么不再用Compass写CSS（缺点分析）
+](http://ourjs.com/detail/54ed5397232227083e000035)
