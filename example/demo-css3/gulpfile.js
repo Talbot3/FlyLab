@@ -2,7 +2,7 @@ let gulp = require('gulp');
 let gulpSass = require('gulp-sass');
 let del = require('del');
 gulp.task('watch', () => {
-  gulp.watch('sass/*.scss', (done) => {
+  gulp.watch('scss/*.scss', (done) => {
       gulp.series(['clean','styles'])(done);
   });
 });
@@ -14,7 +14,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('styles', function (done) {
-    gulp.src('sass/*.scss')
+    gulp.src('scss/*.scss')
         .pipe(gulpSass({
           outputStyle: 'compressed'
         }))
