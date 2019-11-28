@@ -1,6 +1,16 @@
-# SASS
+# CSS
 
-## 环境搭建
+- [CSS基础](https://www.imooc.com/video/11120)
+- [csszengarden](http://www.csszengarden.com/215/)
+
+## SASS
+
+- [Sass入门篇](https://www.imooc.com/code/5993)
+- [Sass进阶篇](https://www.imooc.com/learn/436)
+
+![Sass](./Sass.png)
+
+### 环境搭建
 
 - [Nodejs](https://nodejs.org)
 - [gulp](https://www.gulpjs.com.cn/)
@@ -25,12 +35,6 @@ gulp.task('styles', function () {
 
 ```
 
-## CSS
-
-- [Sass入门篇](https://www.imooc.com/code/5993)
-- [Sass进阶篇](https://www.imooc.com/learn/436)
-
-![Sass](./Sass.png)
 
 ## [Emmet](https://docs.emmet.io/)
 
