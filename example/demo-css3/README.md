@@ -56,5 +56,4 @@ ext install TWIG pack
 - [Gulp Sass tutorial](http://zetcode.com/gulp/sass/)
 - [gulp-guide](https://www.kancloud.cn/thinkphp/gulp-guide)
 - [css3 tutorial](https://wiki.imooc.com/css3/css3introduce.html)
-- [我为什么不再用Compass写CSS（缺点分析）
-](http://ourjs.com/detail/54ed5397232227083e000035)
+- [我为什么不再用Compass写CSS（缺点分析）](http://ourjs.com/detail/54ed5397232227083e000035)
