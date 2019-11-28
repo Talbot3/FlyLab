@@ -30,6 +30,8 @@ gulp.task('styles', function () {
 - [Sass入门篇](https://www.imooc.com/code/5993)
 - [Sass进阶篇](https://www.imooc.com/learn/436)
 
+![Sass](./Sass.png)
+
 ## [Emmet](https://docs.emmet.io/)
 
 > Emmet是网络开发人员的工具包，可以极大地改善您的HTML和CSS工作流程：
