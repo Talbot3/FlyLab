@@ -1,0 +1,11 @@
+.marquee {
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    .list {
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+}
