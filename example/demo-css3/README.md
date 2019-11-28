@@ -2,6 +2,27 @@
 
 - [CSS基础](https://www.imooc.com/video/11120)
 - [csszengarden](http://www.csszengarden.com/215/)
+- [css](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - [MDN CSS 基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - [mooc css online](https://www.imooc.com/code/611)
+
+### css selectors
+
+```
+标签选择器：标签名{},作用于所有标签。
+
+类选择器：.类名{}，在标签内定义class="",属图形结构。
+
+ID选择器：#ID{}，在标签内定义id="",有严格的一一对应关系。
+
+子选择器：.span>li{}，作用于父元素span下一层的li标签。
+
+包含选择器：.span li{}，作用于父元素span下所有li标签。
+
+通用选择器: *{}，匹配所有html元素。
+
+伪类选择符：它允许给html不存在的标签(标签的某种状态)设置样式，比如说我们给html中的一个标签元素的鼠标滑过的状态来设置字体颜色。
+```
 
 ## SASS
 
