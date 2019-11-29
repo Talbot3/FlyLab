@@ -6,12 +6,14 @@ window.onload= (event)=> {
     console.log('page is fully loaded');
     let marquee = document.querySelector('.marquee');
     let content = document.querySelector('.content');
+    let leftButton = document.querySelector('#left');
+    let rightButton = document.querySelector('#right');
     let list= document.querySelectorAll('.list');
     let outerWidth = 600;
     let outerHeight = 400;
     let speed = 3;
     let transitionTime = 1;
-    let initIndex = 1;
+    let initIndex = 0;
     let listLength = list.length;
     console.log('length', listLength, list);
     let contentWidth = outerWidth * listLength;
@@ -47,19 +49,31 @@ window.onload= (event)=> {
     });
 
     let leftClick = () => {
-        --initIndex;
-        initIndex <= 0 ? initIndex = 0: '';
+        initIndex--;
         content.setAttribute('style', `transition: transform ${transitionTime}s ease;transform: translateX(-${outerWidth*initIndex}px)`);
-        initIndex === listLength? initIndex = 0: '';
-    }
-    let rightClick = () => {
-        ++initIndex;
-        content.setAttribute('style', `transition: transform ${transitionTime}s ease;transform: translateX(-${outerWidth*initIndex}px)`);
-        initIndex === listLength? initIndex = 0: '';
-    }
-    let leftButton = document.querySelector('#left');
-    let rightButton = document.querySelector('#right');
+        initIndex === 0? initIndex = listLength: '';
+    };
 
+    let rightClick = () => {
+        initIndex++;
+        content.setAttribute('style', `transition: transform ${transitionTime}s ease;transform: translateX(-${outerWidth*initIndex}px)`);
+        initIndex === listLength? initIndex = 0: '';
+    };
+
+    leftButton.addEventListener('mouseenter', ()=> {
+        console.log('mouseenter');
+        if (initIndex === 0) {
+            initIndex = listLength;
+            content.setAttribute('style', `transition: none;transform: translateX(-${outerWidth*initIndex}px)`);
+        }
+    });
+    rightButton.addEventListener('mouseenter', ()=> {
+        console.log('mouseenter');
+        if (initIndex === listLength) {
+            initIndex = 0;
+            content.setAttribute('style', `transition: none;transform: translateX(-${outerWidth*initIndex}px)`);
+        }
+    });
     leftButton.onclick = leftClick;
     rightButton.onclick = rightClick;
 
