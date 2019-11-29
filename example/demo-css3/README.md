@@ -74,7 +74,7 @@ ext install TWIG pack
 ## Q&A
 
 - Flex布局
-
+- Uncaught DOMException: Failed to execute ‘insertRule’ on ‘CSSStyleSheet’? 使用style属性或创建style标签来取代insertRule.
 
 ## 参考
 
@@ -82,3 +82,4 @@ ext install TWIG pack
 - [gulp-guide](https://www.kancloud.cn/thinkphp/gulp-guide)
 - [css3 tutorial](https://wiki.imooc.com/css3/css3introduce.html)
 - [我为什么不再用Compass写CSS（缺点分析）](http://ourjs.com/detail/54ed5397232227083e000035)
+- [Uncaught DOMException: Failed to execute ‘insertRule’ on ‘CSSStyleSheet’](https://www.noxxxx.com/uncaught-domexception-failed-to-execute-insertrule-on-cssstylesheet.html)
