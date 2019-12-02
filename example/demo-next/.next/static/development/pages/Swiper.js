@@ -4723,7 +4723,7 @@ const VirtualizeSwipeableViews = Object(react_swipeable_views_utils__WEBPACK_IMP
 const styles = {
   slide: {
     padding: 0,
-    height: 1000,
+    height: "100%",
     color: '#fff'
   },
   slide1: {
@@ -4798,25 +4798,25 @@ class DemoVirtualize extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compon
   }
 
   render() {
-    return __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 80
-      },
-      __self: this
-    }, __jsx(VirtualizeSwipeableViews, {
+    return __jsx(VirtualizeSwipeableViews, {
       resistance: true,
+      style: {
+        height: '100%'
+      },
       index: this.state.index,
       containerStyle: styles.slide,
+      slideStyle: {
+        height: '100%'
+      },
       onChangeIndex: this.handleChangeIndex,
       slideRenderer: slideRenderer,
       axis: "y",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 80
       },
       __self: this
-    }));
+    });
   }
 
 }
@@ -4825,7 +4825,7 @@ class DemoVirtualize extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Compon
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FSwiper&absolutePagePath=%2FUsers%2FArthur%2FFlyLab%2Fexample%2Fdemo-next%2Fpages%2FSwiper.js ***!
   \*******************************************************************************************************************************************/
@@ -4848,5 +4848,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Swiper.js.map

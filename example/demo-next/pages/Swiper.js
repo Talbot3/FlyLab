@@ -10,7 +10,7 @@ const VirtualizeSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 const styles = {
   slide: {
     padding: 0,
-    height: 1000,
+    height: "100%",
     color: '#fff',
   },
   slide1: {
@@ -77,16 +77,16 @@ class DemoVirtualize extends React.Component {
 
   render() {
     return (
-      <div>
         <VirtualizeSwipeableViews
           resistance
+          style={{height: '100%'}}
           index={this.state.index}
           containerStyle={styles.slide}
+          slideStyle={{height: '100%'}}
           onChangeIndex={this.handleChangeIndex}
           slideRenderer={slideRenderer}
           axis={"y"}
         />
-      </div>
     );
   }
 }
