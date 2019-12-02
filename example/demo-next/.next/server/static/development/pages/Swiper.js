@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -858,111 +858,132 @@ $export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_ob
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Swiper; });
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_swipeable_views__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-swipeable-views */ "react-swipeable-views");
 /* harmony import */ var react_swipeable_views__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_swipeable_views__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_swipeable_views_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-swipeable-views-utils */ "react-swipeable-views-utils");
+/* harmony import */ var react_swipeable_views_utils__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_swipeable_views_utils__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_swipeable_views_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-swipeable-views-core */ "react-swipeable-views-core");
+/* harmony import */ var react_swipeable_views_core__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_swipeable_views_core__WEBPACK_IMPORTED_MODULE_4__);
 
 var _jsxFileName = "/Users/Arthur/FlyLab/example/demo-next/pages/Swiper.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
+/* eslint-disable react/no-multi-comp */
 
-class Swiper extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+
+
+
+const VirtualizeSwipeableViews = Object(react_swipeable_views_utils__WEBPACK_IMPORTED_MODULE_3__["bindKeyboard"])(Object(react_swipeable_views_utils__WEBPACK_IMPORTED_MODULE_3__["virtualize"])(react_swipeable_views__WEBPACK_IMPORTED_MODULE_2___default.a));
+const styles = {
+  slide: {
+    padding: 0,
+    height: 1000,
+    color: '#fff'
+  },
+  slide1: {
+    backgroundColor: '#FEA900'
+  },
+  slide2: {
+    backgroundColor: '#B3DC4A'
+  },
+  slide3: {
+    backgroundColor: '#6AC0FF'
+  }
+};
+
+function slideRenderer(params) {
+  // if (global.window && styles.slide.minHeight !=  window.screen.availHeight) {
+  //   styles.slide.height =  window.screen.availHeight-1;
+  // }
+  console.log(arguments);
+  const {
+    index,
+    key
+  } = params;
+  let style;
+
+  switch (Object(react_swipeable_views_core__WEBPACK_IMPORTED_MODULE_4__["mod"])(index, 3)) {
+    case 0:
+      style = styles.slide1;
+      break;
+
+    case 1:
+      style = styles.slide2;
+      break;
+
+    case 2:
+      style = styles.slide3;
+      break;
+
+    default:
+      break;
+  }
+
+  return __jsx("div", {
+    style: _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()({}, styles.slide, style),
+    key: key,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, `slide n°${index + 1}`);
+}
+
+class DemoVirtualize extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   constructor(...args) {
     super(...args);
     this.state = {
-      slideContainer: {
-        height: "100%",
-        width: "100%",
-        backgroundColor: '#FEA900'
-      },
-      slide: {
-        height: "100%",
-        width: "100%",
-        color: '#fff'
-      },
-      slide1: {
-        // width: "100%",
-        // y: "100%",
-        backgroundColor: '#FEA900'
-      },
-      slide2: {
-        height: 720,
-        backgroundColor: '#B3DC4A'
-      },
-      scroll: {// height: 300,
-        // backgroundColor: '#B3DC4C',
-      },
-      slide3: {
-        // height: 300,
-        backgroundColor: '#6AC0FF'
-      }
+      index: 0
+    };
+
+    this.handleChangeIndex = index => {
+      console.log(index);
+      this.setState({
+        index
+      });
+    };
+
+    this.handleClick = () => {
+      this.setState({
+        index: 0
+      });
     };
   }
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({
-        slide: _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()({}, this.state.slide1, {
-          heigth: window.screen.height
-        })
-      });
-      this.setState({
-        slide1: _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default()({}, this.state.slide1, {
-          heigth: window.screen.height
-        })
-      });
-      console.log('screen', window.screen.height);
-    }, 1000);
-  }
-
   render() {
-    console.log("render", this.state.slide.height);
-    return __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      containerStyle: this.state.slideContainer,
-      axis: "y",
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 80
+      },
+      __self: this
+    }, __jsx(VirtualizeSwipeableViews, {
       resistance: true,
-      style: {
-        height: "100%"
-      },
+      index: this.state.index,
+      containerStyle: styles.slide,
+      onChangeIndex: this.handleChangeIndex,
+      slideRenderer: slideRenderer,
+      axis: "y",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 81
       },
       __self: this
-    }, __jsx("div", {
-      style: this.state.slide1,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52
-      },
-      __self: this
-    }, "slide n\xB01"), __jsx("div", {
-      style: this.state.slide2,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53
-      },
-      __self: this
-    }, "slide n\xB02"), __jsx("div", {
-      style: this.state.slide3,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54
-      },
-      __self: this
-    }, "slide n\xB03"));
+    }));
   }
 
 }
-;
+
+/* harmony default export */ __webpack_exports__["default"] = (DemoVirtualize);
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/Swiper.js ***!
   \*******************************/
@@ -993,6 +1014,28 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-swipeable-views");
+
+/***/ }),
+
+/***/ "react-swipeable-views-core":
+/*!*********************************************!*\
+  !*** external "react-swipeable-views-core" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-swipeable-views-core");
+
+/***/ }),
+
+/***/ "react-swipeable-views-utils":
+/*!**********************************************!*\
+  !*** external "react-swipeable-views-utils" ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-swipeable-views-utils");
 
 /***/ })
 

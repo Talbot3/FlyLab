@@ -1,59 +1,94 @@
+/* eslint-disable react/no-multi-comp */
+
 import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
+import { virtualize, bindKeyboard } from 'react-swipeable-views-utils';
+import { mod } from 'react-swipeable-views-core';
 
-export default class Swiper extends React.Component {
+const VirtualizeSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+
+const styles = {
+  slide: {
+    padding: 0,
+    height: 1000,
+    color: '#fff',
+  },
+  slide1: {
+    backgroundColor: '#FEA900',
+  },
+  slide2: {
+    backgroundColor: '#B3DC4A',
+  },
+  slide3: {
+    backgroundColor: '#6AC0FF',
+  },
+};
+
+function slideRenderer(params) {
+  // if (global.window && styles.slide.minHeight !=  window.screen.availHeight) {
+  //   styles.slide.height =  window.screen.availHeight-1;
+  // }
+  console.log(arguments);
+  
+  const { index, key } = params;
+  let style;
+
+  switch (mod(index, 3)) {
+    case 0:
+      style = styles.slide1;
+      break;
+
+    case 1:
+      style = styles.slide2;
+      break;
+
+    case 2:
+      style = styles.slide3;
+      break;
+
+    default:
+      break;
+  }
+
+  return (
+    <div style={Object.assign({}, styles.slide, style)} key={key}>
+      {`slide n°${index + 1}`}
+    </div>
+  );
+}
+
+class DemoVirtualize extends React.Component {
   state = {
-    slideContainer: {
-      height: "100%",
-      width: "100%",
-      backgroundColor: '#FEA900'
-    },
-    slide: {
-      height: "100%",
-      width: "100%",
-      color: '#fff',
-    },
-    slide1: {
-      // width: "100%",
-      // y: "100%",
-      backgroundColor: '#FEA900',
-    },
-    slide2: {
-      height: 720,
-      backgroundColor: '#B3DC4A',
-    },
-    scroll: {
-      // height: 300,
-      // backgroundColor: '#B3DC4C',
-    },
-    slide3: {
-      // height: 300,
-      backgroundColor: '#6AC0FF',
-    }
+    index: 0,
   };
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({slide: Object.assign({},this.state.slide1,{
-        heigth: window.screen.height
-      })});
-      this.setState({slide1: Object.assign({},this.state.slide1,{
-        heigth: window.screen.height
-      })});
-      console.log('screen', window.screen.height);
-    }, 1000);
-  }
+  handleChangeIndex = index => {
+    console.log(index)
+    this.setState({
+      index,
+    });
+  };
 
+  handleClick = () => {
+    this.setState({
+      index: 0,
+    });
+  };
 
   render() {
-    console.log("render", this.state.slide.height);
     return (
-      <SwipeableViews containerStyle={this.state.slideContainer} axis="y" resistance style={{height: "100%"}}>
-        <div style={this.state.slide1}>slide n°1</div>
-        <div style={this.state.slide2}>slide n°2</div>
-        <div style={this.state.slide3}>slide n°3</div>
-        
-      </SwipeableViews>
+      <div>
+        <VirtualizeSwipeableViews
+          resistance
+          index={this.state.index}
+          containerStyle={styles.slide}
+          onChangeIndex={this.handleChangeIndex}
+          slideRenderer={slideRenderer}
+          axis={"y"}
+        />
+      </div>
     );
   }
-};
+}
+
+export default DemoVirtualize;
