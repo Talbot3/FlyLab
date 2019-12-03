@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+  html, body {
+    width: 100%;
+    height:100%;
+  }
+  </style>
+  <script src="./node_modules/hammerjs/hammer.min.js"></script>
+</head>
+<body>
+<button id="square" 
+>hahah</button>
+
+</div>
+</body>
+<script>
+// Get a reference to an element.
+var square = document.querySelector('#square');
+
+// Create an instance of Hammer with the reference.
+var hammer = new Hammer(square);
+
+// Subscribe to a quick start event: press, tap, or doubletap.
+// For a full list of quick start events, read the documentation.
+hammer.on('press', function(e) {
+  {{/* e.target.classList.toggle('expand'); */}}
+  console.log("You're pressing me!");
+  console.log(e);
+});
+</script>
+</html>
