@@ -1,5 +1,5 @@
 start :
-	minikube start --registry-mirror=https://registry.docker-cn.com --vm-driver=hyperkit --kubernetes-version v1.11.0 --alsologtostderr
+	minikube start --registry-mirror=https://registry.docker-cn.com --vm-driver=hyperkit --kubernetes-version v1.17.0 --alsologtostderr
 	# --extra-config=controller-manager.ClusterSigningCertFile="/Users/Arthur/.minikube/certs/ca.pem"
 	# --extra-config=controller-manager.ClusterSigningKeyFile="/Users/Arthur/.minikube/certs/ca-key.pem"
 	@eval $(minikube docker-env)
