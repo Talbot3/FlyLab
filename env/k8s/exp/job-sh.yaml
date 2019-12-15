@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: item-job-$ITEM
+  label: jobexample
+spec:
+  template:
+    metadata:
+      name: jobexample
+      label: jobexample
+    spec:
+      container: 
+      - name: C
+        image: busybox
+        command: ["sh","-c","echo Processing item $ITEM && sleep 5"]

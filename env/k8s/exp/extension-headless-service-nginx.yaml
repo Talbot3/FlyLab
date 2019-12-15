@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx
+  name: nginx
+  namespace: default
+spec:
+  replicas: 2
+  revisionHistoryLimit: 5
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - image: nginx:latest
+        imagePullPolicy: Always
+        name: nginx
+        resources:
+          limits:
+            memory: 128Mi
+          requests:
+            cpu: 200m
+            memory: 128Mi
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always

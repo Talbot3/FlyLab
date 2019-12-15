@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: pwa-frontend
+spec:
+  type: NodePort
+  selector:
+    app: MyApp
+  ports:
+  - name: nginx
+    port: 80
+    protocol: TCP
