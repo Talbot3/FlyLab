@@ -1,4 +1,6 @@
 # 禅与进
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab?ref=badge_shield)
+
 
 > just someone's notes collection for a better learning experience（玩的开心）
 
@@ -29,3 +31,7 @@
 - [计算机书籍](http://bestcbooks.com/categories/c/)
 - [Web框架 benchmarks](https://www.techempower.com/benchmarks/#section=data-r17&hw=ph&test=update)
 - [文法分析 lex/bison](https://www.gnu.org/software/bison/manual/bison.pdf)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab?ref=badge_large)
