@@ -1,5 +1,8 @@
 # C Python Bind
 
+python 回调，仍然是阻塞式的
+
+
 ## 参考
 
 - [python extending](https://docs.python.org/3/extending/)

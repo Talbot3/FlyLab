@@ -17,10 +17,20 @@ my_set_callback(PyObject *dummy, PyObject *args)
         Py_XDECREF(my_callback);  /* Dispose of previous callback */
         my_callback = temp;       /* Remember new callback */
         /* Boilerplate to return "None" */
+        int arg;
+        PyObject *arglist;
+        PyObject *result;
+        arg = 123;
+        /* Time to call the callback */
+        arglist = Py_BuildValue("(i)", arg);
+        sleep(3);
+        result = PyObject_CallObject(my_callback, arglist);
+        Py_DECREF(arglist);
         Py_INCREF(Py_None);
-        result = Py_None;
+        if (result == NULL)
+          return Py_None; /* Pass error back */
     }
-    return result;
+    return Py_None;
 }
 
 static PyMethodDef myMethods[] = {

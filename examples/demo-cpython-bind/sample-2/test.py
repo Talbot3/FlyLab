@@ -1,2 +1,6 @@
 import myModule as my
-my.my_set_callback()
+def helloword(a):
+  print("hi", a)
+
+my.my_set_callback(helloword)
+print("done");
