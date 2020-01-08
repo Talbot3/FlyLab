@@ -1,7 +1,9 @@
 # C Python Bind
 
-python 回调，仍然是阻塞式的
+- [x] python 回调，仍然是阻塞式的
+- [x] c 实现回调python 接口
 
+> 基于python的异步扩展?
 
 ## 参考
 
