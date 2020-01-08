@@ -84,3 +84,5 @@ Nodejs Napi 是原始的C接口，使用比较方便，支持异步，内存管�
 - https://github.com/nodejs/node-gyp
 - https://gyp.gsrc.io/docs/UserDocumentation.md#Custom-build-steps
 - https://iweiyun.github.io/2019/01/04/node-cpp-addon/
+- https://stackoverflow.com/questions/58960713/how-to-use-napi-threadsafe-function-for-nodejs-native-addon
+- https://stackoverflow.com/questions/50815038/n-api-continuous-callbacks-for-c-media-stream/50828983
