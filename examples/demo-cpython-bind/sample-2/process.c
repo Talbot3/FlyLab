@@ -23,10 +23,28 @@ my_set_callback(PyObject *dummy, PyObject *args)
         arg = 123;
         /* Time to call the callback */
         arglist = Py_BuildValue("(i)", arg);
-        sleep(3);
-        result = PyObject_CallObject(my_callback, arglist);
-        Py_DECREF(arglist);
-        Py_INCREF(Py_None);
+        // PyObject *item = PyList_GetItem(args, 0);
+
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+
+        /* Perform Python actions here. */
+        // result = CallSomeFunction();
+
+        // Py_BEGIN_ALLOW_THREADS
+        {
+          // sleep(3);
+        }
+        // Py_END_ALLOW_THREADS
+         result = PyObject_CallObject(my_callback, arglist);
+          Py_DECREF(arglist);
+          Py_INCREF(Py_None);
+        /* evaluate result or handle exception */
+
+        /* Release the thread. No Python API allowed beyond this point. */
+        PyGILState_Release(gstate);
+        
+        // PyObject_Print(item, stdout, 0); /* BUG! */
         if (result == NULL)
           return Py_None; /* Pass error back */
     }
