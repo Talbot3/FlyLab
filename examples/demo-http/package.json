@@ -1,0 +1,19 @@
+{
+  "name": "demo-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "content-disposition": "^0.5.3",
+    "destroy": "^1.0.4",
+    "express": "^4.17.1",
+    "on-finished": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

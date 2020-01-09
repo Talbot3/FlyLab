@@ -1,10 +1,20 @@
-var http = require('http');
-var mobile = require('is-mobile');
-
-var server = http.createServer(function (req, res) {
-  console.log(req.headers['user-agent']);
-  console.log('is mobile ->', mobile({ua: req.headers['user-agent']}));
-  res.end(mobile(req));
-});
-
-server.listen(8000);
+var contentDisposition = require('content-disposition')
+var destroy = require('destroy')
+var fs = require('fs')
+var http = require('http')
+var onFinished = require('on-finished')
+ 
+var filePath = './index.js'
+ 
+let server = http.createServer(function onRequest (req, res) {
+  // set headers
+  res.setHeader('Content-Type', 'application/txt')
+  res.setHeader('Content-Disposition', contentDisposition(filePath))
+  // send file
+  var stream = fs.createReadStream(filePath)
+  stream.pipe(res)
+  onFinished(res, function () {
+    destroy(stream)
+  });
+})
+server.listen(3000);
