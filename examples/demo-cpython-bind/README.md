@@ -6,8 +6,10 @@
 > 基于python的异步扩展?
 
 ## cpython 段错误 核心已转储
+
 > 参考自 https://blog.csdn.net/zt1091574181
-```
+
+```bash
 gdb python
 # 在gdb中
 r main.py
