@@ -5,6 +5,17 @@
 
 > 基于python的异步扩展?
 
+## cpython 段错误 核心已转储
+> 参考自 https://blog.csdn.net/zt1091574181
+```
+gdb python
+# 在gdb中
+r main.py
+
+# 当错误出现时，输入: 
+where
+```
+
 ## 参考
 
 - [python extending](https://docs.python.org/3/extending/)
