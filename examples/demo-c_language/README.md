@@ -73,6 +73,8 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [Linux EBPF](https://blog.csdn.net/ljy1988123/article/details/50444693)
 - [深入理解并行编程](https://book.douban.com/subject/27078711/)
 - [Awesome-C](https://notabug.org/koz.ross/awesome-c#frameworks)
+- [Modern C, 即c2x标准](https://icps.icube.unistra.fr/img_auth.php/4/48/ModernC-obsolete.pdf)
+- [gcc-10](https://www.gnu.org/software/gcc/gcc-10/changes.html)
 
 ## QA
 
