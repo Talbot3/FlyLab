@@ -8,6 +8,10 @@
 - 同步锁、栅栏锁、自旋锁、乐观锁(CAS)
 - 非阻塞数据结构
 
+## 开源线程安全的数据结构
+
+- https://github.com/liblfds/liblfds/tree/master/liblfds/liblfds7.1.0
+
 ## 参考
 
 - [POSIX线程编程-作者：劳伦斯·利弗莫尔国家实验室的布莱斯·巴尼	](https://computing.llnl.gov/tutorials/pthreads/)
