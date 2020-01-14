@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
+#include <stdatomic.h>
 // 互斥锁变量
 pthread_mutex_t mutex;
 // 条件变量

@@ -34,6 +34,7 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [Pthread多线程编程](https://imzlp.me/posts/58408/)
 - [C语言的异常处理\堆栈捕获](http://www.cnblogs.com/hazir/p/c_setjmp_longjmp.html)
 - [异常日志格式](http://dwarfstd.org/)
+- [C11新增关键字：_Generic(泛型)](https://zh.cppreference.com/w/c/language/generic)
 
 ## C语言相关资料
 
