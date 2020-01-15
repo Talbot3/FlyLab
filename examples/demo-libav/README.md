@@ -60,6 +60,13 @@ demo-liav random.mp4
 
 - https://blog.csdn.net/qiuchangyong/article/details/79494766
 
+## audio transcode
+
+> 实验后，发现音频采样率变调了，需要filter适配
+
+- https://ffmpeg.org/doxygen/3.4/transcode_aac_8c-example.html
+- https://www.cnblogs.com/wanggang123/p/5589488.html
+
 ## ffmpeg install 
 ```
 ffmpeg.install.sh

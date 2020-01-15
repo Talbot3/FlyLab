@@ -7,7 +7,7 @@
 ## 目前范围
 
 - 编程模型(Nodejs\C/C++\Rust)
-- 领域知识（音视频、k8s、grammar、测试）
+- 领域知识（音视频-webrtc\ffmpeg、k8s、grammar、测试）
 - 自我修养（功夫）
 
 ## 表达方式

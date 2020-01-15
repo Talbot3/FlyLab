@@ -11,11 +11,16 @@ add_definitions(-DRTP2MEDIA_VERSION="1.0.1")
 string(TIMESTAMP BUILDTIME "%Y%m%d-%H:%M")
 add_definitions(-DRTP2MEDIA_BUILDTIME="${BUILDTIME}")
 
-include_directories(/home/wangc/FlyLab/example/demo-libav/build/libdeps/build/include)
-link_directories(/home/wangc/FlyLab/example/demo-libav/build/libdeps/build/lib)
+# include_directories(./deps/build/include)
+# link_directories(./deps/build/lib)
+
+if (APPLE)
+  include_directories(/usr/local/include/)
+  link_directories(/usr/local/lib)
+endif (APPLE)
 
 set(SOURCE_FILES
-        src/encode_video_mult_rtmp.c
+        src/transcode_aac.c
 )
 
 add_executable(demo-libav ${SOURCE_FILES})

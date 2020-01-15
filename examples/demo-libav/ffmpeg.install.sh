@@ -104,7 +104,7 @@ build_ffmpeg(){
 
     tar -xjvf ffmpeg-4.2.1.tar.bz2
     cd ffmpeg-4.2.1
-    ./configure --prefix=$PREFIX_DIR --enable-nvenc  --disable-avdevice --disable-armv5te --disable-armv6 --disable-armv6t2  --disable-devices --disable-hwaccels --disable-shared --enable-gpl --enable-avresample --enable-libvpx --enable-libx264 --enable-libopus --enable-libfdk_aac --enable-nonfree --extra-cflags="-fPIC" --enable-static --disable-ffplay --disable-ffprobe --enable-pic --disable-symver --disable-lzma --disable-vdpau --disable-vaapi --disable-bzlib --extra-cflags='-I'${PREFIX_DIR}'/include/'  --extra-ldflags='-L'${PREFIX_DIR}'/lib' && make $FAST_MAKE -s V=0
+    ./configure --prefix=$PREFIX_DIR --disable-nvenc  --disable-avdevice --disable-armv5te --disable-armv6 --disable-armv6t2  --disable-devices --disable-hwaccels --disable-shared --enable-gpl --enable-avresample --enable-libvpx --enable-libx264 --enable-libopus --enable-libfdk_aac --enable-nonfree --extra-cflags="-fPIC" --enable-static --disable-ffplay --disable-ffprobe --enable-pic --disable-symver --disable-lzma --disable-vdpau --disable-vaapi --disable-bzlib --extra-cflags='-I'${PREFIX_DIR}'/include/'  --extra-ldflags='-L'${PREFIX_DIR}'/lib' && make $FAST_MAKE -s V=0
     make install
     cd $CURRENT_DIR
   fi
