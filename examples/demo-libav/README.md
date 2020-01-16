@@ -64,8 +64,19 @@ demo-liav random.mp4
 
 > 实验后，发现音频采样率变调了，需要filter适配
 
+### 转码为原生PCM音频格式
+
+```
+ffmpeg -i hah.m4a -f s16be -ar 8000 -acodec pcm_s16be output.pcm
+ffplay -ar 16000 -channels 1  -f s16be -i output.pcm
+```
+
+### Refers
+
 - https://ffmpeg.org/doxygen/3.4/transcode_aac_8c-example.html
 - https://www.cnblogs.com/wanggang123/p/5589488.html
+- [ffmpeg aac](https://trac.ffmpeg.org/wiki/Encode/AAC)
+
 
 ## ffmpeg install 
 ```

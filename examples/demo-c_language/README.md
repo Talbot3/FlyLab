@@ -76,6 +76,8 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [Awesome-C](https://notabug.org/koz.ross/awesome-c#frameworks)
 - [Modern C, 即c2x标准](https://icps.icube.unistra.fr/img_auth.php/4/48/ModernC-obsolete.pdf)
 - [gcc-10](https://www.gnu.org/software/gcc/gcc-10/changes.html)
+- [vscode 配置c/c++开发环境](https://code.visualstudio.com/docs/cpp/config-clang-mac)
+- [微软c/c++包管理器](https://docs.microsoft.com/zh-cn/cpp/build/projects-and-build-systems-cpp?view=vs-2017)
 
 ## QA
 
