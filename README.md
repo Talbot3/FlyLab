@@ -6,8 +6,8 @@
 
 ## 目前范围
 
-- 编程模型(Nodejs\C/C++\Rust)
-- 领域知识（音视频-webrtc\ffmpeg、k8s、grammar、测试）
+- 编程语言(Nodejs\C/C++\Rust)
+- 领域知识（音视频-webrtc\ffmpeg、k8s、grammar、测试——lldb\lldb-node\chai\mocha）
 - 自我修养（功夫）
 
 ## 表达方式
