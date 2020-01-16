@@ -1,5 +1,8 @@
 # 音视频教程- ffmpeg api 接口指南
 
+- [雷霄骅(leixiaohua1020)的专栏一个广院工科生的视音频技术笔记](https://blog.csdn.net/leixiaohua1020)
+- [音视频学习（一）-- 基础知识准备](https://juejin.im/post/5d62a41e6fb9a06b1f143b7f)
+- [\[总结\]视音频编解码技术零基础学习方法](https://blog.csdn.net/leixiaohua1020/article/details/18893769)
 - http://dranger.com/ffmpeg/tutorial01.html
 - https://github.com/leandromoreira/ffmpeg-libav-tutorial
 - https://leixiaohua1020.github.io/#ffmpeg-development-examples
@@ -76,6 +79,14 @@ ffplay -ar 16000 -channels 1  -f s16be -i output.pcm
 - https://ffmpeg.org/doxygen/3.4/transcode_aac_8c-example.html
 - https://www.cnblogs.com/wanggang123/p/5589488.html
 - [ffmpeg aac](https://trac.ffmpeg.org/wiki/Encode/AAC)
+
+
+## ffmpeg filter
+
+### Refers
+
+- https://trac.ffmpeg.org/wiki/FilteringGuide
+- https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO
 
 
 ## ffmpeg install 
