@@ -30,7 +30,7 @@ Nodejs Napi 是原始的C接口，使用比较方便，支持异步，内存管�
       "target_name": "DemoSDK",
       "sources": [
         "DemoSDK4Node.cpp"
-      ]
+      ],
       "include_dir":
       [
         "<!node -e \"require'nan')\")",
