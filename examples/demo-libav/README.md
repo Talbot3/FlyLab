@@ -93,3 +93,13 @@ ffplay -ar 16000 -channels 1  -f s16be -i output.pcm
 ```
 ffmpeg.install.sh
 ```
+
+## 音视频基础补充
+
+- [Google VP9](https://developers.google.com/media/vp9?hl=zh_cn)
+
+- [节省编码和流传输：部署上限CRF](webrtc.org/native-code/development/)
+
+- [qperf测量网络带宽和延迟](https://cloud.tencent.com/developer/article/1115073)
+
+- [网络性能测试方法](https://support.huaweicloud.com/ecs_faq/zh-cn_topic_0115820205.html)
