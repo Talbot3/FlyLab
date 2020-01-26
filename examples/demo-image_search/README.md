@@ -23,3 +23,7 @@ ahash/phash/dhash
 - https://www.cnblogs.com/think90/articles/11514792.html
 - https://github.com/JohannesBuchner/imagehash
 - https://www.cs.toronto.edu/~frossard/post/vgg16/
+- https://blog.csdn.net/chenghaoy/article/details/84977406
+- https://github.com/dmlc/gluon-cv
+- https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md
+- https://zhuanlan.zhihu.com/8thfloor
