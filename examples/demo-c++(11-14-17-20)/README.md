@@ -2,6 +2,9 @@
 
 > ....c++20
 
+## 前辈沷的冷水
+
+- [C 的回归](https://blog.codingnow.com/2007/09/c_vs_cplusplus.html#more)
 
 ## 音视频教程- ffmpeg api 接口指南
 
