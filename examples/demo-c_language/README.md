@@ -52,7 +52,7 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [捕获异常信号-保存堆栈](https://gist.github.com/jvranish/4441299)
 - [Crash日志-add2line](http://wiki.dreamrunner.org/public_html/Linux/addr2line-usage.html)
 - [常用日志库推荐] zlog
-- [构建工具 cmake、gn/ninja]
+- [构建工具 cmake、gn/ninja]()
 
 ## 关于底层的思考
 
@@ -78,6 +78,8 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [gcc-10](https://www.gnu.org/software/gcc/gcc-10/changes.html)
 - [vscode 配置c/c++开发环境](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 - [微软c/c++包管理器](https://docs.microsoft.com/zh-cn/cpp/build/projects-and-build-systems-cpp?view=vs-2017)
+- [awesome-c](https://github.com/kozross/awesome-c)
+- [用于教授多线程编程的系统](https://www.semanticscholar.org/paper/ThreadMentor%3A-a-system-for-teaching-multithreaded-Shene/031275902850a29db07a2c028120360c1aa45e0c)
 
 ## QA
 
