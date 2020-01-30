@@ -80,6 +80,7 @@ clang的编译配置头文件地址，参照 `gcc -v`文件地址，默认是配
 - [微软c/c++包管理器](https://docs.microsoft.com/zh-cn/cpp/build/projects-and-build-systems-cpp?view=vs-2017)
 - [awesome-c](https://github.com/kozross/awesome-c)
 - [用于教授多线程编程的系统](https://www.semanticscholar.org/paper/ThreadMentor%3A-a-system-for-teaching-multithreaded-Shene/031275902850a29db07a2c028120360c1aa45e0c)
+- [POSIX线程（pthread）库手册](http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html)
 
 ## QA
 
