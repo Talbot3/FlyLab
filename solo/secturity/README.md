@@ -33,3 +33,9 @@
 
 - [想举报前公司偷税漏税，不知道对个人是否有不利影响？](https://www.v2ex.com/t/624515#r_8264164)
 - [网易裁癌症员工事件]()
+- [15 年工龄的资深技术专家职场历程自述](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247488705&idx=1&sn=21a50ba0bb67194fea14e8597ac7cb62&chksm=fdeb26a1ca9cafb72e453f1c223dc4011d7baebdb0dd6ee59437cad47bcf2011b0a3894e9c13&scene=27#wechat_redirect)
+  - 清楚了解自己的目标，并为之努力
+  - 结构化思考
+  - 危险感
+  - 商业嗅觉
+  - 演讲
