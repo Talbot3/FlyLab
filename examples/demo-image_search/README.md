@@ -4,7 +4,7 @@
 
 - ### OPENCV
 
-  ORB/SURF/SIFT
+  ORB/SURF/SIFT/PCA-SIFT
 
 - ### 图像感知哈希算法
 
@@ -37,3 +37,5 @@
 - [SIFT](https://blog.csdn.net/Hi_Bitch/article/details/81209376)
 - https://www.52cv.net/?p=975
 - https://github.com/ZeLianWen/Image-Registration
+- [学习资源：图像处理从入门到精通](https://zhuanlan.zhihu.com/p/67343443)
+- [第五讲：传统目标检测之特征工程](https://zhuanlan.zhihu.com/p/66166633)
