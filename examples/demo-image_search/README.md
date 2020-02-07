@@ -2,17 +2,23 @@
 
 ## 特征提取方法
 
-### OPENCV
+- ### OPENCV
 
-ORB/SURF/SIFT
+  ORB/SURF/SIFT
 
-### 图像感知哈希算法
+- ### 图像感知哈希算法
 
-ahash/phash/dhash
+  ahash/phash/dhash
 
-### 基于区域的颜色直方图
+- ### 基于区域的颜色直方图
 
-如果两张图颜色分布差不多，则认为它们相似
+  如果两张图颜色分布差不多，则认为它们相似
+
+- ### SIFT
+
+
+### 基于[milvus](https://github.com/milvus-io/milvus/tree/0.6.0)图片搜索引擎
+
 
 ### 基于深度学习——分类模型的图片识别
 
@@ -27,3 +33,7 @@ ahash/phash/dhash
 - https://github.com/dmlc/gluon-cv
 - https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md
 - https://zhuanlan.zhihu.com/8thfloor
+- https://machinelearningmastery.com/use-pre-trained-vgg-model-classify-objects-photographs/
+- [SIFT](https://blog.csdn.net/Hi_Bitch/article/details/81209376)
+- https://www.52cv.net/?p=975
+- https://github.com/ZeLianWen/Image-Registration

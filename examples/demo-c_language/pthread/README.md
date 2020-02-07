@@ -19,3 +19,6 @@
 - [说说无锁编程-上](https://cloud.tencent.com/developer/article/1516818)
 - [说说无锁编程-下](https://cloud.tencent.com/developer/article/1516817)
 - [乐观锁CAS 比较并交换](https://zhuanlan.zhihu.com/p/51043204)
+- https://wenku.baidu.com/view/e5d90e40336c1eb91a375da8.html?re=view&rec_flag=default
+- https://wenku.baidu.com/view/bdf3a4d228ea81c758f5787b.html?rec_flag=default
+- https://wenku.baidu.com/view/e00cf8727fd5360cba1adbb4.html
