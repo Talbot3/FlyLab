@@ -39,3 +39,4 @@
 - https://github.com/ZeLianWen/Image-Registration
 - [学习资源：图像处理从入门到精通](https://zhuanlan.zhihu.com/p/67343443)
 - [第五讲：传统目标检测之特征工程](https://zhuanlan.zhihu.com/p/66166633)
+- [数字图像处理-电子科技大学-李庆嵘](https://www.bilibili.com/video/av69532731/?spm_id_from=333.788.videocard.0)
