@@ -40,3 +40,7 @@
 - [学习资源：图像处理从入门到精通](https://zhuanlan.zhihu.com/p/67343443)
 - [第五讲：传统目标检测之特征工程](https://zhuanlan.zhihu.com/p/66166633)
 - [数字图像处理-电子科技大学-李庆嵘](https://www.bilibili.com/video/av69532731/?spm_id_from=333.788.videocard.0)
+- [腾讯词向量实战：通过Annoy进行索引和快速查询](https://zhuanlan.zhihu.com/p/62894959)
+- [腾讯AI实验室汉字词句嵌入语料库](https://ai.tencent.com/ailab/nlp/embedding.html)
+- [汉字词句嵌入语料库](https://ai.tencent.com/ailab/nlp/data/Tencent_AILab_ChineseEmbedding.tar.gz)
+- [用于大规模视觉识别的超深度卷积网络](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)
