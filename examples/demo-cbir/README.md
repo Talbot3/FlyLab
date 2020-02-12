@@ -1,4 +1,4 @@
-# 以图搜图
+# 基于内容的图像检索(CBIR)
 
 ## 特征提取方法
 
@@ -24,6 +24,13 @@
 
 - vgg16
 
+## 向量数据库
+
+> 常用于图片、语音检索，对比的是DL算法提取的特征。
+
+- http://mysql.taobao.org/monthly/2018/09/10/
+- [高维空间最近邻逼近搜索算法评测](https://zhuanlan.zhihu.com/p/37381294)
+
 ## Refers
 
 - https://www.cnblogs.com/think90/articles/11514792.html
@@ -44,3 +51,4 @@
 - [腾讯AI实验室汉字词句嵌入语料库](https://ai.tencent.com/ailab/nlp/embedding.html)
 - [汉字词句嵌入语料库](https://ai.tencent.com/ailab/nlp/data/Tencent_AILab_ChineseEmbedding.tar.gz)
 - [用于大规模视觉识别的超深度卷积网络](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)
+- [awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
