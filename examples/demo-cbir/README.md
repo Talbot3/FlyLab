@@ -1,4 +1,4 @@
-# 基于内容的图像检索(CBIR)
+# [基于内容的图像检索(CBIR)](https://baike.baidu.com/item/%E5%9F%BA%E4%BA%8E%E5%86%85%E5%AE%B9%E7%9A%84%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2)
 
 ## 特征提取方法
 
@@ -52,3 +52,5 @@
 - [汉字词句嵌入语料库](https://ai.tencent.com/ailab/nlp/data/Tencent_AILab_ChineseEmbedding.tar.gz)
 - [用于大规模视觉识别的超深度卷积网络](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)
 - [awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
+- [ORB算法原理解读](https://blog.csdn.net/yang843061497/article/details/38553765)
+- [余弦相似性](https://zh.wikipedia.org/wiki/%E4%BD%99%E5%BC%A6%E7%9B%B8%E4%BC%BC%E6%80%A7)
