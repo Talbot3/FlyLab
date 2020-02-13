@@ -1,5 +1,11 @@
 # [基于内容的图像检索(CBIR)](https://baike.baidu.com/item/%E5%9F%BA%E4%BA%8E%E5%86%85%E5%AE%B9%E7%9A%84%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2)
 
+## 系统涉及的算法
+
+  - 传统数字图像处理特征(ORB\KAZE\AKAZE\BRISK\GFFT)
+  - 图像重新编码: WLAD\Bow\RANSAC 将图像特征重新编码后，存储在特征库中，方便图像检索算法匹配
+  - 图像检索算法: LSH\PQ\KD树
+
 ## 特征提取方法
 
 - ### OPENCV
@@ -16,9 +22,7 @@
 
 - ### SIFT
 
-
 ### 基于[milvus](https://github.com/milvus-io/milvus/tree/0.6.0)图片搜索引擎
-
 
 ### 基于深度学习——分类模型的图片识别
 
@@ -33,6 +37,8 @@
 
 ## Refers
 
+- [【TPAMI重磅综述】 SIFT与CNN的碰撞：万字长文回顾图像检索任务十年探索历程（上）](https://zhuanlan.zhihu.com/p/38301227)
+- [图像检索：向量索引](http://yongyuan.name/blog/vector-ann-search.html)
 - https://www.cnblogs.com/think90/articles/11514792.html
 - https://github.com/JohannesBuchner/imagehash
 - https://www.cs.toronto.edu/~frossard/post/vgg16/
@@ -54,3 +60,5 @@
 - [awesome-cbir-papers](https://github.com/willard-yuan/awesome-cbir-papers)
 - [ORB算法原理解读](https://blog.csdn.net/yang843061497/article/details/38553765)
 - [余弦相似性](https://zh.wikipedia.org/wiki/%E4%BD%99%E5%BC%A6%E7%9B%B8%E4%BC%BC%E6%80%A7)
+- [东城青年CSDN opencv](https://blog.csdn.net/qq_24946843/category_7999583.html)
+- [ImageRetrieval](https://www.cnblogs.com/wangguchangqing/category/1241422.html)
