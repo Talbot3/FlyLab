@@ -3,7 +3,7 @@
 ## 系统涉及的算法
 
   - 传统数字图像处理特征(ORB\KAZE\AKAZE\BRISK\GFFT)
-  - 图像重新编码: WLAD\Bow\RANSAC 将图像特征重新编码后，存储在特征库中，方便图像检索算法匹配
+  - 图像重新编码: VLAD\Bow\RANSAC 将图像特征重新编码后，存储在特征库中，方便图像检索算法匹配
   - 图像检索算法: LSH\PQ\KD树
 
 ## 特征提取方法
@@ -35,8 +35,33 @@
 - http://mysql.taobao.org/monthly/2018/09/10/
 - [高维空间最近邻逼近搜索算法评测](https://zhuanlan.zhihu.com/p/37381294)
 
+## OpenCv Build
+
+```bash
+cmake  -D CMAKE_CXX_COMPILER=g++ \
+  -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
+  -D CMAKE_BUILD_TYPE=RELEASE \
+  -D OPENCV_ENABLE_NONFREE=ON \
+  ../
+```
+
+### Exception
+
+```bash
+  error "__POPCNT__ is not defined by compiler"
+```
+
+## 图片搜索服务提供商
+
+- https://cloud.baidu.com/product/imagesearch
+- https://cn.aliyun.com/product/imagesearch
+- https://www.huaweicloud.com/intl/zh-cn/product/imagesearch.html
+
+
 ## Refers
 
+- [Machine Intelligence - Lecture 5 (Computer Vision, Features, Fisher Vector, VLAD)](https://www.youtube.com/watch?v=c08dfv0iFJo)
+- [ImageRetrieval](https://www.cnblogs.com/wangguchangqing/category/1241422.html)
 - [【TPAMI重磅综述】 SIFT与CNN的碰撞：万字长文回顾图像检索任务十年探索历程（上）](https://zhuanlan.zhihu.com/p/38301227)
 - [图像检索：向量索引](http://yongyuan.name/blog/vector-ann-search.html)
 - https://www.cnblogs.com/think90/articles/11514792.html
@@ -61,4 +86,4 @@
 - [ORB算法原理解读](https://blog.csdn.net/yang843061497/article/details/38553765)
 - [余弦相似性](https://zh.wikipedia.org/wiki/%E4%BD%99%E5%BC%A6%E7%9B%B8%E4%BC%BC%E6%80%A7)
 - [东城青年CSDN opencv](https://blog.csdn.net/qq_24946843/category_7999583.html)
-- [ImageRetrieval](https://www.cnblogs.com/wangguchangqing/category/1241422.html)
+- http://yongyuan.name/pic/
