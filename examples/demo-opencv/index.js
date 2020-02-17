@@ -47,7 +47,7 @@ function getStructureSimilarity(i1, i2) {
 }
 
 const i1 = imread('./tss.png');
-const i2 = imread('./tss2.png');
+const i2 = imread('./tss.png');
 
 const structureSimilarity = getStructureSimilarity(i1, i2);
 

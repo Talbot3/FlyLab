@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import argparse
 
-query = './data/picture/2007_000027.jpg'
+query = '../data/picture/2007_000027.jpg'
 index = 'vgg_featureCNN.h5'
-result = './data/picture'
+result = '../data/picture'
 # read in indexed images' feature vectors and corresponding image names
 h5f = h5py.File(index,'r')
 # feats = h5f['dataset_1'][:]

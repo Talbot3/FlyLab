@@ -17,7 +17,7 @@ def get_imlist(path):
  Extract features and index the images
 '''
 if __name__ == "__main__":
-    database = './data/picture'
+    database = '../data/picture'
     index = 'vgg_featureCNN.h5'
     img_list = get_imlist(database)
     

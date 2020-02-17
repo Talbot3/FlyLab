@@ -1,0 +1,15 @@
+{
+  "name": "exp4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Distinguish.bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "baidu-aip-sdk": "^2.4.5"
+  }
+}
