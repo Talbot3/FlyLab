@@ -8,7 +8,7 @@ var APP_ID = "18501647";
 var API_KEY = "vPAzqIVAydgC7vtCOwf3kSg6";
 var SECRET_KEY = "AGV26FYk3Xx4ffQO1eiTBgYKCTYhRS08";
 
-var image = fs.readFileSync("../data/cars/00001.jpg").toString("base64");
+var image = fs.readFileSync("../data/china-cars/OIP.jpg").toString("base64");
 
 // https://cloud.baidu.com/doc/OCR/s/Ok3h7ydf4
 var client = new AipOcrClient(APP_ID, API_KEY, SECRET_KEY);

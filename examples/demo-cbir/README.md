@@ -37,6 +37,14 @@
 
 ## OpenCv Build
 
+### Exception
+
+```bash
+  error "__POPCNT__ is not defined by compiler"
+```
+
+#### 添加构建工具为g++
+
 ```bash
 cmake  -D CMAKE_CXX_COMPILER=g++ \
   -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
@@ -45,18 +53,11 @@ cmake  -D CMAKE_CXX_COMPILER=g++ \
   ../
 ```
 
-### Exception
-
-```bash
-  error "__POPCNT__ is not defined by compiler"
-```
-
 ## 图片搜索服务提供商
 
 - https://cloud.baidu.com/product/imagesearch
 - https://cn.aliyun.com/product/imagesearch
 - https://www.huaweicloud.com/intl/zh-cn/product/imagesearch.html
-
 
 ## Refers
 

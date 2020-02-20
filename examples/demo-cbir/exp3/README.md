@@ -21,3 +21,4 @@
 ## 引用
 
 - [交通研究](https://medusa.fit.vutbr.cz/traffic/)
+- [车牌数据集](http://vision.princeton.edu/projects/2010/SUN/SUN397.tar.gz)
