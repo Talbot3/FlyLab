@@ -1,5 +1,5 @@
 start :
-	minikube start  --cache-images --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --image-mirror-country=cn --registry-mirror=http://44d249ac.m.daocloud.io --image-repository=gcr.azk8s.cn/google_containers --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.7.3.iso  --docker-env --kubernetes-version v1.17.0 --alsologtostderr
+	minikube start  --cache-images --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --image-mirror-country=cn --registry-mirror=http://44d249ac.m.daocloud.io --image-repository=gcr.azk8s.cn/google_containers --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.7.3.iso  --docker-env --container-runtime --kubernetes-version v1.17.0 --alsologtostderr
 	#  https_proxy=127.0.0.1:43129 --vm-driver=virtualbox
 	# --extra-config=controller-manager.ClusterSigningCertFile="/Users/Arthur/.minikube/certs/ca.pem"
 	# --extra-config=controller-manager.ClusterSigningKeyFile="/Users/Arthur/.minikube/certs/ca-key.pem"

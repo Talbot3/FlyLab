@@ -1,7 +1,7 @@
 # K8s In Action
 
-- k8s version: v1.11.0
-- minkube v0.28.0
+- k8s version: v1.17.0
+- minkube v1.7.3
 
 ## Install
 
