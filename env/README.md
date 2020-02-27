@@ -20,3 +20,7 @@ ___
 - redis
 - mysql/mongodb
 - ffmpeg/gstream
+
+## 本地开发流程
+
+- [使用Minikube的Kubernetes本地开发环境](https://www.abhishek-tiwari.com/local-development-environment-for-kubernetes-using-minikube/)
