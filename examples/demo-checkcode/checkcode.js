@@ -9,7 +9,7 @@
  */
 
 var http = require('http');
-var captchapng = require('../lib/captchapng');
+var captchapng = require('captchapng');
 
 http.createServer(function (request, response) {
     if(request.url == '/captcha.png') {

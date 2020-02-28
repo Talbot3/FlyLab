@@ -1,0 +1,16 @@
+{
+  "name": "demo-checkcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "checkcode.js",
+  "dependencies": {
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
