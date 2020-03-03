@@ -21,6 +21,21 @@ ___
 - mysql/mongodb
 - ffmpeg/gstream
 
+
 ## 本地开发流程
 
 - [使用Minikube的Kubernetes本地开发环境](https://www.abhishek-tiwari.com/local-development-environment-for-kubernetes-using-minikube/)
+
+
+## 生产单机服务器环境
+
+```
+
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x ./kubectl && mv ./kubectl /usr/local/bin/kubectl
+
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+  && chmod +x minikube
+
+sudo mkdir -p /usr/local/bin/
+sudo install minikube /usr/local/bin/
+```
