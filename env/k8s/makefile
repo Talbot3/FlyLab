@@ -1,17 +1,16 @@
 start :
-	minikube start  --cache-images --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --image-mirror-country=cn --registry-mirror=http://44d249ac.m.daocloud.io --image-repository=gcr.azk8s.cn/google_containers --docker-env  --kubernetes-version v1.17.3 --vm-driver=none --alsologtostderr 
-	# --container-runtime
-	#  --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.7.3.iso 
-	#  https_proxy=127.0.0.1:43129 --vm-driver=virtualbox
+	minikube start --cache-images=true --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --image-mirror-country=cn --registry-mirror=https://dz1jvjkl.mirror.aliyuncs.com --image-repository=gcr.azk8s.cn/google_containers  --kubernetes-version v1.17.3 --alsologtostderr  --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.7.3.iso --vm-driver=hyperkit --container-runtime docker 	https_proxy=127.0.0.1:43129 http_proxy=127.0.0.1:43129
+	# --docker-opt="--registry-mirror=http://44d249ac.m.daocloud.io"
+
 	# --extra-config=controller-manager.ClusterSigningCertFile="/Users/Arthur/.minikube/certs/ca.pem"
 	# --extra-config=controller-manager.ClusterSigningKeyFile="/Users/Arthur/.minikube/certs/ca-key.pem"
 	@eval $(minikube docker-env)
 	kubectl config use-context minikube
-	minikube addons enable storage-provisioner-gluster
-	minikube addons enable metrics-server
-	minikube addons enable freshpod
-	minikube addons enable istio-provisioner
-	minikube addons enable istio
+	# minikube addons enable storage-provisioner-gluster
+	# minikube addons enable metrics-server
+	# minikube addons enable freshpod
+	# minikube addons enable istio-provisioner
+	# minikube addons enable istio
 	minikube addons enable ingress
 	minikube addons enable ingress-dns
 addons:
