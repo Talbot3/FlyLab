@@ -11,6 +11,18 @@
 make start
 ```
 
+___
+
+# K8S镜像加速
+
+### gcr.io镜像加速
+
+- gcr.azk8s.cn
+
+### quay.io镜像加速
+
+- quay.azk8s.cn
+
 
 ## 常见异常
 
@@ -29,3 +41,5 @@ Error creating: pods "dashboard-metrics-scraper-7b64584c5c-" is forbidden: error
 - [K8s 客户端](https://kubernetic.com/)
 
 ## [把应用程序迁移到k8s需要修改什么？](https://blog.csdn.net/weixin_38748858/article/details/102758381)
+
+## [docker.io、gcr.io、quay.io镜像加速](https://www.ilanni.com/?p=14534)
