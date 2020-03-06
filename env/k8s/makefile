@@ -42,7 +42,7 @@ ssh :
 	# docker pull hub.c.163.com/allan1991/pause-amd64:3.0
 	# docker tag hub.c.163.com/allan1991/pause-amd64:3.0 gcr.io/google_containers/pause-amd64:3.0
 busybox:
-	kubectl run busybox --image=busybox 
+	kubectl run busybox --image=gcr.azk8s.cn/busybox
 test-dns: busybox
 	kubectl exec -ti busybox -- nslookup kubernetes.default
 show:
