@@ -37,3 +37,5 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/miniku
 sudo mkdir -p /usr/local/bin/
 sudo install minikube /usr/local/bin/
 ```
+
+## [k8s部署工具kustomize](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/glossary.md#declarative-application-management)

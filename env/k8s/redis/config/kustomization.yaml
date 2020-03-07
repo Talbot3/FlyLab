@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Kustomization
+configMapGenerator:
+- name: example-redis-config
+  files:
+  - redis-config
+resources:
+- redis-pod.yaml

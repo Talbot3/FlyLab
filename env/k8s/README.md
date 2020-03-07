@@ -17,6 +17,7 @@ ___
 
 ### gcr.io镜像加速
 
+- gcr.azk8s.cn/google-containers
 - gcr.azk8s.cn
 
 ### quay.io镜像加速
@@ -24,10 +25,43 @@ ___
 - quay.azk8s.cn
 
 
-## minikube命令
+## play minikube
 
 ```bash
 minikube service -n namesapce servicename
+```
+
+```bash
+
+## play minikube example
+kubectl create deployment hello-node --image=gcr.azk8s.cn/hello-minikube-zero-install/hello-node
+
+## 创建负载均衡器
+kubectl expose deployment hello-node --type=LoadBalancer --port=8080
+kubectl expose deployment kubernetes-dashboard --type=LoadBalancer --port=8443
+
+
+## 查阅deployment
+kubectl get deployment
+kubectl get pods
+kubectl get events
+
+## 清理应用
+kubectl delete service hello-node
+kubectl delete deployment hello-node
+```
+
+
+## kubectl命令
+
+```bash
+
+## 获取所有service
+kubectl get svc [serviceName]
+
+## 获取 service 生成的yaml
+kubectl get svc [serviceName] -o yaml
+
 ```
 
 
