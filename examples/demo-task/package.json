@@ -1,0 +1,15 @@
+{
+  "name": "demo-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "microjob": "^0.7.0",
+    "unzip-stream": "^0.3.0"
+  }
+}
