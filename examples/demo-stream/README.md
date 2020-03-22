@@ -31,3 +31,4 @@
 
 - [i5ting nodejs stream](https://cnodejs.org/topic/570b1fa494b38dcb3c09a7f8)
 - [nodejs-duplex-streams](http://codewinds.com/blog/2013-08-31-nodejs-duplex-streams.html)
+- https://github.com/substack/stream-handbook
