@@ -18,13 +18,13 @@ To know all supported versions, review all branches in [big-data-europe/docker-h
 To deploy a basic HDFS cluster, run:
 
 ```bash
-./start.sh
+docker-compose up
 ```
 
 Stop and remove all HDFS containers, network:
 
 ```bash
-./stop.sh
+docker-compose down
 ```
 
 Access all dashboards:
@@ -42,13 +42,13 @@ On the cluster machine, edit the `datanode-cluster.env` docker-compose file by r
 Then deploy the cluster:
 
 ```bash
-./start-datanode-cluster.sh
+docker-compose -f docker-compose-datanode-cluster.yml up
 ```
 
 Stop and remove the Datanode cluster:
 
 ```bash
-./stop-datanode-cluster.sh
+docker-compose -f docker-compose-datanode-cluster.yml down
 ```
 
 After succesfully cluster deployment, do the Namenode Dashboard > Datanodes. Make sure the new Datanode is added, binded its Host's IP Address and balanced with the correct number of HDFS blocks.
