@@ -35,24 +35,6 @@ Access all dashboards:
 - Nodemanager: `http://localhost:8042`
 - Resource manager: `http://localhost:8088`
 
-## Add a new Datanode Cluster
-
-On the cluster machine, edit the `datanode-cluster.env` docker-compose file by replacing `10.0.0.4` with the IP of the Host machine of the Namenode container.
-
-Then deploy the cluster:
-
-```bash
-docker-compose -f docker-compose-datanode-cluster.yml up
-```
-
-Stop and remove the Datanode cluster:
-
-```bash
-docker-compose -f docker-compose-datanode-cluster.yml down
-```
-
-After succesfully cluster deployment, do the Namenode Dashboard > Datanodes. Make sure the new Datanode is added, binded its Host's IP Address and balanced with the correct number of HDFS blocks.
-
 ## Test Hadoop with the basic WordCount example
 
 To test Hadoop, attach to the Namenode container:
