@@ -40,6 +40,10 @@ sudo mkdir -p /usr/local/bin/
 sudo install minikube /usr/local/bin/
 ```
 
-## [k8s 应用编排 部署工具 kustomize](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/glossary.md#declarative-application-management)
+# 生产就绪
 
-## [容器管理平台 Rancher]()
+- [k8s 应用编排 部署工具 kustomize](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/glossary.md#declarative-application-management)
+
+- [容器管理平台 Rancher]()
+
+- [Kubernetes 的开源，云原生存储 Rook](https://rook.io/)
