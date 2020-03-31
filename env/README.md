@@ -25,6 +25,8 @@ ___
 
 - [使用Minikube的Kubernetes本地开发环境](https://www.abhishek-tiwari.com/local-development-environment-for-kubernetes-using-minikube/)
 
+> 运行minikube 不需要安装docker，由minikube在虚拟机中自动安装
+
 ## 生产单机服务器环境
 
 ```
@@ -38,4 +40,6 @@ sudo mkdir -p /usr/local/bin/
 sudo install minikube /usr/local/bin/
 ```
 
-## [k8s部署工具kustomize](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/glossary.md#declarative-application-management)
+## [k8s 应用编排 部署工具 kustomize](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/glossary.md#declarative-application-management)
+
+## [容器管理平台 Rancher]()
