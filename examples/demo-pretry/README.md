@@ -3,3 +3,7 @@
 - p-retry
 - p-timeout
 - delay
+
+## Refers
+
+- https://github.com/sindresorhus/promise-fun
