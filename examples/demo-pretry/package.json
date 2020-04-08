@@ -1,0 +1,17 @@
+{
+  "name": "demo-pretry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "delay": "^4.3.0",
+    "node-fetch": "^2.6.0",
+    "p-retry": "^4.2.0",
+    "p-timeout": "^3.2.0"
+  }
+}
