@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
-
+import AutoSize from 'frc-auto-size';
+import NoSSR from 'react-no-ssr';
 export default class Test extends Component{
 	render(){
 		return (
 			<Parent>
-				<Child />
+        <Child />
+        <NoSSR>
+          <AutoSize checked={true}>{function({width, height}) {
+            return (<div style={{width, height}}>wahaha</div>)
+          }}</AutoSize>
+        </NoSSR>
 			</Parent>
 		)
 	}

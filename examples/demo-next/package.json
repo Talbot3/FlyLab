@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@talbot3/f2reactize": "^1.2.1",
+    "frc-detect-element-resize": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-no-ssr": "^1.1.0",
     "react-scripts": "3.0.1",
     "react-swipeable-views": "^0.13.3"
   },
@@ -26,18 +29,22 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@zeit/next-css": "^1.0.1",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.11.0",
     "consola": "^2.6.1",
     "eslint": "^5.16.0",
     "eslint-config-ali": "^6.0.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
+    "frc-auto-size": "^1.0.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
     "next": "^9.0.5",
-    "styled-components": "^4.4.1",
-    "@zeit/next-css": "^1.0.1",
-    "babel-plugin-import": "^1.11.0",
-    "null-loader": "^3.0.0"
+    "null-loader": "^3.0.0",
+    "react-mobx": "0.0.4",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "test": "react-scripts test",
