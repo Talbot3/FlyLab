@@ -6,16 +6,14 @@ const speaker = new Speaker({
   bitDepth: 16,         // 16-bit samples
   sampleRate: 44100     // 44,100 Hz sample rate
 });
-let readStream = fs.createReadStream('./MakingAllThingsNew.pcm', {
-  highWaterMark: 24
-});
+let readStream = fs.createReadStream('./MakingAllThingsNew.pcm');
 
-readStream.on('readable', () => {
-  let buffer = readStream.read();
-  console.log(`readable: ${buffer.length}`);
-});
-readStream.on('end', () => {
-  console.log('end');
-});
+// readStream.on('readable', () => {
+//   let buffer = readStream.read();
+//   console.log(`readable: ${buffer.length}`);
+// });
+// readStream.on('end', () => {
+//   console.log('end');
+// });
 // PCM data from stdin gets piped into the speaker
-// readStream.pipe(speaker);
+readStream.pipe(speaker);
