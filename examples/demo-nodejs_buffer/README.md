@@ -27,3 +27,8 @@ Licensed to The Apache Software Foundation, http://www.apache.org/
 Benchmarking 127.0.0.1 (be patient)
 Completed 5000 requests
 ```
+
+## 字节排序
+
+- 大端排序
+- 小端排序
