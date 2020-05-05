@@ -2,18 +2,10 @@ const Speaker = require('speaker');
 const fs = require('fs');
 // Create the Speaker instance
 const speaker = new Speaker({
-  channels: 2,          // 2 channels
+  channels: 1,          // 2 channels
   bitDepth: 16,         // 16-bit samples
-  sampleRate: 44100     // 44,100 Hz sample rate
+  sampleRate: 8000     // 44,100 Hz sample rate
 });
-// let readStream = fs.createReadStream('./MakingAllThingsNew.pcm');
 let readStream = fs.createReadStream('./receive.pcm');
-// readStream.on('readable', () => {
-//   let buffer = readStream.read();
-//   console.log(`readable: ${buffer.length}`);
-// });
-// readStream.on('end', () => {
-//   console.log('end');
-// });
-// PCM data from stdin gets piped into the speaker
+
 readStream.pipe(speaker);
