@@ -6,8 +6,8 @@ const speaker = new Speaker({
   bitDepth: 16,         // 16-bit samples
   sampleRate: 44100     // 44,100 Hz sample rate
 });
-let readStream = fs.createReadStream('./MakingAllThingsNew.pcm');
-
+// let readStream = fs.createReadStream('./MakingAllThingsNew.pcm');
+let readStream = fs.createReadStream('./receive.pcm');
 // readStream.on('readable', () => {
 //   let buffer = readStream.read();
 //   console.log(`readable: ${buffer.length}`);
