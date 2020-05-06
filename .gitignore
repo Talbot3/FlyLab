@@ -52,3 +52,4 @@ package-lock.json
 .flv
 .next
 data
+resources/*.mp4
