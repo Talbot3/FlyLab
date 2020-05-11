@@ -1,0 +1,15 @@
+{
+  "name": "demo-embedder",
+  "version": "1.0.0",
+  "description": "> 处理自己的异步资源来执行I / O，连接池或管理回调队列等任务的库开发人员可以使用 AsyncWrapJavaScript API，以便调用所有适当的回调。",
+  "main": "exp1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.2.0"
+  }
+}
