@@ -48,6 +48,6 @@
 
 
 
-<a link="https://www.aliyun.com/minisite/goods?userCode=dlkw4c5l">
+<a href="https://www.aliyun.com/minisite/goods?userCode=dlkw4c5l">
 <image src="./ads.png"/>
 </a>
