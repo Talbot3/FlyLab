@@ -46,8 +46,3 @@
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab?ref=badge_large)
 
-
-
-<a href="https://www.aliyun.com/minisite/goods?userCode=dlkw4c5l">
-<image src="./ads.png"/>
-</a>
