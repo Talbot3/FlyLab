@@ -5,7 +5,7 @@
 > just someone's notes collection for a better learning experience（玩的开心）
 
 ## 目前范围
-
+- packages (一些在实践过程的的手工制品)
 - 编程语言(Nodejs\C/C++\Rust)
 - 领域知识（音视频-webrtc\ffmpeg、k8s、grammar、测试——lldb\lldb-node\chai\mocha）
 - 自我修养（功夫）
