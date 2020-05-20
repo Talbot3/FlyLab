@@ -1,4 +1,7 @@
-# Node-Zeromq
+# Zeromq.js
+
+socket.connect 作为客户端
+socket.bind    作为服务端
 
 ## Refers
 

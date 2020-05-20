@@ -1,14 +1,15 @@
-var zmq = require('zeromq'),
-    sock = zmq.socket("sub");
+const zmq = require("zeromq")
 
-sock.connect("tcp://127.0.0.1:3000");
-sock.subscribe("kitty cats");
-console.log("Subscriber connected to port 3000");
+async function run() {
+  const sock = new zmq.Subscriber
+  await sock.bind("tcp://127.0.0.1:3000")
 
-sock.on("message", (topic, message)=> {
-  console.log("received a message related to :",
-    topic.toString(),
-    "containing message:",
-    message.toString()
-  );
-});
+  sock.subscribe("kitty cats");
+  console.log("Subscriber connected to port 3000")
+
+  for await (const [topic, msg] of sock) {
+    console.log("received a message related to:", topic, "containing message:", msg.toString());
+  }
+}
+
+run()

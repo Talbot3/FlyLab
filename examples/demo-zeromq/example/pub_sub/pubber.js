@@ -1,10 +1,16 @@
-var zmq = require('zeromq'),
-    sock = zmq.socket("pub");
+const zmq = require("zeromq")
 
-    sock.bindSync("tcp://127.0.0.1:3000");
-    console.log("Publisher bound to port 3000");
+async function run() {
+  const sock = new zmq.Publisher
+  sock.connect("tcp://127.0.0.1:3000")
 
-    setInterval(()=> {
-      console.log("sending a multipart message envelope");
-      sock.send(["kitty cats", "meow!"]);
-    }, 500);
+  console.log("Publisher bound to port 3000")
+
+  while (true) {
+    console.log("sending a multipart message envelope")
+    await sock.send(["kitty cats", "meow!" + process.pid]);
+    await new Promise(resolve => setTimeout(resolve, 500))
+  }
+}
+
+run()

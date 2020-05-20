@@ -1,10 +1,14 @@
-// worker.js
-var zmq = require("zeromq"),
-  sock = zmq.socket("pull");
+const zmq = require("zeromq")
 
-sock.connect("tcp://127.0.0.1:3000");
-console.log("Worker connected to port 3000");
+async function run() {
+  const sock = new zmq.Pull
 
-sock.on("message", function(msg) {
-  console.log("work: %s", msg.toString());
-});
+  await sock.bind("tcp://127.0.0.1:3000")
+  console.log("Worker connected to port 3000")
+
+  for await (const [msg] of sock) {
+    console.log("work: %s", msg.toString())
+  }
+}
+
+run()
