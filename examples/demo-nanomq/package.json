@@ -1,0 +1,16 @@
+{
+  "name": "demo-nanomq",
+  "version": "1.0.0",
+  "description": "> 压测过程中，超10K,将会发生异常。需要配置recvBuff\\sendBuff,可以缓解，但依然存在问题。相比zeromq,性能有比较大的提升。",
+  "main": "index.js",
+  "dependencies": {
+    "nanomsg": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
