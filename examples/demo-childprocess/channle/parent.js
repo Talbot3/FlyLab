@@ -1,4 +1,5 @@
 var child_process = require('child_process')
+const fs = require('fs');
 
 var child = child_process.spawn("/usr/local/bin/node", ['./child.js'], {
   stdio: ['ignore', 'pipe', 'pipe', 'pipe'],
