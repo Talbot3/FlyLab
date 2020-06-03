@@ -9,7 +9,9 @@
 - 编程语言(Nodejs\C/C++\Rust)
 - 领域知识（音视频-webrtc\ffmpeg、k8s、grammar、测试——lldb\lldb-node\chai\mocha）
 - 自我修养（功夫）
-
+- 饮食
+    - [素食/斋戒](https://www.bilibili.com/video/BV1mJ411p7B3?from=search&seid=13782430131455983371)
+    - [你吃什么很重要-2018年素食纪录片](https://www.bilibili.com/video/BV1as411J7w3?from=search&seid=8578571806755169391)
 ## 表达方式
 
 - 代码注释
@@ -42,7 +44,6 @@
 
 - https://zhuanlan.zhihu.com/p/37669618
 - https://cn.mellanox.com/products/infiniband-adapters/connectx-5
-- [素食/斋戒](https://www.bilibili.com/video/BV1mJ411p7B3?from=search&seid=13782430131455983371)
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab?ref=badge_large)
