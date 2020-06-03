@@ -42,6 +42,7 @@
 
 - https://zhuanlan.zhihu.com/p/37669618
 - https://cn.mellanox.com/products/infiniband-adapters/connectx-5
+- [素食/斋戒](https://www.bilibili.com/video/BV1mJ411p7B3?from=search&seid=13782430131455983371)
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab?ref=badge_large)
