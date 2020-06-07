@@ -42,16 +42,20 @@
 
 ## 修养身心
 
-> ”真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血.“一日不忏悔，面目全非，欲火焚身！！
+> ”真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血.“
 
 - [道教经典](http://www.daomen.org/)
 - [淘宝大学](https://xue.taobao.com)
 
 
 ### 振奋的演讲
-> 很多人 30岁不到就已经死了，80多岁才埋
+> 很多人 30岁不到就已经死了，80多岁才埋!!
 
+- [郑强教授多年前的讲话又火了，来看看那次传说中被127次掌声打断的演讲视频
+](https://www.bilibili.com/video/BV1oE411A7tE/?spm_id_from=333.788.videocard.3)
 - [国外小伙戒色90天的自述](https://www.bilibili.com/video/BV1ys411u7a3?from=search&seid=12876233672292152074)
 - [做人一定要坚持](https://www.bilibili.com/video/BV1XJ411d7Xx/?spm_id_from=trigger_reload)
 - [“生活从未打倒我”你呢？
 ](https://www.bilibili.com/video/BV1Z7411M7Dy/?spm_id_from=trigger_reload)
+- [【醒醒】中华儿女该起床了
+](https://www.bilibili.com/video/BV1m54y1Q7eQ/?spm_id_from=trigger_reload)
