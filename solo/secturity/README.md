@@ -7,6 +7,7 @@
 
 > 很多人 30岁不到就已经死了，80多岁才埋!!
 
+- [【你为什么这么努力】那些能够支撑你走得更远的句子｜送给迷茫中的你](https://www.bilibili.com/video/BV1M7411b76o?from=search&seid=13516394820384365590)
 - [【励志短片】别懒惰久了，努力一下便以为是拼命?
 ](https://www.bilibili.com/video/BV1mb411n7uY/?spm_id_from=trigger_reload)
 - [郑强教授多年前的讲话又火了，来看看那次传说中被127次掌声打断的演讲视频
