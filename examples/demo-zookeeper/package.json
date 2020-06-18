@@ -1,0 +1,27 @@
+{
+  "name": "FlyLab",
+  "version": "1.0.0",
+  "description": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTalbot3%2FFlyLab?ref=badge_shield)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangebook/FlyLab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orangebook/FlyLab/issues"
+  },
+  "homepage": "https://github.com/orangebook/FlyLab#readme",
+  "dependencies": {
+    "zookeeper": "^4.5.2"
+  }
+}
