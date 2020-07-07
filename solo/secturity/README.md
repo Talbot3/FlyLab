@@ -20,6 +20,7 @@
 - [【醒醒】中华儿女该起床了
 ](https://www.bilibili.com/video/BV1m54y1Q7eQ/?spm_id_from=trigger_reload)
 
+- [每日一遍 防止早恋](https://www.bilibili.com/video/BV1SE411n7V6?from=search&seid=8065738393832376332)
 > 善斋！善哉！
 
 > 身在社会身心由已！技术之外的世界，也需要努力应对呀！护正法！
