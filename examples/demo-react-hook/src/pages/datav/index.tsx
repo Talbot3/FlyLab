@@ -5,7 +5,9 @@ export default () => {
   return (
     <div>
       <h1></h1>
-
+      <div className="h0 ovh tr">
+        &nbsp:<img src="icon.png" className="abs ml10 mt30"/>
+      </div>
       <article className="sound-article">
         <section>
           <div>
@@ -34,7 +36,6 @@ export default () => {
             <p>是的呢爸比，功能强大，体验好，而且还是云存储，再也不用担心分享的问题了！</p>
           </div>
         </section>
-
       </article>
     </div>
   );
