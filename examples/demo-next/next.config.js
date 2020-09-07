@@ -4,7 +4,10 @@ const withCss = require('@zeit/next-css')
 if (typeof require !== 'undefined') {
   require.extensions['.css'] = file => {}
 }
-
+const { useStaticRendering} = require('mobx-react');
+if (process.env.SSR) {
+  useStaticRendering(true);
+}
 let options = withCss({
   webpack: (config, { isServer }) => {
     // if (isServer) {
