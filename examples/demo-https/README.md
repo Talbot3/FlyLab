@@ -68,4 +68,3 @@ openssl x509 -req  -days 3650 -in certrequest.csr -signkey privatekey.pem -out c
 
 // 解码证书
 openssl req -in server.csr -noout -text
-
