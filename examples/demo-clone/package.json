@@ -1,0 +1,15 @@
+{
+  "name": "demo-clone",
+  "version": "1.0.0",
+  "description": "```js function deepClone(obj) {     let newObj = Array.isArray(obj) ? [] : {}     if (obj && typeof obj === \"object\") {         for (let key in obj) {             if (obj.hasOwnProperty(key)) {                 newObj[key] = (obj && typeof obj[key] === 'object') ? deepClone(obj[key]) : obj[key];             }         }     }      return newObj } const newObj = deepClone(oldObj)); ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diffy-update": "^2.5.0"
+  }
+}
