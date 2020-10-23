@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@talbot3/f2reactize": "^1.2.1",
+    "framer-motion": "^2.9.4",
     "frc-detect-element-resize": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
