@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  martin:
+    image: urbica/martin
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - WATCH_MODE=true
+      - DATABASE_URL=postgres://postgres:mysecretpassword@localhost:5432/nyc
+      - RUST_LOG=actix_web=info,martin=debug,postgres=debug
+    network_mode: host
+    # volumes: 
+    #   - ./config.yaml:/config.yaml
+    command: 
+        "martin"

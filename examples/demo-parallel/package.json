@@ -1,0 +1,16 @@
+{
+  "name": "demo-parallel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-worker-threads-pool": "^1.4.3",
+    "paralleljs": "^1.1.0"
+  }
+}

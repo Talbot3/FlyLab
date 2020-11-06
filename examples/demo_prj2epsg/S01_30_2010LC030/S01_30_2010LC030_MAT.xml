@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Metadata>
+  <MapSheetInformation>
+    <ProductName>GlobeLand30</ProductName>
+    <MapSheetName>S01_30</MapSheetName>
+    <ReferenceCoordinateSystem>WGS84</ReferenceCoordinateSystem>
+    <ElevationSystem>EGM96</ElevationSystem>
+    <MapProject>UTM</MapProject>
+    <LongitudeRange>W1800000-1740000</LongitudeRange>
+    <LatitudeRange>S300000-350000</LatitudeRange>
+    <SixDegreesZoneNumber>1</SixDegreesZoneNumber>
+    <CentralMeridian>W177</CentralMeridian>
+    <CoordinateUnit>meter</CoordinateUnit>
+    <XcoordinateConstant>500000 Meters</XcoordinateConstant>
+  </MapSheetInformation>
+  <ProductInformation>
+    <Year>2010</Year>
+    <SpatialResolution>30</SpatialResolution>
+    <LandCoverImageFomat>GeoTiff</LandCoverImageFomat>
+    <LandCoverImageMode>IndexColor</LandCoverImageMode>
+    <FormatofCoordinateFile>TFW</FormatofCoordinateFile>
+    <SouthWestAbs>226201.90</SouthWestAbs>
+    <SouthWestOrd>6122843.31</SouthWestOrd>
+    <NouthWestAbs>210590.35</NouthWestAbs>
+    <NorthWestOrd>6677424.10</NorthWestOrd>
+    <NorthEastAbs>789409.65</NorthEastAbs>
+    <NorthEastOrd>6677424.10</NorthEastOrd>
+    <SouthEastAbs>773798.10</SouthEastAbs>
+    <SouthEastOrd>6122843.31</SouthEastOrd>
+    <ImageSource>TM</ImageSource>
+    <ImageSourceInfomationFileFormat>SHP</ImageSourceInfomationFileFormat>
+    <FirstClassNumber>10</FirstClassNumber>
+    <FirstClassListandValue>
+      <Croplands>10</Croplands>
+      <Forests>20</Forests>
+      <Grasslands>30</Grasslands>
+      <Shrublands>40</Shrublands>
+      <Wetland>50</Wetland>
+      <Waterbodies>60</Waterbodies>
+      <Tundra>70</Tundra>
+      <Imperviousarea>80</Imperviousarea>
+      <Barrenland>90</Barrenland>
+      <PermanentSnowOrIce>100</PermanentSnowOrIce>
+    </FirstClassListandValue>
+  </ProductInformation>
+  <ProductionAndCopyrightInformation>
+    <Producer>Chinese Academy of Surveying and Mapping</Producer>
+    <ProduceDate>2013</ProduceDate>
+    <Copyrightowners>National Administration of Surveying Mapping and Geoinformation of China(NASG) National Geomatics Center of China(NGCC)</Copyrightowners>
+    <Distributor>National Geomatics Center of China</Distributor>
+    <Address>No.28 Lianhuachixi Road, Haidian District, Beijing, China</Address>
+    <PostCode>100830</PostCode>
+    <Tel>0086-63880127</Tel>
+    <Fax>0086-63880217</Fax>
+    <WebSite>www.ngcc.cn www.globallandcover.com</WebSite>
+    <Email>glc@ngcc.cn</Email>
+  </ProductionAndCopyrightInformation>
+</Metadata>
