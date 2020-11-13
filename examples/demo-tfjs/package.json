@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx hs -d output --cors -S -C cert.pem"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs-node": "^1.5.2",
+    "http-server": "^0.12.3",
     "jimp": "^0.9.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
   }
 }
