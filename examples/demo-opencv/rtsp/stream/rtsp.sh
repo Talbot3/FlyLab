@@ -1,0 +1,1 @@
+ffmpeg -rtsp_transport "tcp" -i "${TRANSPORT_IP}" -f mpegts -codec:v copy -bf 0 -codec:a copy -r 15 -

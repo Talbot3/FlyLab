@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "opencv4nodejs": "^5.5.0"
+    "node-rtsp-stream-es6": "^1.0.7",
+    "opencv4nodejs": "^5.6.0",
+    "ws": "^7.4.0"
   }
 }
