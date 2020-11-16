@@ -43,12 +43,12 @@ const json = {
     ]
 }
 
-
+const {Tree, Node} = require('../core/Tree');
 
 /**
  * 
  * @param {*} _xml -- example
- * <item>content1</item> ==>> ["<item>", "content1", "</item>"]
+ * <item>content1</item> ==>> { source: 'frontend', type: 'worldItem', name: 'frontend' }
  */
 function tokenize(_xml) {
     const { stack }= tokenize;
@@ -76,7 +76,7 @@ function tokenize(_xml) {
             name: closeItem[0],
         });
         nextXml = xml.replace(new RegExp(`</${closeItem}>`), '');
-    } else if (worldItem){
+    } else if (worldItem) {
         stack.push({
             source: `${worldItem}`,
             type: 'worldItem',
@@ -92,8 +92,65 @@ function tokenize(_xml) {
 tokenize.stack = [];
 
 /**
- * 
- * @param {String} xml 
+ * @description 构建Dom树
+ * @param {*} tokenize 
+ */
+function buildDomTree(tokenize) {
+    const root = new Tree();
+    let curNode = root;
+    let preNode = root;
+    for (let { source, type, name } of tokenize) {
+        switch (type) {
+            case 'openItem': {
+                let node = {
+                    tag: name,
+                    children: []
+                };
+                if (!curNode.data) {
+                    curNode.data = node;
+                } else {
+                    // 创建子节点
+                    let treeNode = new Node(node);
+                    treeNode.parent = curNode;
+                    preNode = curNode;
+                    curNode = treeNode;
+                }
+                break;
+            }
+            case 'worldItem': {
+                curNode.data.children = name;
+                //  返回父标签
+                break;
+            }
+            case 'closeItem': {
+                // 返回父标签
+                curNode = preNode;
+                break;
+            }
+        }
+    }
+    return root;
+}
+
+function xml2json(_xml) {
+    // TODO: your code here
+    let xml = _xml.split('\n').join("").replace(/\s/g, '');
+    let tokens = tokenize(xml);
+    console.log(tokens);
+    let domTree = buildDomTree(tokens);
+    domTree.traverseBF(function (node) {
+        console.log(node)
+    });
+}
+xml2json(xml)
+
+// console: true
+// console.log(JSON.stringify(xml2json(xml)) === JSON.stringify(json))
+
+
+/**
+ *
+ * @param {String} xml
  * <item>content1</item> ==>> { tag: 'item', children: 'content1'}
  */
 // function parseItem(_xml) {
@@ -126,51 +183,3 @@ tokenize.stack = [];
 //         return curItem;
 //     }
 // }
-
-
-function xml2json(_xml) {
-    let stack = xml2json.stack;
-    let curNode = stack;
-    let preNode = stack;
-    let xml = _xml.split('\n').join("").replace(/\s/g, '');
-    let tokens = tokenize(xml);
-    console.log(tokens);
-    for (let {source, type, name} of tokens) {
-        switch (type) {
-            case 'openItem': {
-                let node = {
-                    tag: name,
-                    children: []
-                };
-                if (!curNode) {
-                    curNode= node;
-                } else {
-                    console.log(curNode);
-                    if (Array.isArray(curNode.children)) {
-                        curNode.children.push(node);
-                    }
-                    preNode = curNode;
-                    curNode = node;
-                }
-              break;
-            }
-            case 'worldItem': {
-                curNode.children = name;
-                break;
-            }
-            case 'closeItem': {
-                // 返回父标签
-                curNode = preNode;
-                break;
-            }
-        }
-    }
-    // TODO: your code here
-    console.log(stack)
-    return curNode;
-}
-xml2json.stack;
-let result = xml2json(xml)
-console.log(result);
-// console: true
-// console.log(JSON.stringify(xml2json(xml)) === JSON.stringify(json))

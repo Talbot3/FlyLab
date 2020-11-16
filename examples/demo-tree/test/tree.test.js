@@ -1,12 +1,12 @@
-const Tree = require('../core/Tree');
+const { Tree } = require('../core/Tree');
 var tree = new Tree('CEO');
 
-tree.add('VP of Happiness', 'CEO', tree.traverseBF);
-tree.add('VP of Finance', 'CEO', tree.traverseBF);
-// tree.add('VP of Sadness', 'CEO', tree.traverseBF);
+tree.add('123', 'CEO', tree.traverseBF, (a,b)=>a.length === b.length);
+tree.add('1234', 'CEO', tree.traverseBF, (a, b) => a.length === b.length);
+tree.add('12345', 'CEO', tree.traverseBF, (a, b) => a.length === b.length);
 
-// tree.add('Director of Puppies', 'VP of Finance', tree.traverseBF);
-// tree.add('Manager of Puppies', 'Director of Puppies', tree.traverseBF);
+tree.add('Director of Puppies', '123', tree.traverseBF, (a, b) => a.length === b.length);
+tree.add('Manager of Puppies', '12345', tree.traverseBF, (a, b) => a.length === b.length);
 tree.traverseBF(function (node) {
     console.log(node.data)
 });

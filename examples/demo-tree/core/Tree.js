@@ -46,15 +46,15 @@ class Tree {
         }
     }
 
-    add(data, toData, traversal) {
+    add(data, toData, traversal, compareFn) {
         const child = new Node(data);
-        let   parent = null;
+        let parent = null;
         const callback = function (node) {
-            if (node.data === toData) {
+            if (compareFn?.(node.data, toData) ?? node.data === toData) {
                 parent = node;
             }
         };
-        traversal(callback);     
+        traversal(callback);
         parent?.children?.push(child);
         child.parent = parent;
     }
@@ -68,7 +68,7 @@ class Tree {
                 parent = node;
             }
         }
-        traversal(callback);     
+        traversal(callback);
         if (parent) {
             index = Tree.findIndex(parent.children, data);
 
@@ -92,4 +92,8 @@ class Tree {
     }
 }
 
-module.exports = exports = Tree;
+module.exports = exports = {
+    Tree,
+    Node,
+    Queue
+};
