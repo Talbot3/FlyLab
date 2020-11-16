@@ -113,13 +113,14 @@ function buildDomTree(tokenize) {
                     let treeNode = new Node(node);
                     treeNode.parent = curNode;
                     preNode = curNode;
-                    curNode = treeNode;
+                    curNode = treeNode; 
                 }
                 break;
             }
             case 'worldItem': {
                 curNode.data.children = name;
                 //  返回父标签
+                curNode = preNode;
                 break;
             }
             case 'closeItem': {

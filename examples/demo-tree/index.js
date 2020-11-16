@@ -132,5 +132,4 @@ tree.traverseBF(function (node) {
  │   ├── 'Director of Puppies'
  │   └── 'Manager of Puppies'
  └── 'VP of Sadness'
-
  */
