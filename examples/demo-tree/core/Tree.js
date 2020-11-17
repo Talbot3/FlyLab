@@ -24,6 +24,10 @@ class Tree {
         this._root = new Node(data);
     }
 
+    get rootNode() {
+        return this._root;
+    }
+
     traverseDF = (callback) => {
         (function recurse(currentNode) {
             for (let i = 0, length = currentNode.children.length; i < length; i += 1) {
@@ -55,6 +59,7 @@ class Tree {
             }
         };
         traversal(callback);
+        // 相互关联操作
         parent?.children?.push(child);
         child.parent = parent;
     }

@@ -97,8 +97,7 @@ tokenize.stack = [];
  */
 function buildDomTree(tokenize) {
     const root = new Tree();
-    let curNode = root;
-    let preNode = root;
+    let curNode = root.rootNode;
     for (let { source, type, name } of tokenize) {
         switch (type) {
             case 'openItem': {
@@ -106,26 +105,32 @@ function buildDomTree(tokenize) {
                     tag: name,
                     children: []
                 };
-                if (!curNode.data) {
+                if (!curNode.data || curNode.data.length) {
                     curNode.data = node;
                 } else {
                     // 创建子节点
                     let treeNode = new Node(node);
                     treeNode.parent = curNode;
-                    preNode = curNode;
-                    curNode = treeNode; 
+                    root.add(treeNode, curNode, root.traverseBF, (dataA, dataB)=>(dataA.tag === dataB.tag));
+                    curNode?.children.push(treeNode);
+                    curNode = treeNode;
                 }
                 break;
             }
             case 'worldItem': {
                 curNode.data.children = name;
                 //  返回父标签
-                curNode = preNode;
+                curNode.parent??(curNode = curNode.parent);
                 break;
             }
             case 'closeItem': {
                 // 返回父标签
-                curNode = preNode;
+                curNode.parent ?? (curNode = curNode.parent);
+                if (curNode == null) {
+                    // root 标签
+                    console.log('执行到达root');
+                    curNode = root.rootNode;
+                }
                 break;
             }
         }
