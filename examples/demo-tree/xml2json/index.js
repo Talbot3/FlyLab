@@ -119,17 +119,17 @@ function buildDomTree(tokenize) {
             }
             case 'worldItem': {
                 curNode.data.children = name;
-                //  返回父标签
-                curNode.parent??(curNode = curNode.parent);
                 break;
             }
             case 'closeItem': {
                 // 返回父标签
-                curNode.parent ?? (curNode = curNode.parent);
+                if (curNode.parent) {  
+                    curNode = curNode.parent;
+                }
                 if (curNode == null) {
                     // root 标签
                     console.log('执行到达root');
-                    curNode = root.rootNode;
+                    curNode = root.rootNode.children;
                 }
                 break;
             }
