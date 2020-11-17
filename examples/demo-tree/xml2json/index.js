@@ -111,6 +111,7 @@ function buildDomTree(tokenize,root) {
                     let treeNode = new Node(node);
                     treeNode.parent = curNode;
                     root.add(treeNode, curNode, root.traverseBF, (dataA, dataB)=>(dataA.tag === dataB.tag));
+                    curNode.data.children.push(node);
                     curNode?.children.push(treeNode);
                     curNode = treeNode;
                 }
@@ -141,17 +142,12 @@ function xml2json(_xml) {
     // TODO: your code here
     let xml = _xml.split('\n').join("").replace(/\s/g, '');
     let tokens = tokenize(xml);
-    console.log(tokens);
     const tree = new Tree();
     let domTree = buildDomTree(tokens, tree);
-    domTree.traverseBF(function (node) {
-        console.log(node)
-    });
+    return domTree.rootNode.data;
 }
-xml2json(xml)
-
 // console: true
-// console.log(JSON.stringify(xml2json(xml)) === JSON.stringify(json))
+console.log(JSON.stringify(xml2json(xml)) === JSON.stringify(json))
 
 
 /**

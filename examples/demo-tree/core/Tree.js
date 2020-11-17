@@ -31,7 +31,7 @@ class Tree {
     traverseDF = (callback) => {
         (function recurse(currentNode) {
             for (let i = 0, length = currentNode.children.length; i < length; i += 1) {
-                recurse(currentNode.childNodes[i]);
+                recurse(currentNode.children[i]);
             }
             callback(currentNode);
         })(this._root);
