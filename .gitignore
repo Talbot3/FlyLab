@@ -53,3 +53,5 @@ package-lock.json
 .next
 data
 resources/*.mp4
+
+env
