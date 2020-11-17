@@ -95,8 +95,7 @@ tokenize.stack = [];
  * @description 构建Dom树
  * @param {*} tokenize 
  */
-function buildDomTree(tokenize) {
-    const root = new Tree();
+function buildDomTree(tokenize,root) {
     let curNode = root.rootNode;
     for (let { source, type, name } of tokenize) {
         switch (type) {
@@ -143,7 +142,8 @@ function xml2json(_xml) {
     let xml = _xml.split('\n').join("").replace(/\s/g, '');
     let tokens = tokenize(xml);
     console.log(tokens);
-    let domTree = buildDomTree(tokens);
+    const tree = new Tree();
+    let domTree = buildDomTree(tokens, tree);
     domTree.traverseBF(function (node) {
         console.log(node)
     });
