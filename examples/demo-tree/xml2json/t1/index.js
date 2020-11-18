@@ -1,12 +1,12 @@
 // 原始 xml
 const xml = `
 <list>
-  <item key="1">content1</item>
-  <item key="2">content2</item>
-  <item key="3">content3</item>
-  <item key="4">
-    <name id="hema-name">hema</name>
-    <value id="hema-value">frontend</value>
+  <item>content1</item>
+  <item>content2</item>
+  <item>content3</item>
+  <item>
+    <name>hema</name>
+    <value>frontend</value>
   </item>
 </list>
 `
@@ -17,51 +17,33 @@ const json = {
     children: [
         {
             tag: 'item',
-            children: 'content1',
-            props: {
-                key: '1'
-            }
+            children: 'content1'
         },
         {
             tag: 'item',
-            children: 'content2',
-            props: {
-                key: '2'
-            }
+            children: 'content2'
         },
         {
             tag: 'item',
-            children: 'content3',
-            props: {
-                key: '3'
-            }
+            children: 'content3'
         },
         {
             tag: 'item',
             children: [
                 {
                     tag: 'name',
-                    children: 'hema',
-                    props: {
-                        id: 'hema-name'
-                    }
+                    children: 'hema'
                 },
                 {
                     tag: 'value',
-                    children: 'frontend',
-                    props: {
-                        id: 'hema-value'
-                    }
+                    children: 'frontend'
                 }
-            ],
-            props: {
-                key: '4'
-            }
+            ]
         }
     ]
 }
 
-const { Tree, Node } = require('../core/Tree');
+const {Tree, Node} = require('./Tree');
 
 /**
  * 
@@ -69,12 +51,10 @@ const { Tree, Node } = require('../core/Tree');
  * <item>content1</item> ==>> { source: 'frontend', type: 'worldItem', name: 'frontend' }
  */
 function tokenize(_xml) {
-    const { stack } = tokenize;
-    let xml = _xml.split('\n').join("").replace(/(?<=(>))\s*/g, '');
+    const { stack }= tokenize;
+    let xml = _xml.split('\n').join("").replace(/\s/g, '');
     // 判断开头的类型，进行截断
-    console.log(xml);
-    let openItemMacher = /(?<=(^<))([a-zA-Z\s\"\'=\d]{1,})(?=(>))/g;
-    // let openItemWithAttribute = /(?<=(^<))([a-zA-Z\s=\""]*)(?=(>))/g;
+    let openItemMacher = /(?<=(^<))([a-zA-Z]*)(?=(>))/g;
     let closeItemMacher = /(?<=(^<\/))([a-zA-Z]*)(?=(>))/g;
     let wordItemMacher = /^\w{1,}/g;
     // 截断并推进stack
@@ -106,7 +86,6 @@ function tokenize(_xml) {
     } else {
         return stack;
     }
-    console.log(nextXml);
     tokenize(nextXml);
     return stack
 }
@@ -116,7 +95,7 @@ tokenize.stack = [];
  * @description 构建Dom树
  * @param {*} tokenize 
  */
-function buildDomTree(tokenize, root) {
+function buildDomTree(tokenize,root) {
     let curNode = root.rootNode;
     for (let { source, type, name } of tokenize) {
         switch (type) {
@@ -131,7 +110,7 @@ function buildDomTree(tokenize, root) {
                     // 创建子节点
                     let treeNode = new Node(node);
                     treeNode.parent = curNode;
-                    root.add(treeNode, curNode, root.traverseBF, (dataA, dataB) => (dataA.tag === dataB.tag));
+                    root.add(treeNode, curNode, root.traverseBF, (dataA, dataB)=>(dataA.tag === dataB.tag));
                     curNode.data.children.push(node);
                     curNode?.children.push(treeNode);
                     curNode = treeNode;
@@ -144,7 +123,7 @@ function buildDomTree(tokenize, root) {
             }
             case 'closeItem': {
                 // 返回父标签
-                if (curNode.parent) {
+                if (curNode.parent) {  
                     curNode = curNode.parent;
                 }
                 if (curNode == null) {
@@ -159,13 +138,13 @@ function buildDomTree(tokenize, root) {
     return root;
 }
 
-function xml2json(xml) {
+function xml2json(_xml) {
     // TODO: your code here
+    let xml = _xml.split('\n').join("").replace(/\s/g, '');
     let tokens = tokenize(xml);
-    console.log(tokens);
-    // const tree = new Tree();
-    // let domTree = buildDomTree(tokens, tree);
-    // return domTree.rootNode.data;
+    const tree = new Tree();
+    let domTree = buildDomTree(tokens, tree);
+    return domTree.rootNode.data;
 }
 // console: true
 console.log(JSON.stringify(xml2json(xml)) === JSON.stringify(json))
