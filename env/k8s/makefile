@@ -1,6 +1,5 @@
 start :
-	minikube start --cache-images=true --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --image-mirror-country=cn --registry-mirror=https://registry.docker-cn.com --image-repository=gcr.azk8s.cn/google_containers  --kubernetes-version v1.18.0 --alsologtostderr  --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.9.0.iso --vm-driver=hyperkit --container-runtime docker 	https_proxy=192.168.1.94:43129 http_proxy=192.168.1.94:43129 	--extra-config=controller-manager.ClusterSigningCertFile="/Users/Arthur/.minikube/certs/ca.pem" --extra-config=controller-manager.ClusterSigningKeyFile="/Users/Arthur/.minikube/certs/ca-key.pem"
-	# --docker-opt="--registry-mirror=http://44d249ac.m.daocloud.io"
+	minikube start  --cache-images --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --image-mirror-country=cn --registry-mirror=http://44d249ac.m.daocloud.io --iso-url=https://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/iso/minikube-v1.15.0.iso  --docker-env --kubernetes-version=v1.19.4 --alsologtostderr --vm-driver=hyperkit
 	@eval $(minikube docker-env)
 	kubectl config use-context minikube
 	# minikube addons enable storage-provisioner-gluster
