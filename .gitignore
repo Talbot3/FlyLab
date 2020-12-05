@@ -53,5 +53,5 @@ package-lock.json
 .next
 data
 resources/*.mp4
-
+**node_modules/*
 env
