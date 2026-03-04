@@ -34,7 +34,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "mocha": "1.8.1",
-    "underscore": "1.4.2"
+    "underscore": "1.13.8"
   },
   "deprecated": false,
   "description": "A library and middleware for Node.js Streams. Implementing your own Stream is easy! - With Timeout Feature",
